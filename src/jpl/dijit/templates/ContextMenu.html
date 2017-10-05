@@ -1,0 +1,20 @@
+<div>
+    <div id="contextMenuContainer" data-dojo-attach-point="container" style="position: absolute">
+        <div data-dojo-attach-point="contextMenu" style="position: relative; left: -60px" class="popover bottom">
+            <div class="arrow"></div>
+            <div data-dojo-attach-point="controlList" class="popover-content">
+                <ul id="entity-control">
+                    <li id="distance-info">Calculating...</li>
+                    <hr />
+                    <li id="sun-angle-plot"><a data-dojo-attach-point="sunAngleItem">Calculate Sun Angle</a></li>
+                    <li id="generate-stl"><a data-dojo-attach-point="generateSTLItem">Generate 3D Print File</a></li>
+                    <li id="move-control"><a data-dojo-attach-point="moveItem" data-toggle="tooltip" data-placement="left" data-content="Only available in 2D">Edit/Move</a></li>
+                    <li id="elevation-info"><a data-dojo-attach-point="elevationItem">Calculate Elevation</a></li>
+                    <hr />
+                    <li id="remove-control"><a data-dojo-attach-point="removeItem">Remove Marker</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

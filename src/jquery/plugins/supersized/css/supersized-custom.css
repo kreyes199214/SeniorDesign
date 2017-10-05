@@ -1,0 +1,227 @@
+/*
+	Supersized - Cusomization by Maryia Davis	
+*/
+
+#supersizedForDiv img { border:none; }
+
+#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(jquery/plugins/supersized/img/progress.gif) no-repeat center center;}
+
+#supersized {  display:block; position:absolute; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+#supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+
+#supersized li { display:block; list-style:none; z-index:-30; position:absolute; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111; }
+#supersized a { width:100%; height:100%; display:block; }
+#supersized li.prevslide { z-index:-20; }
+#supersized li.activeslide { z-index:-10; }
+#supersized li.image-loading { background:#111 url(jquery/plugins/supersized/img/progress.gif) no-repeat center center; width:100%; height:100%; }
+#supersized li.image-loading img{ visibility:hidden; }
+#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
+ul#supersized {margin: 0px;}
+
+#supersizedForDiv {
+	position:relative;
+	/*height:60%;*/
+	line-height: 1;
+	overflow:hidden;
+}
+@media (min-width: 300px) {
+	#supersizedForDiv {
+		font-size:14px;
+	}
+	@-moz-document url-prefix() {
+		#supersizedForDiv {
+			font-size:12px;
+		}
+	}
+}
+@media (min-width: 450px) {
+	#supersizedForDiv {
+		font-size:16px;
+	}
+	@-moz-document url-prefix() {
+		#supersizedForDiv {
+			font-size:14px;
+		}
+	}
+
+}
+@media (min-width: 600px) {
+	#supersizedForDiv {
+		font-size:18px;
+	}
+	@-moz-document url-prefix() {
+		#supersizedForDiv {
+			font-size:16px;
+		}
+	}
+}
+@media (min-width: 980px) {
+	#supersizedForDiv {
+		font-size:20px;
+	}
+	@-moz-document url-prefix() {
+		#supersizedForDiv {
+			font-size:18px;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	#supersizedForDiv {
+		font-size:22px;
+	}
+	@-moz-document url-prefix() {
+		#supersizedForDiv {
+			font-size:21px;
+		}
+	}
+}
+
+#slideshowTitle {/*height:5%;*/ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
+
+	color: orange !important; position:relative; z-index:10; font-size: 1.2em;
+	/*display: table-cell;
+  	vertical-align: middle;*/
+	display: table;
+	width: 100%;
+	text-align: center;
+	padding:10px 0;
+}
+#slideshowTitle span {
+	display: table-cell;
+	vertical-align: middle;
+}
+#supersized {
+	/*height:45%; */ /*height:60%; */
+	/*top:5%;*/ z-index:1 !important;
+}
+/*
+@-moz-document url-prefix() { 
+	  #supersized  {
+		height:42%;
+		}
+}
+*/
+#supersized li {
+	background:#01396e !important
+}
+#prevslide, #nextslide { top: 37% !important; z-index:2;}
+#controls-wrapper {
+	background: #01396e !important;/*none no-repeat scroll 0 0 rgb(0,0,51) !important;*/
+	background-size: 100% 34px !important;
+	/*height: 35% !important;
+    height: 40% !important;*/
+	/*height: 35% !important;*/
+	position:absolute !important; /*top:60%;*/
+}
+#thumb-tray {
+	background:#01396e !important;
+	/*height: 15%;*/
+	/*top: 50% !important;*/
+	/*height:50% !important;*/
+	position:absolute !important;
+	margin: 0 0 0 0 !important;
+	/*height:150px !important;	*/
+	/*box-shadow: 0 0 0px #000000 !important;
+	background-image: none !important;
+	background-color: #050317 !important;
+	padding-top:6px;*/
+	/*height: 50% !important;*/
+}
+/*
+@-moz-document url-prefix() { 
+	  #thumb-tray  {
+		top: 47% !important;
+		}
+}
+*/
+#progress-back {
+	/*bottom: 35% !important;*/
+	bottom: 40% !important;
+	/*height: 2%;*/ height: 0%;
+}
+#tray-button {
+	float: right;
+	margin-top: 10px !important; margin-right:2%;
+	border-left: 0px solid #333 !important;
+	background: none !important;
+	display: none !important;
+}
+.slide-title {font-size: 1.1em; line-height: 1; color:gold; margin-bottom:10px; display:block;}
+.slide-credit {font-size: 0.5em; line-height: 1.1; color:#999; display:block; text-align:right;
+	/*margin-top:8px;*/ position:absolute; bottom:3%; right:3%;}
+#slidecaption {
+	float: none; /*width:100%;*/ width:94%; /*height:100%;*/ height:130px; clear: both;
+	/*margin: 8px 12px 0 12px !important;*/
+	margin: 8px 3% 0 3% !important;
+	/*padding: 8px 12px 0 12px !important;*/
+	font-size: 0.7em !important; line-height: 1.1 !important; color:#FFF !important; text-shadow: 0px 0px 0px #000000 !important; /*line-height:30px !important;*/
+}
+#slidecounter {
+	/*color: #f1f1f1 !important;*/ color: #ffffff !important; text-shadow: 0 0px 0 #000000 !important;
+	/*margin-top:-28px !important;*/ font-size: 0.7em !important;
+	margin-left: 10px !important;
+}
+.grayBorderBox {
+	/*background-image:url(http://mars.jpl.nasa.gov/images/mep/allaboutmars/quickfacts/metallic_frame.png);
+    background-size:100% 100%;*/
+	/*border-image: url(http://mars.jpl.nasa.gov/images/mep/allaboutmars/quickfacts/metallic_frame.png) 34 / 34px stretch;*/
+	/*padding:1px 1px;*/
+	position:fixed;
+	/*right:0;*/
+	bottom:0;
+	float:none;
+	-webkit-box-shadow: 5px 7px 5px 0px rgba(0, 50, 50, 0.55);
+	-moz-box-shadow: 5px 7px 5px 0px rgba(0, 0, 50, 0.55);
+	box-shadow: 5px 7px 5px 0px rgba(0, 0, 50, 0.55);
+}
+.grayBorderBoxInner {
+	/*background-color:white;*/
+	padding:0px;
+	position:relative;
+	height:100%;
+}
+ul#thumb-list li {
+	width: 150px !important;
+	background-color:#050317 !important;
+	opacity:0.5;
+}
+ul#thumb-list li:hover, ul#thumb-list li.current-thumb {
+	opacity:1;
+}
+ul#thumb-list li img {
+	width: 150px !important;
+	vertical-align:middle !important;
+	margin:auto; display:block;
+}
+#play-button {
+	background: none !important;
+	border-right: 0px solid #333333  !important;
+	/*float: none !important;*/
+	margin-top: 9px !important;
+	margin-left:3% !important;
+	display:block; width:22px;
+	/*margin-left:auto;margin-right:auto;margin-top:5px;*/
+}
+#larger-button,
+#smaller-button {
+	float: right;
+	display:none; width:26px; height:24px;
+	margin-left:auto; margin-right:15px; margin-top:7px; /*margin-top:-20px;*/
+	cursor:pointer;
+}
+#smaller-button {
+	display:none;
+}
+ul#slide-list {
+	/*display:none;*/
+}

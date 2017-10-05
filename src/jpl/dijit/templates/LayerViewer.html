@@ -1,0 +1,51 @@
+<div>
+    <div id="layerViewerContent" data-dojo-attach-point="nomenclatureViewer">
+        <div class="layerViewerContent">
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="layerViewerSidebarTopBtn">
+                    <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton"><span id="layerViewerSidebarBtnback" class="fa fa-arrow-left layerViewerSideBarBtn"></span></button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="layerTitle" class="layerViewerSidebarTitle"></h2>
+            </div>
+            <div data-dojo-attach-point="layerContent">
+                <table class="table">
+                    <tr><td>Item Type</td><td data-dojo-attach-point="itemType"></td></tr>
+                    <tr><td>Product Type</td><td data-dojo-attach-point="productType"></td></tr>
+                    <tr data-dojo-attach-point="legendTr" style="border-top: 1px solid #ddd;"><td>Legend</td><td class="legendTd" style="border-top:0;"><a class="btn btn-link legendBtn" data-dojo-attach-point="legendToggleBtn">Show Legend</a></td></tr>
+                </table>
+                <a href="" target="_blank" data-dojo-attach-point="legendImageLink"><img data-dojo-attach-point="legendImage" style="max-width:100%;" class="hidden"/></a>
+            </div>
+
+            <div class="thumbnail">
+                <img class="layerImage" data-dojo-attach-point="layerImage" src="..." alt="...">
+                <div class="caption">
+                    <p data-dojo-attach-point="description"></p>
+                    <p>
+                        <button class="btn btn-success hidden" role="button" data-dojo-attach-point="addLayerBtn">Add</button>
+                        <button class="btn btn-danger hidden" role="button" data-dojo-attach-point="removeLayerBtn">Remove</button>
+                        <button class="btn btn-default" role="button" data-dojo-attach-point="metadataBtn">View Metadata</button>
+                        <button class="btn btn-default" role="button" data-dojo-attach-point="downloadMetadataBtn">Download Metadata</button>
+                    </p>
+                    <p>
+                        <button class="btn btn-warning" type="button"  data-dojo-attach-point="openLayersMenuNotAddedBtn"><span class="icon-layers3 controlActionIcon"></span> Layers</button>
+                        <button class="btn btn-info" type="button" data-dojo-attach-point="openLayersMenuAddedBtn"><span class="icon-layers3 controlActionIcon"></span> Layers</button>
+                        <button class="btn btn-default" role="button" data-dojo-attach-point="downloadBtn">Download</button>
+                        <button class="btn btn-default" role="button" data-dojo-attach-point="ZoomBtn">Fly To</button>
+                    </p>
+                    <p data-dojo-attach-point="pixelValueButtons" class="hidden">
+                        <button class="btn btn-success" type="button"  data-dojo-attach-point="showPixelValueBtn">Show Pixel Value</button>
+                        <button class="btn btn-danger hidden" type="button" data-dojo-attach-point="hidePixelValueBtn">Hide Pixel Value</button>
+                    </p>
+                </div>
+                <div data-dojo-attach-point="pixelValueContainer" class="caption hidden">
+                    <p>Pixel Value: <i data-dojo-attach-point="pixelValueLoadingIcon" class="fa fa-spinner fa-spin hidden"></i> <span data-dojo-attach-point="pixelValue">No Data</span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

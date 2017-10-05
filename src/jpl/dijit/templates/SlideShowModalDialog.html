@@ -1,0 +1,52 @@
+<div data-dojo-attach-point="slideShowModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header text-center" style="height:50px">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div style="color:black; font-size:18pt; font-weight:bold; font-family:sans-serif,arial,helvetica;  padding-bottom: 5px;">${title}</div>
+            </div>
+            <div class="modal-body">
+
+              <div id="slideshowContainer" class="slideshow mslouter">
+
+                <div class="slideshow mpane">
+
+                  <div data-dojo-type="dojox.widget.Rotator" class="slideshow mrotator" data-dojo-attach-point="mslideshowAutoRotator" id="mslideshowAutoRotator">
+                  </div>
+
+                  <div class="slideshow mlnob">
+                    <img data-dojo-attach-point="mlefticon"
+                    data-dojo-attach-event='onclick: goPrev, onmouseover: mlmouseOver, onmouseout: mlmouseOut'
+                    src="jpl//assets/images/slideshows/Left_navy.png"
+                    style="width:25px; height=25px; opacity: 1.0">
+                  </div>
+
+                  <div class="slideshow mrnob">
+                    <img data-dojo-attach-point="mrighticon"
+                    data-dojo-attach-event='onclick: goNext, onmouseover: mrmouseOver, onmouseout: mrmouseOut'
+                    src="jpl/assets/images/slideshows/Right_navy.png"
+                    style="width:25px; height=25px; opacity: 1.0">
+                  </div>
+
+                </div>
+
+                <div class="slideshow mcontainer">
+                  <div data-dojo-attach-point="mpauseb" class="slideshow mstopstart"></div>
+                  <div data-dojo-attach-point="mdotdiv" class="slideshow mdots"></div>
+                </div>
+
+                <div data-dojo-attach-point="msltitle" class="slideshow msltitle">${ptitle}<br><br></div>
+                <div data-dojo-attach-point="msldesc" class="slideshow msldesc">${pdesc}</div>
+
+              </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>

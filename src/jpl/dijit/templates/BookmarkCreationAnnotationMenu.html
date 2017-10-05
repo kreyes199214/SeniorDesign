@@ -1,0 +1,39 @@
+<div id="createbookmarkmenuscontainer">
+    <div data-dojo-attach-point="bookmarkDetailsMenuContent">
+        <h4>Annotations:</h4>
+
+        <div class="createBookmarkAnnotationsIconsList" style="line-height:4.5;">
+            <div class="btn btn-default" data-dojo-attach-point="addPencilButton">
+                <div>
+                    <span class="fa fa-pencil createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Pen</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="selectButton">
+                <div>
+                    <span class="fa fa-hand-pointer-o createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Select</p>
+                </div>
+            </div>
+        </div>
+
+        <h4>Annotation Color:</h4>
+        <div>
+            <label>Outline:</label>
+            <input data-dojo-attach-point="annotationOutlineColorSelector" type="color" value="#ff0000">
+        </div>
+
+        <br>
+
+        <div style="text-align:right;">
+            <button data-dojo-attach-point="addingAnnotationNextButton" class="btn btn-success hidden">Next</button>
+            <button data-dojo-attach-point="addingAnnotationNextButtonDisabled" class="btn btn-danger">Next</button>
+        </div>
+    </div>
+</div>

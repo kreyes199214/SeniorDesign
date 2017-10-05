@@ -1,0 +1,172 @@
+<div id="lightingInputContainer" data-dojo-attach-point="lightingInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="lightingInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="lightingModalClose" data-dojo-attach-point="lightingModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Surface Lighting Tool</b></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td colspan="2">Bounding Box:</td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="lightingTop" style="height:40px"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="lightingLeft"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                    </td>
+                    <td height="50" nowrap>
+                     <div id="lightingRight"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                    </td>
+                    <td height="50" nowrap>
+                    <div id="lightingBottom"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Start Date(UTD):
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltStartDate"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp; 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltStart1"></div>:
+                      <div id="ltStart2"></div>:
+                      <div id="ltStart3"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      End Date(UTD):
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltEndDate"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp; 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltEnd1"></div>:
+                      <div id="ltEnd2"></div>:
+                      <div id="ltEnd3"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Time Increment: 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltTimeInc"></div>
+                      <select id="ltTimeIncHour" name="lightingLayer" data-dojo-type="dijit/form/Select">
+                        <option value="seconds">seconds</option>
+                        <option value="minutes">minutes</option>
+                        <option value="hours" selected>hours</option>
+                        <option value="days">days</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Mesh:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltMesh"></div>&nbsp;&nbsp;m
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Earth Shine: 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltshine"></div>&nbsp;&nbsp;%
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50">
+                      Height above surface:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="ltHeight"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" height="50">
+                    <table>
+                    <tr>
+                    <td>
+                      Map Type:&nbsp;
+                      <select style="width:80%" id="lightingMapType" name="lightingMapType" data-dojo-type="dijit/form/Select">
+                        <option value="Solar_Irradiance_Map">Solar Irradiance Map</option>
+                        <option value="Total_Irradiance_Map">Total Irradiance Map</option>
+                        <option value="Solar_Percentage_Map">Solar Percentage Map</option>
+                        <option value="Total_Percentage_Map">Total Percentage Map</option>
+                        <option value="Solar_Irradiance_Map_Height">Solar Irradiance Map at Position Height</option>
+                      </select>
+                    </td>
+                    </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;
+                    </td>
+                    <td height="50" nowrap>
+                      <input type="checkbox" 
+                        id="ltTerrain"
+                        name="ltTerrain" />Terrain Reflection
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" height="50" nowrap>
+                      <b>Email</b>:<font color="red">*</font>
+                      <div id="lightingEmail"><div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button id="lightingSubmitButton" data-dojo-attach-point="lightingSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+              <button id="lightingEditButton" data-dojo-attach-point="lightingEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="lightingRemoveButton" data-dojo-attach-point="lightingRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

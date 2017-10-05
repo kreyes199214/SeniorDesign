@@ -1,0 +1,80 @@
+<div id="espInputContainer" data-dojo-attach-point="espInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="espInputDialogForm">
+                <div class="modal-header text-center">
+                    <button id="espModalClose" data-dojo-attach-point="espModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-visible="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"><b>Generate Slope Map</b></h4>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <table align="center" border="0">
+                            <tr>
+                                <td colspan="2">Bounding Box:</td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="espTop" style="height:40px"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="espLeft"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="espRight"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="espBottom"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" width="80%"nowrap>
+                                    DEM:&nbsp;&nbsp;
+
+                                    <select name="dem" style="width:80%">
+                                         <option value="volvo">MOLA DEM</option>
+                                         <option value="saab">HRSC DEM</option>
+                                         <option value="fiat">CTX DEM</option>
+                                         <option value="audi">HiRISE DEM</option>
+                                     </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" nowrap>
+                                    <b>Email</b>:<font color="red">*</font>
+                                    <div id="espEmail"></div>
+                                </td>
+                            </tr>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer" style="padding:5px;text-align:center;">
+                    <button id="espSubmitButton" data-dojo-attach-point="espSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+                    <button id="espRemoveButton" data-dojo-attach-point="espRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

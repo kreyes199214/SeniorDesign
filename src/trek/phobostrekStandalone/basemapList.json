@@ -1,0 +1,17 @@
+{
+  "_comment": "default basemaps order: eq,np,sp",
+  "defaultBasemaps": [
+    "Base_Orthomosaik_MExLab"
+  ],
+  "basemaps": {
+    "equirect": [
+      "Base_Orthomosaik_MExLab"
+    ],
+    "s_pole": [
+
+    ],
+    "n_pole": [
+
+    ]
+  }
+}

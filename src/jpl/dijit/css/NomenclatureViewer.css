@@ -1,0 +1,39 @@
+.nomenclatureViewerContent{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.slideshowListItem{
+    font-size: medium;
+}
+
+.slideshowListItem:hover{
+    background: #e6e6e6;
+    cursor: pointer;
+}
+
+.slideshowListItemThumbnail{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.nomenclatureContentTable{
+}
+
+.nomenclatureViewerInvisible{
+    float:left;
+}
+
+.nomenclatureViewerSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    float: right;
+    padding-right: 5px;
+}
+
+.nomenclatureViewerSidebarTitle{
+    position:relative;
+    top: -14px;
+    margin-bottom:0;
+}

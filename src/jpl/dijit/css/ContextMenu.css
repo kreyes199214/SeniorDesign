@@ -1,0 +1,32 @@
+#entity-control {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+#entity-control a {
+    cursor: pointer;
+}
+
+#entity-control a:hover {
+	color: #ffffff;
+}
+
+#contextMenuContainer .popover-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#entity-control hr {
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#entity-control .popover-content {
+    padding: 5px 7px 5px 7px;
+}
+

@@ -1,0 +1,670 @@
+[
+  {
+    "name": "Carbonate Minerals V1 Fe-Mg",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brcarj*",
+    "startZoom": 6,
+    "selected": false,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brcarj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chloride Deposits",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brchlj*",
+    "startZoom": 6,
+    "selected": false,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brchlj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carbonate Minerals V2 Mg",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brcr2j*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brcr2j",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Infrared False Color",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brfalj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brfalj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Iron Minerals V1 Ferric and Ferrous Minerals",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brfemj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brfemj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Iron Minerals V2 Olivine and Pyroxene Minerals",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brfm2j*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brfm2j",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bound Water Polyhydrated Sulfates",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brhydj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brhydj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hydrated Silica and Al-OH minerals",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brhysj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brhysj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carbon Dioxide Frost or Ice V2",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*bric2j*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_bric2j",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carbon Dioxide Frost or Ice V1",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*bricej*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_bricej",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Photometrically corrected IF values 1330nm",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*briraj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_briraj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mafic Minerals",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brmafj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brmafj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hydroxylated Minerals Including Al-phyllosilicates andHydrated Silica",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brpalj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brpalj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hydroxylated Minerals Including Fe-Mg-phyllosilicates",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brpfmj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brpfmj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hydroxylated Minerals Including Fe-Mg-OH_phyllosilicates",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brphyj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brphyj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "False Color",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brtanj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brtanj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Enhanced True Color",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brtruj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brtruj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  },
+  {
+    "name": "Photometrically Corrected",
+    "facetKeys": "productLabel",
+    "facetValues": "frt*brvnaj*",
+    "startZoom": 6,
+    "footprintService": {
+      "UUID": "",
+      "productLabel": "mars_mro_crism_mtrdr_c0a_humex_frt_sites_brvnaj",
+      "title": "CRISM FRT Sites",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars_mro_crism_mtrdr_c0a_humex_frt_sites/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  }
+]

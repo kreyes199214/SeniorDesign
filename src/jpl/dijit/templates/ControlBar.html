@@ -1,0 +1,97 @@
+<div>
+    <div id="controlBarTopLeft">
+        <div class="btn-group" role="group" aria-label="...">
+                <button id="controlItemMenu" data-dojo-attach-point="controlItemMenu" type="button" class="btn btn-default controlButton tooltipForTopLeftBtn" alt="&nbsp;&nbsp;Menu&nbsp;&nbsp;"><span class="fa fa-bars controlActionIcon"></span></button>
+                <button id="controlItemSearch" data-dojo-attach-point="controlItemSearch" type="button" class="btn btn-default controlButton tooltipForTopLeftBtn" alt="Search"><span class="fa fa-search controlActionIcon"></span></button>
+                <button id="controlItemTree" data-dojo-attach-point="controlItemTree" type="button" class="btn btn-default controlButton tooltipForTopLeftBtn" alt="Search"><span class="fa fa-sitemap controlActionIcon"></span></button>
+        </div>
+    </div>
+
+    <div id="controlBarTopRight">
+        <div id="controlItemSearchTopRight">
+            <div data-dojo-attach-point="flyToInputValidation" class="form-group">
+                <input id="flyToInput" data-dojo-attach-point="flyToInput" type="text" class="form-control hidden" placeholder="Lat,Lon...">
+                <ul id="flyToNomenclatureResults" data-dojo-attach-point="flyToNomenclatureResults" class="dropdown-menu flyToNomenclatureResults hidden">
+                </ul>
+            </div>
+            <div class="btn-group" role="group">
+                <button data-dojo-attach-point="flyToButton" class="btn btn-default tooltipForTopRightBtn noActive" type="button"  alt="Fly To"><span data-dojo-attach-point="flyToButtonIcon" class="fa fa-plane controlActionIcon"></span></button>
+                <button id="controlItemTools" data-dojo-attach-point="controlItemTools" type="button" class="btn btn-default controlButton tooltipForTopRightBtn" alt="Tools"><span class="fa fa-wrench controlActionIcon"></span></button>
+                <button id="controlItemBookmarkEndDrawing" data-dojo-attach-point="controlItemBookmarkEndDrawing" type="button" class="btn btn-default controlButton controlBarHide" alt="Tools">Done</button>
+            </div>
+        </div>
+    </div>
+    <div data-dojo-attach-point="bookmarkDrawingMenu" class="btn-group-vertical bookmarkDrawingMenu hidden" role="group">
+        <div>
+            <div class="panel panel-default bookmarkDrawingMenuPanel">
+                <div class="panel-body bookmarkDrawingMenuPanelBody">
+                    Color<br>
+                    <input id="bookmarkDrawingMenuPanelAnnotationColorSelector"data-dojo-attach-point="annotationColorSelector" type="color" value="#ff0000">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controlBarLeft">
+        <div class="btn-group-vertical">
+            <button data-dojo-attach-point="mapZoomInBtn" type="button" class="btn btn-default controlButton tooltipForBottomLeftBtn noActive" alt="Zoom In"><span class="fa fa-plus controlActionIcon"></span></button>
+            <button data-dojo-attach-point="mapZoomOutBtn" type="button" class="btn btn-default controlButton tooltipForBottomLeftBtn noActive" alt="Zoom Out"><span class="fa fa-minus controlActionIcon"></span></button>
+            <button id="controlItemProjections" data-dojo-attach-point="controlItemProjections" type="button" class="btn btn-default controlButton tooltipForBottomLeftBtn" alt="Projections"><span class="fa fa-globe controlActionIcon"></span></button>
+            <button id="gameControlsContainer" data-dojo-attach-point="gameControlsContainer" type="button" class="btn btn-default hidden controlButton tooltipForBottomLeftBtn" alt="Toggle Controls"><span data-dojo-attach-point="gameControlsBtn"><span class="fa fa-gamepad controlActionIcon" data-dojo-attach-point="gameControlIcon"></span></span></button>
+        </div>
+    </div>
+
+    <div id="projectionsPanel" class="hidden" data-dojo-attach-point="projectionsPanel">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Views</h3>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    <a href="#" data-dojo-attach-point="changeProjectionVRBtn" class="list-group-item">VR Demo</a>
+                    <a href="#" data-dojo-attach-point="changeProjection3DBtn" class="list-group-item">3D Globe</a>
+                    <a href="#" data-dojo-attach-point="changeProjection2DBtn" class="list-group-item hidden">2D Map</a>
+                    <a href="#" data-dojo-attach-point="changeProjectionNorthPoleBtn" class="list-group-item">North Pole Map</a>
+                    <a href="#" data-dojo-attach-point="changeProjectionCylindicalBtn" class="list-group-item">Global Map</a>
+                    <a href="#" data-dojo-attach-point="changeProjectionSouthPoleBtn" class="list-group-item">South Pole Map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controlBarBottomRight">
+        <div id="shareBtnGroup" data-dojo-attach-point="shareBtnGroup" class="hidden">
+            <button id="controlItemScreenShot" data-dojo-attach-point="controlItemScreenShot" type="button" class="btn btn-default controlButton tooltipForBottomRightShareBtn" alt="Screen Capture" style="margin-right:-4px;"><span class="fa fa-camera-retro controlActionIcon"></span></button>
+            <br>
+            <button id="controlItemShareLink" data-dojo-attach-point="controlItemShareLink" type="button" class="btn btn-default controlButton tooltipForBottomRightShareLinkBtn" alt="Share Link"><span class="fa fa-link controlActionIcon"></span></button>
+        </div>
+        <div class="btn-group">
+            <button id="controlItemExplorerButton" data-dojo-attach-point="controlItemExplorer" type="button" class="btn btn-default controlButton tooltipForBottomRightBtn" alt="Explorer"><span id="controlItemExplorer" class="fa fa-compass controlActionIcon"></span></button>
+            <button id="controlItemLayersButton" data-dojo-attach-point="controlItemLayers" type="button" class="btn btn-default controlButton tooltipForBottomRightBtn" alt="&nbsp;Layers&nbsp;"><span id="controlItemLayers" class="icon-layers3 controlActionIcon"></span></button>
+            <button id="controlItemShare" data-dojo-attach-point="controlItemShare" type="button" class="btn btn-default controlButton tooltipForBottomRightBtn" alt="Share&nbsp;"><span id="shareControlItemIcon" class="fa fa-share-alt controlActionIcon"></span></button>
+        </div>
+
+    </div>
+
+    <div id="controlBarBottomInfo">
+        <div id="mapDetailsContainer" data-dojo-attach-point="mapDetailsContainer">
+            <div id="mapScalebarsContainer" data-dojo-attach-point="mapScalebarsContainer" title="Map Scale" >
+                <div id="equiMapScalebar" data-dojo-attach-point="equiMapScalebar"></div>
+                <div id="northPoleMapScalebar" data-dojo-attach-point="northPoleMapScalebar" class="hidden"></div>
+                <div id="southPoleMapScalebar" data-dojo-attach-point="southPoleMapScalebar" class="hidden"></div>
+            </div>
+
+            <div id="terrainExaggerationContainer" data-dojo-attach-point="terrainExaggerationContainer" class="hidden">
+                <div id="terrainExaggerationText" data-dojo-attach-point="terrainExaggerationText">
+                    Terrain Exaggeration: 1
+                </div>
+            </div>
+
+            <div class="mapDetails" title="Current Mouse Position Coordinates" data-dojo-attach-point="mapDetailsPositionContainer">
+                <span class="mapDetailsPositionSpan">Position:</span>
+                <span id="mapDetailsMousePosition" data-dojo-attach-point="mapMousePosition"></span>
+            </div>
+        </div>
+    </div>
+
+</div>

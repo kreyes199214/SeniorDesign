@@ -1,0 +1,100 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "f0d436fb-c2a8-4c33-ba1c-afdf55bbd688",
+        "productLabel": "LRO_WAC_Mosaic_Global_303ppd_v02",
+        "title": "LRO WAC Mosaic v2",
+        "mission": "LRO",
+        "instrument": "Wide Angle Camera",
+        "productType": "Mosaic",
+        "layerProjection": "urn:ogc:def:crs:EPSG::104903",
+        "thumbnailImage": "http://moontrek.jpl.nasa.gov/trektiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd/thumbnail/LRO_WAC_Mosaic_Global_303ppd-120.png",
+        "bounding": {
+          "leftbc": "-180.000000",
+          "rightbc": "180.000000",
+          "topbc": "90.000000",
+          "bottombc": "-90.000000"
+        },
+        "legend": "",
+        "description": "LRO",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "resolution":0.003298,
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02",
+            "layerId": "LRO_WAC_Mosaic_Global_303ppd_v02",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "LRO_WAC_Mosaic_NPole60_100m_v02",
+        "title": "LRO WAC Mosaic v2",
+        "mission": "LRO",
+        "instrument": "Wide Angle Camera",
+        "productType": "Mosaic",
+        "layerProjection":"urn:ogc:def:crs:IAU2000::30118",
+        "thumbnailImage": "jpl/assets/images/basemaps/viking.png",
+        "bounding": {
+          "leftbc": -1809300.1269719133,
+          "rightbc": 1809259.2673023369,
+          "topbc": 1809300.1269719133,
+          "bottombc": -1809259.2673023369
+        },
+        "legend": "",
+        "description": "Mars Global Surveyor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "resolution":100.000000,
+        "thumbnailImage":"http://moontrek.jpl.nasa.gov/trektiles/Moon/NP/LRO_WAC_Mosaic_NPole60_100m_v02/thumbnail/LRO_WAC_Mosaic_NPole60_100m_v02-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/NP/LRO_WAC_Mosaic_NPole60_100m_v02",
+            "layerId": "LRO_WAC_Mosaic_NPole60_100m_v02",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "LRO_WAC_Mosaic_SPole60_100m_v02",
+        "title": "LRO WAC Mosaic v2",
+        "mission": "LRO",
+        "instrument": "Wide Angle Camera",
+        "productType": "Mosaic",
+        "bbox": {
+          "leftbc": -1095700.000,
+          "rightbc": 1095600.000,
+          "topbc": 1095700.000,
+          "bottombc": -1095600.000
+        },
+        "legend": "",
+        "description": "Mars Global Surveyor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "layerProjection":"urn:ogc:def:crs:IAU2000::30120",
+        "resolution":100.000000,
+        "thumbnailImage":"http://moontrek.jpl.nasa.gov/trektiles/Moon/SP/LRO_WAC_Mosaic_SPole60_100m_v02/thumbnail/LRO_WAC_Mosaic_SPole60_100m_v02-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/SP/LRO_WAC_Mosaic_SPole60_100m_v02",
+            "layerId": "LRO_WAC_Mosaic_SPole60_100m_v02",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      }
+    ]
+  }
+}

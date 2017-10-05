@@ -1,0 +1,39 @@
+<li data-dojo-attach-point="slideshowContainer" class="slideshow-list-item">
+    <div data-dojo-attach-point="slideshowContainerIntroSlideShow" class="slideshowContainerIntroSlideShow">
+        <a data-slideshow-id="${slideshowId}">
+            <img class="slideshow-item-tumbnail" src="${imageUrl}">
+            <div class="slideshow-item-container-label-container">
+                <h6 class="slideshow-item-title" alt="${title}" title="${title}">${title}</h6>
+                <p>${shortenedDescription}</p>
+            </div>
+            <div data-dojo-attach-point="badgeIndicator">
+                <i class="fa fa-play-circle slideshow-item-play-button"></i>
+            </div>
+        </a>
+    </div>
+    <div data-dojo-attach-point="slideshowContainerSlideShow">
+        <a data-slideshow-id="${slideshowId}">
+            <img class="slideshow-gallery-collection-item-thumb" src="${imageUrl}">
+            <div class="slideshow-gallery-collection-item-label-container">
+                <h6 class="slideshow-item-title" alt="${title}" title="${title}">${title}</h6>
+                <p>${shortenedDescription}</p>
+            </div>
+            <div data-dojo-attach-point="badgeIndicator">
+              <i class="fa fa-play-circle slideshow-gallery-indicator"></i>
+            </div>
+        </a>
+    </div>
+
+    <div data-dojo-attach-point="slideshowContainerManifest">
+      <a data-slideshow-id="${slideshowId}">
+          <img class="slideshow-gallery-collection-item-thumb" src="${imageUrl}">
+          <div class="slideshow-gallery-collection-item-label-container">
+              <h6 class="slideshow-item-title" alt="${title}" title="${title}">${title}</h6>
+              <p>${shortenedDescription}</p>
+          </div>
+          <div data-dojo-attach-point="badgeIndicator">
+            <i class="fa fa-list slideshow-gallery-indicator"></i>
+          </div>
+      </a>
+    </div>
+</li>

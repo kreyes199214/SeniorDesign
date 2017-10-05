@@ -1,0 +1,18 @@
+ .pageOverlay {
+    left: 50%;
+    position: absolute;
+    z-index: 50;
+    display: block;
+    bottom: 50%;
+    transform: translate(-50%,+50%);
+    word-wrap: break-word;
+}
+ 
+#loadingIconNode{
+    background: #FFFFFF url('../../../dijit/themes/claro/images/loadingAnimation.gif') no-repeat 10px 23px;
+}
+ 
+.loadingMessage {
+    padding: 25px 40px;
+    color:#000000;
+}

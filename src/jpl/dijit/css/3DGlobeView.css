@@ -1,0 +1,143 @@
+.cesium-container-small {
+    height: 125px;
+    width: 200px;
+}
+
+body.sidebar-open .cesium-container-small {
+    left: 345px !important;
+    bottom: 0 !important;
+}
+
+.cesium-container-large {
+    height: 100%;
+    width: 100%;
+    bottom: 0 !important;
+    left: 0 !important;
+    border: none !important;
+}
+
+#3dContainer {
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -moz-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.cesium-viewer-timelineContainer {
+    visibility: hidden;
+    width: auto;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body.sidebar-open .cesium-viewer-timelineContainer {
+    left: 300px !important;
+}
+
+#cesiumContainer {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-family: sans-serif;
+    border: solid 1px #555555;
+    border-radius: 2px;
+}
+
+#cesiumExpandContainer {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    height: 124px;
+    width: 199px;
+    z-index: 99;
+    margin: 0px;
+    overflow: hidden;
+    padding: 13px;
+    background: none;
+    cursor: pointer;
+}
+
+body.sidebar-open #cesiumExpandContainer {
+    left: 345px;
+    bottom: 0px;
+}
+
+#cesiumExpandContainer span {
+    display: none;
+}
+
+#cesiumExpandContainer:hover {
+    background: rgba(58, 63, 68, 0.69);
+}
+
+#cesiumExpandContainer:hover span {
+    display: block;
+}
+
+#minimize3DContainerBtn {
+    bottom: 40px;
+    left: 0;
+    font-size: 3em;
+    width: 56px;
+    height: 56px;
+    display: none;
+    z-index: 99999999;
+    width: 300px;
+    border: solid 1px #c8c8c8;
+    border-radius: 3px;
+    text-align: center;
+    height: 150px;
+    background: none;
+    position: absolute;
+}
+#minimize3DContainerBtn span {
+    display: none;
+    position: absolute;
+    font-size: 2em;
+    left: 37%;
+    top: 33%;
+}
+
+#minimize3DContainerBtn:hover {
+    background: rgba(58, 63, 68, 0.69);
+}
+
+#minimize3DContainerBtn:hover span {
+    display: block;
+}
+
+#change3DControlButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #000;
+}
+
+#mapNavLink {
+    position:absolute;
+    bottom:10px;
+    right:235px;
+}
+
+#mapNavLink span {
+    position: absolute;
+    bottom: 4px;
+    font-size: 0.9em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: 700;
+    color: #e9e9e9;
+    width: 100%;
+    text-align: center;
+}
+
+#mapNavLink img {
+    border: solid 2px #e9e9e9;
+    border-radius: 3px;
+}
+
+#minimapEqui-map {
+    background-color: #000;
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "default basemaps order: eq,np,sp",
+  "defaultBasemaps": ["LRO_WAC_Mosaic_Global_303ppd"],
+  "basemaps": [
+    "LRO_WAC_Mosaic_Global_303ppd",
+    "LRO_LOLA_ClrShade_Global_256ppd_v06"
+  ]
+}

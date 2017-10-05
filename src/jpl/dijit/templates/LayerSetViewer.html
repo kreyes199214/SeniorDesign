@@ -1,0 +1,44 @@
+<div>
+    <div id="layerSetViewerContent" data-dojo-attach-point="nomenclatureViewer">
+        <div class="layerSetViewerContent">
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="layerSetViewerSidebarTopBtn">
+                    <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton"><span id="layerSetViewerSidebarBtnback" class="fa fa-arrow-left layerSetViewerSideBarBtn"></span></button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="layerTitle" class="layerSetViewerSidebarTitle"></h2>
+            </div>
+            <div data-dojo-attach-point="layerContent">
+                <table class="table">
+                    <tr><td>Instrument</td><td data-dojo-attach-point="instrumentLabel"></td></tr>
+                    <tr><td>Item Type</td><td data-dojo-attach-point="itemTypeLabel"></td></tr>
+                    <tr><td>Product Type</td><td data-dojo-attach-point="productTypeLabel"></td></tr>
+                    <tr><td>Mission</td><td data-dojo-attach-point="missionLabel"></td></tr>
+                    <!--<tr data-dojo-attach-point="legendTr" style="border-top: 1px solid #ddd;"><td>Legend</td><td class="legendTd" style="border-top:0;"><a class="btn btn-link legendBtn" data-dojo-attach-point="legendToggleBtn">Show Legend</a><img data-dojo-attach-point="legendImage" class="hidden"/></td></tr>-->
+                </table>
+            </div>
+
+            <div class="thumbnail">
+                <img class="layerSetImage" data-dojo-attach-point="layerSetImage" src="" alt="">
+                <div class="caption">
+                    <p data-dojo-attach-point="description">
+                    </p>
+                    <p>
+                        <button class="btn btn-success" role="button" data-dojo-attach-point="addLayerBtn">Add Dataset</button>
+                        <button class="btn btn-danger hidden" role="button" data-dojo-attach-point="removeLayerBtn">Remove Dataset</button>
+                    </p>
+                    <div class="hidden">
+                        <p>
+                            <button class="btn btn-success" role="button" data-dojo-attach-point="showFootPrintBtn">Show Footprint</button>
+                            <button class="btn btn-danger hidden" role="button" data-dojo-attach-point="removeFootPrintBtn">Hide Footprint</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

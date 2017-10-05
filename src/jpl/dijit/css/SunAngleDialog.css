@@ -1,0 +1,18 @@
+#sunAngleDialogFormTable {
+    color: black;
+    background-color: white;
+}
+#sunAngleDialog{
+    border: 1px solid #000000;
+}
+#sunAngleDialog div span.dijitDialogTitle{
+    color: #FFFFFF;
+}
+#sunAngleDialog div.dijitDialogTitleBar{
+    background-color: #424043;
+    border: 0px;
+    background-image: linear-gradient(#424043 0%, rgba(255, 255, 255, 0) 100%);
+}
+#sunAngleDialog div.dijitDialogPaneContent{
+    border-top: 1px solid #000000;
+}

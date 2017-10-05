@@ -1,0 +1,96 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "Mars_Viking_MDIM21_ClrMosaic_global_232m",
+        "title": "Viking Color Mosaic",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/basemaps/viking.png",
+        "bounding": {
+          "leftbc": "-180.000000",
+          "rightbc": "180.000000",
+          "topbc": "90.000000",
+          "bottombc": "-90.000000"
+        },
+        "legend": "",
+        "description": "Mars Global Surveyor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_Viking_MDIM21_ClrMosaic_global_232m",
+            "layerId": "Mars_Viking_MDIM21_ClrMosaic_global_232m",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "Mars_Viking_MDIM21_ClrMosaic_global_232m_np",
+        "title": "Viking Color Mosaic",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49918",
+        "thumbnailImage": "jpl/assets/images/basemaps/viking.png",
+        "bounding": {
+          "leftbc": -1809300.1269719133,
+          "rightbc": 1809259.2673023369,
+          "topbc": 1809300.1269719133,
+          "bottombc": -1809259.2673023369
+        },
+        "legend": "",
+        "description": "Mars Global Surveyor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "ArcGISTiled",
+            "mode": "rest",
+            "endPoint": "http://mars-2035432769.us-west-1.elb.amazonaws.com/arcgis/rest/services/Mars_Viking_MDIM21_ClrMosaic_global_232m_np/MapServer",
+            "layerId": "Mars_Viking_MDIM21_ClrMosaic_global_232m_np",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "Mars_Viking_MDIM21_ClrMosaic_global_232m_sp",
+        "title": "Viking Color Mosaic",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49920",
+        "thumbnailImage": "jpl/assets/images/basemaps/viking.png",
+        "bounding": {
+          "leftbc": -1809300.1269719133,
+          "rightbc": 1809259.2673023369,
+          "topbc": 1809300.1269719133,
+          "bottombc": -1809259.2673023369
+        },
+        "legend": "",
+        "description": "Mars Global Surveyor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "ArcGISTiled",
+            "mode": "rest",
+            "endPoint": "http://mars-2035432769.us-west-1.elb.amazonaws.com/arcgis/rest/services/Mars_Viking_MDIM21_ClrMosaic_global_232m_sp/MapServer",
+            "layerId": "Mars_Viking_MDIM21_ClrMosaic_global_232m_sp",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      }
+    ]
+  }
+}

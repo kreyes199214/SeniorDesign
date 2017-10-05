@@ -1,0 +1,75 @@
+<div class="menu push-menu-tool">
+        <div id="toolscontainer">
+            <div data-dojo-attach-point="toolsMenu">
+                <div class="toolSideBarTitleDiv">
+                    <a data-dojo-attach-point="sideBarLinkBack" class="toolSideBarLink invisible" rel="Search" data-content="Search" alt="Search" data-placement="left">
+                        <span class="fa fa-arrow-left toolSideBarBtn"></span>
+                    </a>
+                    <h1 class="toolSidebarTitle">Tools</h1>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger toolSidebarTopBtn"><span id="toolSidebarBtnBack" class="fa fa-times toolSideBarBtn"></span></button>
+                    <!--
+                    <a data-dojo-attach-point="sideBarLinkClose" class="toolSideBarLink" rel="Search" data-content="Search" alt="Search" data-placement="left">
+                        <span id="toolSidebarBtnClose" class="fa fa-times toolSideBarBtn"></span>
+                    </a>
+                    -->
+                </div>
+        <!-- for beta
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" data-dojo-attach-point="toolsListBtn">Tools</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" data-dojo-attach-point="runningJobsBtn">Running Jobs</button>
+                    </div>
+                </div>
+        -->
+
+                <br/>
+
+                <!--<div class="list-group topToolsList">-->
+                    <!---->
+                    <!--<button id="generateContourLink" type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="generateContourLink">Generate Contour Map</button>-->
+                    <!--<button id="generateSlopeLink" type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="generateSlopeLink">Generate Slope Map</button>-->
+                <!--</div>-->
+
+                <div data-dojo-attach-point="toolsList" class="toolsList">
+                    <div class="list-group">
+                        <button id="createBookmarkLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="createBookmarkLink">Create Bookmark</button>
+                        <button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="generateStlLink">Generate 3D Print File</button>
+                        <button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="calculateDistanceLink">Calculate Distance</button>
+                        <button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="calculateElevationProfileLink">Calculate Elevation Profile</button>
+                        <button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="calculateSunAngleLink">Calculate Sun Angle</button>
+                        <button id="detectCraterLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="detectCraterLink">Detect Craters</button>
+                        <button id="detectRockLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="detectRockLink">Detect Rocks</button>
+                        <button id="calculateSubsetLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="calculateSubsetLink">Subsetting</button>
+                        <button id="calculateSlopeLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="calculateSlopeLink">Slope</button>
+                        <button id="surfaceLightingLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="surfaceLightingLink">Surface Lighting</button>
+                        <button id="calculateEspLink" type="button" class="list-group-item menuSidebarButton hidden" data-dojo-attach-point="calculateEspLink">Surface ElectroStatic Potential</button>
+                    </div>
+
+                    <!--<div class="list-group" data-dojo-attach-point="locateOrbiters">-->
+                        <!--<div class="panel panel-default">-->
+                            <!--<button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="locateOrbitersBtn">Locate Orbiters</button>-->
+                            <!--<div class="panel-collapse collapse in hidden" data-dojo-attach-point="locateOrbitersListDiv">-->
+                                <!--<ul class="list-group subpointUl" data-dojo-attach-point="orbiterList">-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                        <!--&lt;!&ndash;-->
+                        <!--<button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="locateOrbiters">Locate Orbiters</button>-->
+                        <!--<button type="button" class="list-group-item menuSidebarButton" data-dojo-attach-point="locateSunEarth">Locate Sun/Earth</button>-->
+                        <!--&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+
+                <div data-dojo-attach-point="runningJobsList" class="hidden">
+                    <p>There are no running jobs</p>
+                </div>
+            </div>
+
+            <div data-dojo-attach-point="createBookmarkMenuDiv" class="createBookmarkMenuDiv">
+
+            </div>
+        </div>
+</div>

@@ -1,0 +1,168 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "",
+        "productLabel": "Mars_MGS_MOLA_ClrShade_merge_np_463m",
+        "title": "Color Hillshade",
+        "subtitle": "Mars Orbiter Laser Altimeter",
+        "mission": "Mars Global Surveyor",
+        "instrument": "Mars Orbiter Laser Altimeter (MOLA)",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49918",
+        "thumbnailImage": "jpl/assets/images/layers/clrhillshde.jpg",
+        "bounding": {
+          "leftbc": -1809300.1269719133,
+          "rightbc": 1809259.2673023238,
+          "topbc": 1809300.1269719133,
+          "bottombc": -1809259.2673023238
+        },
+        "legend": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/colorhillshade_mola_lut.gif",
+        "colorbar": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/mgs_mola_colorshade.json",
+        "description": "Mars Orbiter Laser Altimeter",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "ArcGISTiled",
+            "mode": "rest",
+            "endPoint": "http://mars-2035432769.us-west-1.elb.amazonaws.com/arcgis/rest/services/Mars_MGS_MOLA_ClrShade_merge_np_463m/MapServer",
+            "layerId": "Mars_MGS_MOLA_ClrShade_merge_np_463m",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Mars_MGS_MOLA_ClrShade_merge_sp_463m",
+        "title": "Color Hillshade",
+        "subtitle": "Mars Orbiter Laser Altimeter",
+        "mission": "Mars Global Surveyor",
+        "instrument": "Mars Orbiter Laser Altimeter (MOLA)",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49920",
+        "thumbnailImage": "jpl/assets/images/layers/clrhillshde.jpg",
+        "bounding": {
+          "leftbc": -1809300.1269719133,
+          "rightbc": 1809259.2673023238,
+          "topbc": 1809300.1269719133,
+          "bottombc": -1809259.2673023238
+        },
+        "legend": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/colorhillshade_mola_lut.gif",
+        "colorbar": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/mgs_mola_colorshade.json",
+        "description": "Mars Orbiter Laser Altimeter",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "ArcGISTiled",
+            "mode": "rest",
+            "endPoint": "http://mars-2035432769.us-west-1.elb.amazonaws.com/arcgis/rest/services/Mars_MGS_MOLA_ClrShade_merge_sp_463m/MapServer",
+            "layerId": "Mars_MGS_MOLA_ClrShade_merge_sp_463m",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+        "title": "Color Hillshade",
+        "subtitle": "Mars Orbiter Laser Altimeter",
+        "mission": "Mars Global Surveyor",
+        "instrument": "Mars Orbiter Laser Altimeter (MOLA)",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/clrhillshde.jpg",
+        "bounding": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 90.0,
+          "bottombc": -90.0
+        },
+        "legend": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/colorhillshade_mola_lut.gif",
+        "colorbar": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/mgs_mola_colorshade.json",
+        "description": "Mars Orbiter Laser Altimeter",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m",
+            "layerId": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "curiosity_ctx_mosaic",
+        "title": "CTX Mosaic",
+        "subtitle": "Curiosity Landing Site",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "Context Camera (CTX)",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/ctx.png",
+        "bounding": {
+          "leftbc": 136.2768326,
+          "rightbc": 139.3864225,
+          "topbc": -3.5804738,
+          "bottombc": -7.2137273
+        },
+        "legend": "",
+        "colorbar": "",
+        "description": "jpl/assets/layers/mro_ctx_mosaic.html",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://d1poygwgh8gv6r.cloudfront.net/catalog/curiosity_ctx_mosaic",
+            "layerId": "curiosity_ctx_mosaic",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "curiosity_hirise_mosaic",
+        "title": "HiRISE Mosaic",
+        "subtitle": "Curiosity Landing Site",
+        "mission": "Mars Reconnaissance Orbiter",
+        "instrument": "High Resolution Imaging Science Experiment (HiRISE)",
+        "productType": "Mosaic",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/hirise.png",
+        "bounding": {
+          "leftbc": 137.1224669,
+          "rightbc": 137.7298129,
+          "topbc": -4.2489588,
+          "bottombc": -4.9254743
+        },
+        "legend": "",
+        "colorbar": "",
+        "description": "jpl/assets/layers/mro_hirise_mosaic.html",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://d1poygwgh8gv6r.cloudfront.net/catalog/curiosity_hirise_mosaic",
+            "layerId": "curiosity_hirise_mosaic",
+            "tileMatrixSet": "default028mm",
+            "format": "png"
+          }
+        ]
+      }
+
+    ]
+  }
+}

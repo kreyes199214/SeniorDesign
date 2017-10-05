@@ -1,0 +1,33 @@
+.ssViewerContent{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.slideshowListItem{
+    font-size: medium;
+}
+
+.slideshowListItem:hover{
+    background: #e6e6e6;
+    cursor: pointer;
+}
+
+.slideshowListItemThumbnail{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.itemViewerSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    right: 15px;
+    float: right;
+    padding-left: 5px;
+}
+
+h1.itemViewerSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom:0;
+}

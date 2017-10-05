@@ -1,0 +1,270 @@
+div.push-menu-tree {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -615px;
+    max-width: 615px;
+    display: none;
+}
+
+body.tree-sidebar-open div.push-menu-tree {
+    left: 0;
+    display: inline;
+}
+body.tree-sidebar-open #mainContentWrapper {
+    width: calc(100% - 615px);
+    left: 615px;
+}
+
+.treeSideBarTitleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.treeSideBarLink{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+}
+
+.treeSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+.viewerBackLink{
+    font-size: 25px;
+    padding-right: 10px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flexDiv{
+    display:flex;
+}
+
+.viewerPanelTitle{
+    display:flex;
+}
+
+.tableOfContentsTitle{
+    font-size:30px;
+}
+
+.treeSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+#treesidebarStackContainer{
+    padding: 15px 15px 0 15px;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.treeBarResults{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.treeMenuTreeList{
+    position: relative;
+    overflow: auto;
+}
+
+.treeMenuSwitchButton{
+    float: right;
+    padding: 0;
+}
+
+.treeMenuSwitchButtonDiv{
+    border-bottom: 1px solid #ccc;
+}
+
+.treeResultField {
+    font-size: x-large;
+}
+
+.treeResultField:hover{
+    background: #e6e6e6;
+    cursor: pointer;
+}
+
+.treeResultFieldBadge{
+    font-size: x-large;
+}
+
+.treeResultFieldLabel{
+
+}
+
+.treeResultFieldDescription{
+    font-size:16px;
+}
+
+.layerListMediaImg{
+    width:30px;
+}
+
+.btn.btn-lg.facetBtn{
+    font-size: small;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+}
+
+.facetBtnSubText{
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.btn.btn-lg.facetBtn:hover{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.btn.btn-lg.facetBtn:focus{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.btn.btn-lg.facetBtn:active{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.resultsOverlay{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s,visibility 0.2s;
+}
+
+.resultsOverlayExpanded{
+    opacity: 0.35;
+    visibility: visible;
+}
+
+.subFacets{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+.facetsPanel{
+    overflow: auto;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.resultsContainer{
+    height:100%;
+}
+
+.btn.treeSidebarTopBtn{
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+h1.treeSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom: 0;
+}
+
+.treeSidebarInputBar{
+}
+
+.treeSidebarResultsCounter{
+    opacity: 0.9;
+    font-size:small;
+}
+
+.treeSidebarResultsCounterBadge{
+    margin-bottom:3px;
+}
+
+.treeSidebarFacetsHideScrollbarDiv{
+    overflow:hidden;
+    position:relative;
+}
+
+.treeSidebarFacetButtonsContainer{
+    display:flex;
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.treeSidebarFacetButtonsContainerMobile{
+    margin-bottom: 0;
+}
+
+.subFacetButtonLink{
+    padding: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.resultsContainerLoadingNotice{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.treeBarLoadingNotice{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.noResultsMessage {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.treeButton{
+    height: 46px;
+}
+
+.treeSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    float: right;
+}
+
+.treeBarHeader{
+    position: relative;
+    top: -15px;
+}
+
+.searchResultField.treeLeafItem:hover {
+    background: #ffffff;
+    cursor: auto;
+}
+
+.treeLeafListViewerSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    right: 5px;
+    float: right;
+    padding-left: 5px;
+    top: 10px;
+}

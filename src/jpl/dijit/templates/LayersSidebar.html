@@ -1,0 +1,75 @@
+<div class="menu push-menu-layers">
+    <div id="layersscontainer">
+        <div class="layersSideBarTitleDiv">
+            <a class="layersSideBarLink invisible" rel="Search" data-content="Search" alt="Search" data-placement="left">
+                <span class="fa fa-arrow-left layersSideBarBtn"></span>
+            </a>
+            <h1 class="layerSidebarTitle">Layers</h1>
+            <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger layerSidebarTopBtn"><span id="layerSidebarBtnBack" class="fa fa-times layerSideBarBtn"></span></button>
+        </div>
+
+        <div class="btn-group btn-group-justified" role="group" aria-label="..." data-dojo-attach-point="layerSectionButtons">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default" data-dojo-attach-point="currentLayersListBtn">Added</button>
+            </div>
+            <div class="btn-group hidden" role="group" data-dojo-attach-point="autoLayersListBtnDiv">
+                <button type="button" class="btn btn-default" data-dojo-attach-point="autoLayersListBtn">Auto</button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default" data-dojo-attach-point="basemapLayersListBtn">Static</button>
+            </div>
+        </div>
+
+        <br/>
+
+        <div data-dojo-attach-point="currentLayersListDiv">
+            <div class = "currentLayersContainer">
+                <div class="nonStaticLayersContainerDiv">
+                    <div id="layersContainer" withHandles="true" class="list-group" data-dojo-attach-point="layersContainer"></div>
+                    <div id="npLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="npLayersContainer"></div>
+                    <div id="spLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="spLayersContainer"></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="autoLayersListDiv" class="hidden">
+            <div id="autoLayersContainer" withHandles="true" class="list-group" data-dojo-attach-point="autoLayersContainer"></div>
+            <div id="autoLayersNpContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="npAutoLayersContainer"></div>
+            <div id="autoLayersSpContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="spAutoLayersContainer"></div>
+        </div>
+
+        <div data-dojo-attach-point="basemapLayersListDiv" class="hidden">
+            <h3>Features</h3>
+            <div id="staticLayersContainerDiv" data-dojo-attach-point="staticLayersContainer">
+                <div id="staticEqLayersContainer" withHandles="true" class="list-group" data-dojo-attach-point="staticEqLayersContainer"></div>
+                <div id="staticNpLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="staticNpLayersContainer"></div>
+                <div id="staticSpLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="staticSpLayersContainer"></div>
+            </div>
+            <h3>Basemap</h3>
+            <div id="basemapContainer" withHandles="true" class="list-group" data-dojo-attach-point="basemapContainer"></div>
+            <div id="npBasemapContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="npBasemapContainer"></div>
+            <div id="spBasemapContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="spBasemapContainer"></div>
+        </div>
+
+        <div data-dojo-attach-point="nonindexerLayerList" class="hidden" style="margin-top: -30px;">
+            <h3 style="text-align:left;">Features:</h3>
+            <div id="nonIndexerLayersContainerDiv" data-dojo-attach-point="nonIndexerLayersContainerDiv">
+                <div id="nonIndexerEqLayersContainer" withHandles="true" class="list-group" data-dojo-attach-point="nonIndexerEqLayersContainer"></div>
+                <div id="nonIndexerNpLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="nonIndexerNpLayersContainer"></div>
+                <div id="nonIndexerSpLayersContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="nonIndexerSpLayersContainer"></div>
+            </div>
+            <h3 style="text-align:left;">Basemap:</h3>
+            <div id="nonIndexerBasemapContainer" withHandles="true" class="list-group" data-dojo-attach-point="nonIndexerBasemapContainer"></div>
+            <div id="nonIndexerNpBasemapContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="nonIndexerNpBasemapContainer"></div>
+            <div id="nonIndexerSpBasemapContainer" withHandles="true" class="list-group hidden" data-dojo-attach-point="nonIndexerSpBasemapContainer"></div>
+        </div>
+
+        <div>
+            <button class="btn btn-success layerSidebarAddBtn hidden" type="button"  data-dojo-attach-point="addLayerBtn"><span class="fa fa-plus controlActionIcon"></span> Add Layer</button>
+            <label class="autoLayersCheckboxContainer hidden" data-dojo-attach-point="autoLayersCheckboxContainer">
+                <input type="checkbox" data-dojo-attach-point="autoLayersCheckbox" checked>
+                Enable Auto Layers
+            </label>
+        </div>
+    </div>
+</div>

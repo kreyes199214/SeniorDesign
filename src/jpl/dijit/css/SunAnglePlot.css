@@ -1,0 +1,19 @@
+.SunAnglePlotLabel{
+	color: black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-weight: 500;
+	font-size: 12px;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+svg{
+	-webkit-filter:none;
+}
+
+.sunAnglePlotLegend table{
+	color: black;
+	background-color: white;
+	font-size: 11px;
+}
+

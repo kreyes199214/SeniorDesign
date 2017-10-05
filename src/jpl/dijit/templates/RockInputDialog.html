@@ -1,0 +1,72 @@
+<div id="rockInputContainer" data-dojo-attach-point="rockInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="rockInputDialogForm">
+                <div class="modal-header text-center">
+                    <button id="rockModalClose" data-dojo-attach-point="rockModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-visible="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"><b>Detect Rock</b></h4>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <table align="center" border="0">
+                            <tr>
+                                <td colspan="2">Bounding Box:</td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="rockTop" style="height:40px"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="rockLeft"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="rockRight"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="rockBottom"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" width="80%"nowrap>
+                                    data:&nbsp;&nbsp;
+                                    <div id="imgData"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" nowrap>
+                                    <b>Email</b>:<font color="red">*</font>
+                                    <div id="rockEmail"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer" style="padding:5px;text-align:center;">
+                    <button id="rockSubmitButton" data-dojo-attach-point="rockSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+                    <button id="rockRemoveButton" data-dojo-attach-point="rockRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

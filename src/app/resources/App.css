@@ -1,0 +1,1356 @@
+@import '../../bootstrap/assets/bootstrap.min.css';
+@import '../../bootstrap/assets/bootstrap-glyphicons.css';
+@import '../../bootstrap/assets/bootstrap-hubicons.css';
+@import '../../bootstrap/assets/font-awesome.min.css';
+@import '../../cesium/Widgets/widgets.css';
+@import '../../dijit/themes/claro/claro.css';
+@import '../../esri/css/esri.css';
+@import '../../bootstrap/assets/roboto.css';
+@import '../../bootstrap-tour/tour.css';
+@import '../../jpl/dijit/css/Calendar.css';
+@import '../../jpl/dijit/css/TimePicker.css';
+@import '../../jpl/dijit/css/FormCommon.css';
+@import '../../jpl/dijit/css/Modal.css';
+@import '../themes/theme.css';
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    background-color:#000;
+    overflow:hidden;
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 300;
+    font-size:12px;
+    color: #c8c8c8;*/
+}
+
+::selection {
+    background: #D3D3D3;
+    color: #696969;
+}
+
+::-moz-selection {
+    background: #D3D3D3;
+    color: #696969;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 200;
+    color: #c8c8c8;*/
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+a img {
+    border: 0;
+    outline: none;
+}
+
+a {
+    color: #888888;
+}
+
+a:hover, a:focus {
+    color: #b9b9b9;
+    text-decoration: none;
+    outline: none;
+}
+
+.bigTitle{
+    font-size: 3em;
+    color: lightgrey;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.layersDiv svg {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.layersDiv svg text:hover{
+    cursor:pointer;
+    text-shadow:
+            0 0 0 #fff,
+            0 0 #fff,
+            0 0 0 #fff,
+            0 0 0 #fff;
+}
+
+#_internal_LabelLayer_layer > text:hover {
+    text-shadow:
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000;
+    cursor:pointer;
+}
+
+*[id^="nomenclature_sp"][id$="_layer"] > text:hover{
+    text-shadow:
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000;
+    cursor:pointer;
+}
+
+*[id^="nomenclature_np"][id$="_layer"] > text:hover{
+    text-shadow:
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000,
+            0 0 0 #000;
+    cursor:pointer;
+}
+
+/****** START DOJO OVERRIDES *****/
+/*
+.claro .dijitContentPane {
+    padding: 0 !important;
+}
+
+.claro .dijitSliderImageHandleH {
+    width: 18px;
+    height: 16px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: solid 1px #666;
+    background-color: #f9f9f9;
+    background-image: none;
+}
+
+.claro .dijitSlider .dijitSliderProgressBarH, .claro .dijitSlider .dijitSliderLeftBumper {
+    border-color: #444;
+    background-color: #2778db;
+    height: 5px;
+}
+
+.claro .dijitSlider .dijitSliderRemainingBarH, .claro .dijitSlider .dijitSliderRightBumper {
+    border-color: #444;
+    background-color: #eee;
+    height: 5px;
+}
+
+.claro .dijitSlider .dijitSliderProgressBarH, .claro .dijitSlider .dijitSliderLeftBumper {
+    background-image: none;
+}
+
+.dijitRuleLabelH {
+    position: relative;
+    left: -70%;
+}
+
+.claro .dijitSliderButtonContainerH {
+    padding: 0;
+}
+
+.claro .dijitCheckBox, .claro .dijitCheckBoxIcon {
+    margin: -2.6px 1px 0 0;
+}
+
+.claro .dijitRuleLabelsContainerH {
+    padding: 2px 0;
+}
+.claro .dijitRuleLabelsContainer {
+    color: #000000;
+}
+.claro .dijitRuleLabelsContainerH {
+    padding: 2px 0;
+}
+.claro .dijitRuleLabelsContainer {
+    color: #000000;
+}
+
+.dijitRuleLabelsContainer {
+    width: 90%;
+    left: 4%;
+}
+.dijitRuleContainer {
+    position: relative;
+    overflow: visible;
+}
+.dijitRuleContainer {
+    position: relative;
+    overflow: visible;
+}
+*/
+
+.dojoDndTarget:hover{
+    cursor: move;
+}
+
+/****** END DOJO OVERRIDES *****/
+
+
+
+/****** START ESRI OVERRIDES *****/
+.esriScalebarLabel {
+    color: #cccccc;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+    top: 5px;
+    font-size: 1.3em;
+}
+
+.esriSimpleSlider div {
+    /*background-color: #3B4146 !important;*/
+    color: #C8C8C8;
+    font-size: 1.5em !important;
+    font-weight: normal;
+    height: 1.7em;
+}
+
+.esriSimpleSlider {
+    width: 32px;
+    height: 63px;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    border: solid 1px #c8c8c8 !important;
+    bottom: 10px !important;
+    left: 15px !important;
+}
+
+.esriSimpleSlider:hover
+.esriSimpleSliderTL {
+    bottom: 10px !important;
+    right: 10px !important;
+}
+
+.esriSimpleSliderDecrementButton:hover, .esriSimpleSliderIncrementButton:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.esriScalebar {
+}
+
+.esriScalebarLine {
+    border-color: #C8C8C8;
+    -webkit-box-shadow: 0 2px 2px -1px black;
+    -moz-box-shadow: 0 2px 2px -1px black;
+    box-shadow: 0 2px 2px -1px black;
+}
+
+.esriScaleLabelDiv {
+    top: 7px !important;
+    font-size: 0.8em;
+}
+
+.esriControlsBR {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    font-size: 0.85em;
+    z-index: 99999;
+    text-align: center;
+}
+
+.esriAttribution {
+    color: #fff !important;
+    text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+    font-size: 1.2em !important;
+}
+
+.esriOverviewMap .ovwContainer {
+    left: 0;
+    bottom: 0;
+    border: solid 1px #555555;
+    border-radius: 2px;
+    background-color: #000;
+}
+
+.esriPopup .actionsPane {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.esriPopup .titleButton.maximize{
+    display: none;
+}
+
+.esriPopup {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.esriPopup .titlePane {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.esriPopup .pointer.top {
+    background: #FFFFFF;
+}
+
+.esriPopup .titlePane {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    font-size:14px;
+}
+
+.esriPopup .contentPane {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.esriPopup .actionsPane {
+    background-color: #ffffff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.close:focus, .close:hover {
+    opacity: 1;
+}
+
+/****** END ESRI OVERRIDES *****/
+
+
+/****** START BOOTSTRAP OVERRIDES *****/
+#navBar.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.navbar-nav>li>a {
+    font-size: 15px;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.navbar-default .navbar-nav > .active {
+    background:none;
+}
+
+.map .tooltip {
+    opacity: 1 !important;
+}
+
+.tooltip-inner {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #c8c8c8;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+}
+
+button.close {
+    color:#d9534f;
+    opacity:1;
+}
+
+button.close:focus, button.close:hover{
+    color:#c9302c;
+    opacity:1;
+}
+/*
+.btn-group>.btn-group:first-child>.btn:last-child, .btn-group>.btn-group:first-child>.dropdown-toggle {
+    border-radius: 0;
+}
+*/
+
+element.style {
+    /* padding: 3px; */
+}
+
+/*
+.btn-group>.btn-group:first-child>.btn:last-child, .btn-group>.btn-group:first-child>.dropdown-toggle {
+    border-radius: 0;
+}
+*/
+
+
+/*
+.btn-group-justified>.btn-group .btn {
+    padding: 4px;
+    font-weight: 300;
+    font-size: 0.95em;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+}
+*/
+
+/*
+.modal {
+    top: 40px;
+}
+*/
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-footer {
+    padding:5px;
+    text-align:center;
+}
+
+.popover-content {
+    font-size: 1.1em;
+}
+
+.btn{
+    border-radius:0;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.panel {
+    border-radius: 0;
+}
+
+.thumbnail {
+    border-radius: 0;
+}
+
+.form-group-lg .form-control {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.close {
+    opacity: .8;
+}
+
+.btn.controlButton.noActive:active{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: white 0 0 0 0;
+}
+
+.btn.controlButton.noActive:focus{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.btn.controlButton.noActive:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    box-shadow: none;
+}
+
+#controlBarTopRight .noActive:active{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: white 0 0 0 0;
+}
+
+#controlBarTopRight .noActive:focus{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+#controlBarTopRight .noActive:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    box-shadow: none;
+}
+
+.btn.btn-default.searchResetTopRightButton.noActive:active{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: white 0 0 0 0;
+}
+.btn.btn-default.searchResetTopRightButton.noActive:focus{
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: none;
+}
+.btn.btn-default.searchResetTopRightButton.noActive:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    box-shadow: none;
+}
+
+.dijitInputInner{
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.dijitInputInner:focus{
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+/****** END BOOTSTRAP OVERRIDES *****/
+
+/****** START BOOTSTRAP TOUR OVERRIDES *****/
+.popover {
+    border-radius: 0;
+}
+
+.popover[class*="tour-"] .popover-title {
+    border-radius: 0 0;
+}
+
+.popover-title {
+    border-radius: 0 0 0 0;
+}
+/****** END BOOTSTRAP TOUR OVERRIDES *****/
+
+
+/****** START CESIUM OVERRIDES *****/
+.cesium-widget-credits {
+    display:none !important;
+}
+/****** END CESIUM OVERRIDES *****/
+
+
+/****** START GLOBAL STYLES *****/
+#appDiv {
+    overflow:hidden;
+    position:relative;
+}
+
+#appLoadingDiv {
+    width:100%;
+    height:100%;
+    text-align:center;
+    margin-top:100px;
+    font-size:24px;
+}
+
+#appDiv, #mainSearchMap, #equiSearchMap {
+    width: 100%;
+    height: 100%;
+}
+
+#equiSearchMap_zoom_slider {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mainContentWrapper {
+    position: relative;
+    /*z-index: 10;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.map {
+    width:100% !important;
+    height: 100% !important;
+}
+
+.element-invisible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.containerVisible {
+    visibility: visible;
+    opacity: 1;
+}
+.containerHidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu{
+    font-size:16px;
+}
+
+div.menu {
+    position: absolute;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*
+div.push-menu-right {
+    top: 0;
+    width: 300px;
+    height: 100%;
+    right: -300px;
+}
+
+body.sidebar-open div.push-menu-right {
+    right: 0
+}
+body.sidebar-open #mainContentWrapper {
+    left: 300px
+}
+body.sidebar-open #mainContentWrapper {
+    left: -300px
+}
+*/
+
+.sidenav-gallery ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav-gallery ul li {
+    vertical-align: middle;
+    display: block;
+    border-bottom: solid 1px #111;
+    border-top: solid 1px #555;
+}
+
+.sidenav-gallery ul li:hover {
+    background-color: #222222;
+}
+
+/*
+.sidenav-gallery ul li:first-child {
+    padding: 0;
+}
+
+.sidenav-gallery ul li:first-child:hover {
+    background-color: #333;
+    cursor: default;
+}
+*/
+.sidenav-gallery ul li:last-child {
+    border-bottom: none;
+}
+
+.sidenav-gallery ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidenav-gallery ul li a:hover {
+    text-decoration: none;
+}
+
+.sidenav-gallery-item-selected {
+    background-color: #222;
+}
+
+.sidenav-gallery-item-thumb {
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid #555;
+    float: left;
+    margin-right: 10px;
+}
+
+.sidenav-gallery-item-label-container {
+    width: 100%;
+    height: 48px;
+    display: block;
+}
+
+.sidenav-gallery-item-label-container h6 {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav-gallery-item-label-container p {
+    font-weight: 200;
+}
+
+.gallery-description {
+    padding: 0px 10px;
+    text-align:center;
+}
+
+.overview-arrow-box {
+    position: relative;
+    background: #000;
+    border: 4px solid #c8c8c8;
+}
+.overview-arrow-box:after, .overview-arrow-box:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.overview-arrow-box:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-right-color: #000;
+    border-width: 20px;
+    margin-top: -20px;
+}
+.overview-arrow-box:before {
+    border-color: rgba(200, 200, 200, 0);
+    border-right-color: #c8c8c8;
+    border-width: 26px;
+    margin-top: -26px;
+}
+
+.nomenclature-info {
+    background: none;
+}
+
+.nomenclature-info th {
+    padding-right: 10px;
+    text-align: right;
+    font-weight: normal;
+    vertical-align: top;
+}
+
+.nomenclature-info td {
+    text-align: left;
+}
+
+a.url-link, a.url-link:active {
+    text-decoration:none;
+    color:#87AFE2;
+}
+
+a.url-link:hover, a.url-link:focus {
+    text-decoration: underline;
+    color:#2b71c6;
+}
+
+
+.thumbnail.with-caption {
+    display: inline-block;
+    background: #e9e9e9;
+    border: solid 1px #999999;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.thumbnail.with-caption.inline-left {
+    width: 150px;
+    margin: 5px 10px 0 0;
+    float: left;
+}
+
+.thumbnail.with-caption.inline-right {
+    width: 150px;
+    margin: 5px 0 0 10px;
+    float: right;
+}
+
+.thumbnail.with-caption p {
+    margin: 0;
+    padding: 4px;
+    color: #333;
+    text-align: left;
+    font-size: 0.75em;
+}
+.thumbnail.with-caption small:before {
+    content: '\2014 \00A0';
+}
+.thumbnail.with-caption small {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #999;
+}
+
+/*
+circle {
+    cursor: pointer;
+}
+*/
+
+kbd {
+    font-size: 1.1em;
+    padding: 0 5px;
+}
+
+.invisible {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hidden{
+    display:none;
+}
+
+.activeLayerListMediaItem .mediaItemIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.activeLayerListMediaItem .mediaItemIconSizeToFit{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.activeLayerListMediaItem .mediaItemIconAutoLayer{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.activeLayerListMediaItem .mediaItemIconSizeToFitAutoLayer{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.activeLayerListMediaItem .mediaItemIconSizeToFitAutoLayer:hover{
+    color: #0000EE;
+}
+
+.activeLayerListMediaItem .mediaItemIconSizeToFit:hover{
+    color: #0000EE;
+}
+
+.activeLayerListMediaItem .mediaItemIcon:hover{
+    color: #0000EE;
+}
+
+.activeLayerListMediaItem .mediaItemIconAutoLayer:hover{
+    color: #0000EE;
+}
+
+.activeLayerListMediaItem .mediaItemIcon.mediaItemIconDanger:hover{
+    color: #FF0000;
+}
+
+.activeLayerListMediaItem .mediaItemIconList{
+    float: left;
+}
+
+.activeLayerListMediaItem .mediaItemImg{
+    height: 80px;
+}
+
+.activeLayerListMediaItem .mediaItemImgAutoLayer{
+    height: 40px;
+}
+
+
+.legendIconOpen{
+    color: rgb(23, 209, 69);
+}
+
+.iconDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bootstrapTourBtn{
+    color: #d9534f;
+}
+
+.bootstrapTourBtn:hover{
+    color: #c9302c;
+}
+
+
+/*Context menu classes from http://js.arcgis.com/3.14/dijit/themes/claro/claro.css*/
+.claro .dijitPopup {
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.dijitPopup {
+    position: absolute;
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+}
+.claro .dijitMenuTable {
+    border-collapse: separate;
+    border-spacing: 0 0;
+    padding: 0;
+}
+.claro .dijitMenu {
+    background-color: #ffffff;
+    /**border: 1px solid #759dc0;**/
+    /**border: 1px solid #ffffff;**/
+    border: 0px;
+}
+.claro .dijitMenu{
+    background: #ffffff;
+}
+.dijitMenuTable {
+    border-collapse: collapse;
+    border-width: 0;
+    background-color: white;
+}
+.dijitMenu {
+    border: 1px solid black;
+    background-color: white;
+}
+.dijitReset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    line-height: normal;
+    color: inherit;
+}
+
+.claro .dijitMenu .dijitMenuItemHover td, .claro .dijitMenu .dijitMenuItemSelected td, .claro .dijitMenuItemHover, .claro .dijitComboBoxMenu .dijitMenuItemHover, .claro .dijitMenuItemSelected {
+    border-color: #ffffff;
+}
+.claro .dijitMenuItem {
+    color: #000000;
+}
+.dijitMenuPassive .dijitMenuItemHover, .dijitMenuItemSelected {
+    color: black;
+}
+/* hover over a MenuItem or MenuBarItem */
+.claro .dijitMenu .dijitMenuItemHover td,
+.claro .dijitMenu .dijitMenuItemSelected td,
+.claro .dijitMenuItemHover,
+.claro .dijitComboBoxMenu .dijitMenuItemHover,
+.claro .dijitMenuItemSelected {
+    border-color: #759dc0;
+    background-color: #abd6ff;
+    background-image: url("images/standardGradient.png");
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 100%);
+    background-image: -webkit-linear-gradient(rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 100%);
+    background-image: -o-linear-gradient(rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 100%);
+    background-image: linear-gradient(rgba(230, 230, 230, 1) 0%, rgba(230, 230, 230, 1) 100%);
+    _background-image: none;
+}
+.dijitMenuItem {
+    text-align: left;
+    white-space: nowrap;
+    padding: .1em .2em;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.claro .dijitMenuPopup .claro .dijitMenu{
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.dijitMenuItem:focus {
+    outline: none;
+}
+.claro .dijitMenu .dijitMenuItem td, .claro .dijitComboBoxMenu .dijitMenuItem {
+    padding: 2px;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ffffff;
+}
+.claro td.dijitMenuItemIconCell {
+    padding: 2px;
+    margin: 0 0 0 4px;
+}
+.dijitNoIcon {
+    display: none;
+}
+.dijitMenuItemIcon, .dijitMenuExpand {
+    background-repeat: no-repeat;
+}
+.dijitInline {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.dj_webkit .dijitMenuTable td[colspan="2"] {
+    border-right: hidden;
+}
+.claro td.dijitMenuItemLabel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dijitMenuItemLabel {
+    vertical-align: middle;
+}
+.dijitMenuSeparator td {
+    border: 0;
+    padding: 0;
+}
+.claro .dijitMenuSeparatorTop {
+    height: auto;
+    margin-top: 1px;
+    border-bottom: 1px solid #b5bcc7;
+}
+.dijitMenuSeparatorTop {
+    height: 50%;
+    margin: 0;
+    margin-top: 3px;
+    font-size: 1px;
+}
+.claro .dijitMenuSeparatorBottom {
+    height: auto;
+    margin-bottom: 1px;
+}
+.dijitMenuSeparatorBottom {
+    height: 50%;
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 1px;
+}
+.dijitMenuSeparator td {
+    border: 0;
+    padding: 0;
+}
+/*End Context menu classes*/
+
+.popupButtonContainerP{
+    text-align:center;
+}
+
+/*Sliderbar*/
+.dijitSliderDecorationH {
+    width: 100%;
+}
+.dijitSliderDecoration {
+    text-align: center;
+}
+.dijitRuleContainer {
+    position: relative;
+    overflow: visible;
+}
+.dijitRuleLabelContainerH {
+    text-align: center;
+    display: inline-block;
+}
+.dijitRuleLabelContainer {
+    position: absolute;
+}
+.dijitRuleLabelContainerH {
+    text-align: center;
+}
+.claro .dijitSliderButtonContainerH {
+    padding: 1px 3px 1px 2px;
+}
+.dijitSliderButtonContainer {
+    text-align: center;
+    height: 0;
+}
+.claro .dijitSliderDecrementIconH {
+    background-position: -357px 50%;
+}
+.claro .dijitSliderDecrementIconH, .claro .dijitSliderIncrementIconH {
+    height: 12px;
+    width: 9px;
+}
+.claro .dijitSliderDecrementIconH, .claro .dijitSliderIncrementIconH, .claro .dijitSliderDecrementIconV, .claro .dijitSliderIncrementIconV {
+    background-image: url("form/images/commonFormArrows.png");
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #b5bcc7;
+    font-size: 1px;
+}
+.dijitSliderButtonContainer * {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.dijitSliderButtonContainer {
+    text-align: center;
+}
+.dijitSliderBarContainerH {
+    position: relative;
+    z-index: 1;
+}
+.claro .dijitSlider .dijitSliderProgressBarH, .claro .dijitSlider .dijitSliderLeftBumper {
+    border-color: #b5bcc7;
+    background-color: #cfe5fa;
+    background-image: -moz-linear-gradient(top, #ffffff 0px, #ffffff 1px, rgba(255, 255, 255, 0) 2px);
+    background-image: -webkit-linear-gradient(top, #ffffff 0px, #ffffff 1px, rgba(255, 255, 255, 0) 2px);
+    background-image: -o-linear-gradient(top, #ffffff 0px, #ffffff 1px, rgba(255, 255, 255, 0) 2px);
+    background-image: linear-gradient(top, #ffffff 0px, #ffffff 1px, rgba(255, 255, 255, 0) 2px);
+}
+.claro .dijitSliderBar {
+    border-style: solid;
+    outline: 1px;
+}
+.dijitSliderProgressBarH {
+    position: absolute !important;
+    width: 0;
+    vertical-align: middle;
+    overflow: visible;
+}
+.dijitSliderProgressBar {
+    background-color: red;
+    z-index: 1;
+}
+.dijitSliderBarH {
+    height: 4px;
+    border-width: 1px 0;
+}
+.dijitSliderBar {
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.dijitSliderMoveableH {
+    right: 0;
+}
+.dijitSliderMoveable {
+    z-index: 99;
+    position: absolute !important;
+    display: block;
+    vertical-align: middle;
+}
+.dijitSliderBar {
+    cursor: pointer;
+}
+.claro .dijitSliderImageHandleH {
+    width: 18px;
+    height: 16px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: solid 1px #666;
+    background-color: #f9f9f9;
+    background-image: none;
+}
+.dijitSliderImageHandleH {
+    left: 50%;
+    top: -5px;
+    vertical-align: top;
+}
+.dj_a11y div.dijitSliderImageHandle, .dijitSliderImageHandle {
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    border: 8px solid gray;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.claro .dijitSlider .dijitSliderRemainingBarH, .claro .dijitSlider .dijitSliderRightBumper {
+    border-color: #b5bcc7;
+    background-color: #ffffff;
+}
+.claro .dijitSliderBar {
+    border-style: solid;
+    outline: 1px;
+}
+.dijitSliderRemainingBarH {
+    width: 100% !important;
+}
+.dijitSliderRemainingBar {
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 1;
+}
+.dijitSliderBarH {
+    height: 4px;
+    border-width: 1px 0;
+}
+.dijitSliderBar {
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.dijitRuleMarkH {
+    width: 0;
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+    border-left-width: 0 !important;
+}
+.dijitRuleMark {
+    position: absolute;
+    border: 1px solid black;
+    line-height: 0;
+    height: 100%;
+}
+.claro .dijitRuleLabelsContainerH {
+    padding: 2px 0;
+}
+.claro .dijitRuleLabelsContainer {
+    color: #000000;
+}
+.dijitRuleLabelContainerH {
+    text-align: center;
+    display: inline-block;
+}
+.dijitRuleLabelContainer {
+    position: absolute;
+}
+.dijitRuleLabelH {
+    position: relative;
+    left: -50%;
+}
+.claro .dijitSliderBar {
+    border-style: solid;
+    outline: 1px;
+}
+.dijitSliderProgressBarH {
+    position: absolute !important;
+    width: 0;
+    vertical-align: middle;
+    overflow: visible;
+}
+.dijitSliderProgressBar {
+    background-color: red;
+    z-index: 1;
+}
+.dijitSliderBarH {
+    height: 4px;
+    border-width: 1px 0;
+}
+.dijitSliderBar {
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.dijitSliderMoveableH {
+    right: 0;
+}
+.dijitSliderMoveable {
+    z-index: 99;
+    position: absolute !important;
+    display: block;
+    vertical-align: middle;
+}
+.dijitSliderImageHandleH {
+    left: 50%;
+    top: -5px;
+    vertical-align: top;
+}
+.dj_a11y div.dijitSliderImageHandle, .dijitSliderImageHandle {
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    border: 8px solid gray;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.bottomLogo {
+    position: absolute;
+    bottom: 120px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+}
+
+.helpZIndexFront{
+    z-index:105;
+}
+
+.esriScalebar{
+    z-index:0;
+    font-size: 11px;
+}
+
+.popupShowNomenclatureInSidebarBtn{
+    font-size:12px;
+}
+
+
+.viewerTopRightButton{
+    height: 34px;
+    width: 34px;
+    padding: 0;
+}
+
+.controlBarHide{
+    display: none;
+}
+
+.btn-group-vertical>.btn.controlBarHide{
+    display: none;
+}

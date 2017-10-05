@@ -1,0 +1,20 @@
+{
+  "_comment": "default basemaps order: eq,np,sp",
+  "defaultBasemaps": [
+      "Mars_Viking_MDIM21_ClrMosaic_global_232m",
+      "Mars_Viking_MDIM21_ClrMosaic_global_232m_np",
+      "Mars_Viking_MDIM21_ClrMosaic_global_232m_sp"
+  ],
+  "basemaps": {
+      "equirect": [
+        "Mars_Viking_MDIM21_ClrMosaic_global_232m"
+      ],
+      "n_pole": [
+        "Mars_Viking_MDIM21_ClrMosaic_global_232m_np"
+      ],
+      "s_pole": [
+        "Mars_Viking_MDIM21_ClrMosaic_global_232m_sp"
+      ]
+
+  }
+}

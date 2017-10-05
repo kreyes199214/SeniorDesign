@@ -1,0 +1,280 @@
+div.push-menu-search {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -615px;
+    max-width: 615px;
+    display: none;
+}
+
+body.search-sidebar-open div.push-menu-search {
+    left: 0;
+    display: inline;
+}
+body.search-sidebar-open #mainContentWrapper {
+    width: calc(100% - 615px);
+    left: 615px;
+}
+
+.searchSideBarTitleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchSideBarLink{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+}
+
+.searchSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+.viewerBackLink{
+    font-size: 25px;
+    padding-right: 10px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flexDiv{
+    display:flex;
+}
+
+.viewerPanelTitle{
+    display:flex;
+}
+
+.tableOfContentsTitle{
+    font-size:30px;
+}
+
+.searchSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+#searchsidebarStackContainer{
+    padding: 15px 15px 0 15px;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.searchBarResults{
+    position: relative;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.searchMenuSearchList{
+    position: relative;
+    overflow: auto;
+}
+
+.searchMenuSwitchButton{
+    float: right;
+    padding: 0;
+}
+
+.searchMenuSwitchButtonDiv{
+    border-bottom: 1px solid #ccc;
+}
+
+.searchResultField {
+    font-size: x-large;
+    padding: 10px 10px;
+}
+
+.searchResultField:hover{
+    background: #e6e6e6;
+    cursor: pointer;
+}
+
+.searchResultFieldBadge{
+    font-size: x-large;
+}
+
+.searchResultFieldLabel{
+
+}
+
+.searchResultFieldDescription{
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.layerListMediaImg{
+    width:30px;
+    text-align: center;
+}
+
+.btn.btn-lg.facetBtn{
+    font-size: small;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+}
+
+.facetBtnSubText{
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.btn.btn-lg.facetBtn:hover{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.btn.btn-lg.facetBtn:focus{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.btn.btn-lg.facetBtn:active{
+    box-shadow: none;
+    background: white;
+    background-image: linear-gradient( white 96%, #e6e6e6 96% );
+}
+
+.resultsOverlay{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s,visibility 0.2s;
+}
+
+.resultsOverlayExpanded{
+    opacity: 0.35;
+    visibility: visible;
+}
+
+.subFacets{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+.facetsPanel{
+    overflow: auto;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.resultsContainer{
+    height:100%;
+}
+
+.btn.searchSidebarTopBtn{
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+h1.searchSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom: 0;
+}
+
+.searchSidebarInputBar{
+}
+
+.searchSidebarResultsCounter{
+    opacity: 0.9;
+    font-size:small;
+}
+
+.searchSidebarResultsCounterBadge{
+    margin-bottom:3px;
+}
+
+.searchSidebarFacetsHideScrollbarDiv{
+    overflow:hidden;
+    position:relative;
+}
+
+.searchSidebarFacetButtonsContainer{
+    display:flex;
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+    position:relative;
+}
+
+.searchSidebarFacetButtonsContainerMobile{
+    margin-bottom: 0;
+}
+
+.subFacetButtonLink{
+    padding: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.resultsContainerLoadingNotice{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.searchBarLoadingNotice{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.noResultsMessage {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.searchButton{
+    height: 46px;
+}
+
+.searchSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    float: right;
+}
+
+.searchBarHeader{
+    position: relative;
+    top: -15px;
+    margin-bottom: 10px;
+}
+
+.bookmarkSearchResultItemIcon{
+    width: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+.nomenclatureSearchResultItemIcon{
+    width: 30px;
+    text-align: center;
+}
+
+.layerSetSearchResultItemIcon{
+    width:30px;
+    text-align: center;
+    font-size: larger;
+}

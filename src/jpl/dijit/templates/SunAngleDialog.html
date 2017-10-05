@@ -1,0 +1,77 @@
+<div>
+    <div id="sunAngleModal" data-dojo-attach-point="sunAngleModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="sunAngleForm">
+                    <div class="modal-header text-center">
+                        <button id="sunangleModalClose" data-dojo-attach-point="sunangleModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"><b>Calculate Sun Angle</b></h4>
+                    </div>
+                    <div class="modal-body" style="font-size:1.1em;">
+                                   
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Start Date(UTC):
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saStartDate"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;     
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saStartHour"></div>&nbsp;:&nbsp;
+                      <div id="saStartMinute"></div>&nbsp;:&nbsp;
+                      <div id="saStartSecond"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      End Date(UTC):
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saEndDate"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;   
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saEndHour"></div>&nbsp;:&nbsp;
+                      <div id="saEndMinute"></div>&nbsp;:&nbsp;
+                      <div id="saEndSecond"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Interval:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saInterval"></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <div data-dojo-attach-point="sunAngleValidationText" style="display:none;padding:5px;text-align:center;color:#FF3E3E;"><p>The start date and time must be before the end date and time.</p></div>
+
+                <div data-dojo-attach-point="sunAngleCancelButton" class="modal-footer" style="padding:5px;text-align:center;">
+                  <button data-dojo-attach-point="sunAngleSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+                  <button id="sunangleMoveButton" data-dojo-attach-point="sunangleMoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move Marker</button>
+-->
+                  <button id="sunangleRemoveButton" data-dojo-attach-point="sunangleRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>

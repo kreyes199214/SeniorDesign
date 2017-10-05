@@ -1,0 +1,165 @@
+{
+  "_comment": "Application Config",
+  "trekID": "moon",
+  "title": "Moon Trek",
+  "theme": "",
+  "controls": {
+    "basemaps": true,
+    "bookmarks": false,
+    "explore": true,
+    "help": true,
+    "layers": true,
+    "login": true,
+    "mappermalink": true,
+    "projection": true,
+    "search": true,
+    "socialmedia":true,
+    "tools": true,
+    "scalebars": true,
+    "flyto": true
+  },
+  "tools": {
+    "overHeadOrbiters": true,
+    "overHeadSunEarth": false,
+    "pin": true,
+    "box": true,
+    "ellipse": false,
+    "line": true,
+    "polyline": true,
+    "freeline": true
+  },
+  "menu":{
+    "annotations": false,
+    "createBookmarks": false,
+    "about": true,
+    "contact": true,
+    "credits": true,
+    "relatedLinks": true,
+    "releaseNotes": false,
+    "systemRequirements": true,
+    "help": true,
+    "login": true
+  },
+  "autoLayersConfig":{
+    "useAutoLayers": true
+  },
+  "useIndexerLayers": true,
+
+  "googleAnalyticsID": "UA-85905476-1",
+  "permalinkVersions": ["0.1"],
+  "startsWithGlobe": false,
+  "layerOptions": {
+    "removable": false,
+    "downloadable": true,
+    "metadata": true
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": false,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 1737400,
+  "elevationPoints": 100,
+  "elevationMinValue": -9126,
+  "equatorialRadiusKm": 0.2725,
+  "projections": {
+    "northpole": "urn:ogc:def:crs:IAU2000::30118",
+    "southpole": "urn:ogc:def:crs:IAU2000::30120",
+    "equirect": "urn:ogc:def:crs:EPSG::104903"
+  },
+  "extents": {
+    "northpole": {
+      "xmin":-1095700.000,
+      "ymin":-1095600.000,
+      "xmax":1095600.000,
+      "ymax":1095700.000,
+      "wkid": "",
+      "wkt": "PROJCS[\"Moon_np\",GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin":-1095700.000,
+      "ymin":-1095600.000,
+      "xmax":1095600.000,
+      "ymax":1095700.000,
+      "wkid": "",
+      "wkt": "PROJCS[\"Moon2000_sp\",GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "104903",
+      "wkt": "GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433],AUTHORITY[\"ESRI\",104903]]"
+    }
+  },
+
+  "_comment": "Nomenclature",
+  "nomenclatureTypeKey": "CATEGORY",
+  "nomenclatureFields": {
+    "FEATURE": "Name",
+    "DIAMETER":"Diameter",
+    "CENTER_LAT":"Latitude",
+    "CENTER_LON":"Longitude",
+    "ORIGIN":"Origin",
+    "ETHNICITY":"Ethnicity",
+    "TYPE":"Type",
+    "LINK":"Additional Info"
+  },
+
+  "nomenclatureMarkers": {
+    "region": "jpl/assets/images/markers/mountain.png",
+    "mission": "jpl/assets/images/markers/mountain.png",
+    "craters": "jpl/assets/images/markers/mountain.png",
+    "volcanos": "jpl/assets/images/markers/mountain.png"
+  },
+
+  "_comment": "Service Information Config",
+
+  "services": {
+    "elevationService": {
+      "northpole": "http://lmmpdev-webclient/TrekServices/ws/elevationProfileNP/calculate",
+      "southpole": "http://lmmpdev-webclient/TrekServices/ws/elevationProfileSP/calculate",
+      "equirect": "http://lmmpdev-webclient/TrekServices/ws/elevationProfile/calculate"
+    },
+    "distanceService": {
+      "northpole": "http://lmmpdev-webclient/TrekServices/ws/elevationProfileNP/distance",
+      "southpole": "http://lmmpdev-webclient/TrekServices/ws/elevationProfileSP/distance",
+      "equirect": "http://lmmpdev-webclient/TrekServices/ws/elevationProfile/distance"
+    },
+    "globalDEMService": {
+      "northpole": "https://moontrek.jpl.nasa.gov/arcgis/rest/services/LRO_LOLA_DEM_NPole45_100mp_v04/ImageServer",
+      "southpole": "https://moontrek.jpl.nasa.gov/arcgis/rest/services/LRO_LOLA_DEM_SPole45_100mp_v04/ImageServer",
+      "equirect":"https://moontrek.jpl.nasa.gov/arcgis/rest/services/LRO_LOLA_DEM_Global_256ppd_v06/ImageServer"
+    },
+
+    "registerationUrl" : "https://marstrekbeta.jpl.nasa.gov/TrekServices/ws/tm/submit",
+    "getLayerServicesUrl": "http://lmmpdev-webclient/TrekServices/ws/index/getLayerServices?uuid=",
+    "getAttachmentsUrl" : "http://lmmpdev-webclient/TrekServices/ws/index/getAttachments?uuid=",
+    "getItemUrl": "http://lmmpdev-webclient/TrekServices/ws/index/PROJECTION/getItem?productLabel=&extID=",
+    "searchItemsUrl": "http://lmmpdev-webclient/TrekServices/ws/index/PROJECTION/searchItems?serviceType=&bbox=&shape=&key=&proj=&start=&rows=&facetKeys=&facetValues=&intersects=&resolutionMin=&resolutionMax=",
+    "searchCoveredDEMUrl": "http://lmmpdev-webclient/TrekServices/ws/index/PROJECTION/searchDEM?bbox=",
+    "basemapService": "jpl/config/basemapList.json",
+    "layersService": "jpl/config/staticLayers.json",
+    "terrainEndpoint": "https://marshub.s3.amazonaws.com/moon_v5/",
+    "stlService": "http://lmmpdev-webclient/TrekServices/ws/model/moon/trekSTL.stl",
+    "objService": "http://lmmpdev-webclient/TrekServices/ws/model/moon/trekOBJ.zip",
+    "getLayerAbstractUrl": "https://moontrek.jpl.nasa.gov/TrekWS/rest/cat/abstract?label=",
+    "getLayerMetadataUrl": "https://moontrek.jpl.nasa.gov/TrekWS/rest/cat/metadata/fgdc/html?label=",
+    "downloadLayerMetadataUrl": "https://moontrek.jpl.nasa.gov/TrekWS/rest/cat/metadata/stream?label=",
+    "getLayerDataUrl": "https://moontrek.jpl.nasa.gov/TrekWS/rest/cat/data/stream?label=",
+    "getLayerLegendUrl": "https://moontrek.jpl.nasa.gov/TrekWS/rest/cat/legend/stream?label=",
+    "sunAngleService": "//moontrek.jpl.nasa.gov/getAzElfromT1",
+    "ldapService": "https://www.lmmp.nasa.gov/openam/json",
+    "lightingService": "https://moontrek.jpl.nasa.gov/TrekWS/rest/light",
+    "slopeService": "https://moontrek.jpl.nasa.gov/TrekWS/rest/slope",
+    "espService": "https://moontrek.jpl.nasa.gov/TrekWS/rest/esp",
+    "subsetService": "https://moontrek.jpl.nasa.gov/TrekWS/rest/transform/latlon/subset/stream/tiff",
+    "vrViewer": "https://moontrek.jpl.nasa.gov/VRViewer",
+    "autoLayers": "jpl/config/autoLayers.json",
+    "searchRockCraterInput": "http://54.237.80.7:8080/DSBservice/webapi/lroc/CUMINDEX/CDR/?bbox="
+  }
+
+}

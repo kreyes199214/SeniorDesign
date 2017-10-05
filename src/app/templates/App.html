@@ -1,0 +1,85 @@
+<div>
+
+    <div id="mainContentWrapper">
+        <div id="mainSearchMap" data-dojo-type="jpl/dijit/SearchMap"></div>
+        <div id="3dGlobeView" data-dojo-attach-point="cesiumContainer"></div>
+        <div id="controlBarContainer" data-dojo-type="jpl/dijit/ControlBar"></div>
+
+        <div id="mainSearchMapOverview" style="position:absolute;left:0px;bottom:40px;visibility:hidden;opacity:0;">
+            <div id="overviewMapClickContainer" class="overviewMapClickContainer" >
+                <span id="cesiumExpandIcon" class="glyphicon glyphicon-fullscreen" style="position:absolute;font-size:4em;left:37%;top:33%;"></span>
+            </div>
+            <div id="overviewMapContainer"></div>
+        </div>
+
+        <div id="floatingPaneContainer"></div>
+        <div id="elevationTool" data-dojo-type="jpl/dijit/ElevationTool"></div>
+        <div id="sunAngleTool" data-dojo-type="jpl/dijit/SunAngleTool"></div>
+        <div id="loadingIcon" data-dojo-type="jpl/dijit/LoadingIcon"></div>
+        <div id="bookmarkLoading" data-dojo-type="jpl/dijit/BookmarkLoading"></div>
+
+        <div id="supersizedForDiv" style="position:absolute; right:0; top:0;width:40%;height:80%;z-index:999;background-color:#000;text-align:center;display:none;">
+            <div id="slideshowTitle" align="center"></div>
+
+            <!--Thumbnail Navigation-->
+            <div id="prevthumb"></div>
+            <div id="nextthumb"></div>
+
+            <!--Arrow Navigation-->
+            <a id="prevslide" class="load-item"></a>
+            <a id="nextslide" class="load-item"></a>
+
+            <div id="thumb-tray" class="load-item">
+                <div id="thumb-back"></div>
+                <div id="thumb-forward"></div>
+            </div>
+
+            <!--Time Bar-->
+            <div id="progress-back" class="load-item">
+                <div id="progress-bar"></div>
+            </div>
+
+            <!--Control Bar-->
+            <div id="controls-wrapper" class="load-item">
+                <div id="controls">
+
+                    <a id="play-button"><img id="pauseplay" src="jpl/assets/images/pause.png"/></a>
+
+                    <!--Slide counter-->
+                    <div id="slidecounter">
+                        <span class="slidenumber"></span> / <span class="totalslides"></span>
+                    </div>
+
+                    <!--Slide captions displayed here-->
+
+
+                    <!--Thumb Tray button-->
+                    <a id="tray-button"><img id="tray-arrow" src="jquery/plugins/supersized/img/button-tray-up.png"/></a>
+
+                    <!--Slide captions displayed here-->
+                    <div id="slidecaption"></div>
+
+                    <!--Navigation-->
+                    <ul id="slide-list"></ul>
+
+                </div>
+            </div>
+
+            <p><a id="slideshowCloseBtn" href="#" style="position:absolute;bottom:10px;z-index:999;">Close</a></p>
+        </div>
+
+        <!--mobile detection helpers-->
+        <div class="device-xs visible-xs"></div>
+        <div class="device-sm visible-sm"></div>
+        <div class="device-md visible-md"></div>
+        <div class="device-lg visible-lg"></div>
+
+        <canvas id="3dcanvasload"></canvas>
+        <iframe id="stlDownloadFrame" src=""></iframe>
+        <iframe id="layerDownloadFrame" src=""></iframe>
+        <iframe id="layerMetadataDownloadFrame" src="" download="filename.txt"></iframe>
+    </div>
+
+    <div id="openModal" class="modalDialog" style="visibility: hidden"></div>
+
+    <!--<div id="basicStandby1" data-dojo-type="dojox.widget.Standby" data-dojo-props="target:'basic'"></div>-->

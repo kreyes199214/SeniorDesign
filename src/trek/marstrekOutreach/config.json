@@ -1,0 +1,219 @@
+{
+  "_comment": "Application Config",
+
+  "title": "Mars Trek",
+  "theme": "",
+  "controls": {
+    "search": true,
+    "login": false,
+    "help": true,
+    "layers": true,
+    "explore": true,
+    "tools": true,
+    "mappermalink": true,
+    "socialmedia":true,
+    "projection": true,
+    "basemaps": false,
+    "bookmarks": false,
+    "mappermalink": true,
+    "tree": true,
+    "flyto": true
+  },
+  "tools": {
+    "overHeadOrbiters": true,
+    "overHeadSunEarth": true,
+    "pin": true,
+    "box": true,
+    "ellipse": false,
+    "line": true,
+    "polyline": true,
+    "freeline": true
+  },
+  "menu":{
+    "annotations": false,
+    "createBookmarks": false,
+    "about": true,
+    "credits": true,
+    "relatedLinks": true,
+    "releaseNotes": true,
+    "systemRequirements": true,
+    "login": false
+  },
+  "explorer":{
+    "default": "explorer",
+    "allowswitching": false
+  },
+  "search":{
+    "default": "search",
+    "allowswitching": false
+  },
+
+  "useIndexerLayers": true,
+
+  "googleAnalyticsID": "UA-64017724-1",
+  "permalinkVersions": ["0.1"],
+  "startsWithGlobe": false,
+  "layerOptions": {
+    "removable": false,
+    "downloadable": true,
+    "metadata": true
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": true,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 3381799,
+  "elevationPoints": 100,
+  "elevationMinValue": -8201,
+  "projections": {
+    "northpole": "IAU2000:49918",
+    "southpole": "IAU2000:49920",
+    "equirect": "IAU2000:49900"
+  },
+
+  "extents": {
+    "northpole": {
+      "xmin": "-1809300.00",
+      "ymin": "-1809300.00",
+      "xmax": "1809300.00",
+      "ymax": "1809300.00",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Npolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_unknown\",SPHEROID[\"Unknown\",3376200.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin": "-16301735.658568086",
+      "ymin": "-16301735.658568086",
+      "xmax": "16301735.658568086",
+      "ymax": "16301735.658568086",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Spolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_Mars_2000_Sphere_Polar\",SPHEROID[\"Mars_2000_Sphere_Polar\",3376200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "104905",
+      "wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190.0,169.8944472236118]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433],AUTHORITY[\"ESRI\",104905]]"
+    }
+  },
+
+  "_comment": "Nomenclature",
+  "_comment": "workaround.  slidshow feature is displaying the markers instead.",
+  "nomenclatureTypeKey": "CATEGORY",
+  "nomenclatureFields": {
+    "LABEL": "Name",
+    "diameter":"Diameter",
+    "y":"Latitude",
+    "x":"Longitude",
+    "origin":"Origin",
+    "ethnicity":"Ethnicity",
+    "type":"Type",
+    "link":"Additional Info"
+  },
+  "nomenclatureMarkers": {
+    "region": "jpl/assets/images/markers/mountain.png",
+    "mission": "jpl/assets/images/markers/mountain.png",
+    "craters": "jpl/assets/images/markers/mountain.png",
+    "volcanos": "jpl/assets/images/markers/mountain.png"
+  },
+
+  "_comment": "Service Information Config",
+
+  "services": {
+    "_comment": "one that are being used or being implemented",
+    "elevationService": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/calculate?endpoint=",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/calculate?endpoint=",
+      "equirect": "http://lmmpdev5:8070/TrekServices/ws/elevationProfile/calculate"
+    },
+    "distanceService": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfileNP/distance",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfileSP/distance",
+      "equirect": "http://lmmpdev5:8070/TrekServices/ws/elevationProfile/distance"
+    },
+    "globalDEMService": {
+      "northpole": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mola128_mola64_np/ImageServer",
+      "southpole": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mola128_mola64_sp/ImageServer",
+      "equirect": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mola128_mola64_merge_90Nto90S_SimpleC_clon0/ImageServer"
+    },
+
+    "getLayerServicesUrl": "http://lmmpdev5:8070/TrekServices/ws/index/getLayerServices?uuid=",
+    "getAttachmentsUrl" : "http://lmmpdev5:8070/TrekServices/ws/index/getAttachments?uuid=",
+    "getItemUrl": "http://lmmpdev5:8070/TrekServices/ws/outreach/PROJECTION/getItem?productLabel=&extID=",
+    "searchItemsUrl": "http://lmmpdev5:8070/TrekServices/ws/outreach/PROJECTION/searchItems?bbox=&key=&start=&rows=&facetKeys=&facetValues=",
+    "layersService": "jpl/config/staticLayers.json",
+    "terrainEndpoint": "http://dzw9r5p966egh.cloudfront.net/mars_v6/",
+    "stlService": "http://lmmpdev5:8070/TrekServices/ws/model/mars/trekSTL.stl",
+
+
+
+
+    "explorerMenuUrl": "jpl/config/exploreMenu.json",
+    "searchMenuListUrl": "jpl/config/searchListMenu.json",
+    "_treeMenuListUrl": "jpl/config/treeMenuList.json",
+    "treeMenuListUrl": "http://lmmpdev5:8070/TrekServices/LayerTree.json",
+    "treeLayersUrl": "jpl/config/treeLayers.json",
+    "getItemByUuidUrl": "http://lmmpdev5:8070/TrekServices/ws/outreach/eq/item/",
+    "getManifestByProductLabelUrl": "http://lmmpdev5:8070/TrekServices/ws/outreach/eq/manifest/",
+
+
+    "indexerService": "jpl/config/indexerExample.json",
+    "getThumbnail": "http://lmmpdev6:8001/",
+    "terrainEndpoint": "http://dzw9r5p966egh.cloudfront.net/mars_v6/",
+
+    "_comment": "this configs were here before. need to verify and relocate or remove",
+
+    "proxyEndpoint": "",
+    "terrainProxyEndpoint": "",
+    "elevationDEMEndpoints": {
+      "northpole": "http://vesta-1249282919.us-west-1.elb.amazonaws.com/arcgis/rest/services/vesta/Vesta_Dawn_HAMO_DTM_DLR_NPole_48ppd/ImageServer/identify",
+      "southpole": "http://vesta-1249282919.us-west-1.elb.amazonaws.com/arcgis/rest/services/vesta/Vesta_Dawn_HAMO_DTM_DLR_SPole_48ppd/ImageServer/identify",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/mola128_mola64_merge_90Nto90S_SimpleC_clon0/ImageServer"
+    },
+    "basemapService": "jpl/config/basemapList.json",
+    "slideshowService": "jpl/config/SS_categories.json",
+    "searchService": "",
+    "bookmarksService": "jpl/config/bookmarksExample.json",
+    "landingSiteService": "jpl/config/landingSiteExample.json",
+    "search": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom_np/MapServer/0/query",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom_sp/MapServer/0/query",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom/MapServer/0/query"
+    },
+    "exploreService": "",
+    "catalogRastersService": {
+      "northpole": "http://mars-2035432769.us-west-1.elb.amazonaws.com/catalog/rasters/np/list.json",
+      "southpole": "http://mars-2035432769.us-west-1.elb.amazonaws.com/catalog/rasters/sp/list.json",
+      "equirect": "http://mars-2035432769.us-west-1.elb.amazonaws.com/catalog/rasters/eq/list.json"
+    },
+    "sunAngleService": "//beta.lmmp.nasa.gov/getAzElfromT1",
+    "combinedDEMService": {
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfileBeta/rest/elevationProfile/combined"
+    },
+    "subpoints": [
+      {
+        "type":"MRO",
+        "title": "MRO: Mars Reconnaissance Orbiter",
+        "endpoint": "http://beta.lmmp.nasa.gov/getSubPointfromT2/MRO/Mars/",
+        "markerSymbolUrl": "./jpl/assets/images/mro_icon.png"
+      },
+      {
+        "type":"ODYSSEY",
+        "title": "Odyssey",
+        "endpoint": "http://beta.lmmp.nasa.gov/getSubPointfromT2/M01O/Mars/",
+        "markerSymbolUrl": "./jpl/assets/images/mody_icon.png"
+      },
+      {
+        "type":"MEX",
+        "title": "MEX: Mars Explorer",
+        "endpoint": "http://beta.lmmp.nasa.gov/getSubPointfromT2/MEX/Mars/",
+        "markerSymbolUrl": "./jpl/assets/images/mex_icon.png"
+      }
+    ]
+  }
+
+}

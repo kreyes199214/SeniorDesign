@@ -1,0 +1,39 @@
+<div class="menu push-menu-explorer">
+    <div id="explorerscontainer" class="explorerSidebarContainer">
+
+        <div data-dojo-attach-point="explorerTypeSwitchButtonDivExplore" class="explorerTypeSwitchButtonDiv hidden">
+            <div data-dojo-attach-point="explorerTypeSwitchButtonExplore" class="explorerTypeSwitchButton">
+                <div class="thumbnail explorerTypeSwitchItemContainer">
+                    <a>
+                        <img class="explorerTypeSwitchItemImage" src="./jpl/assets/images/layers/empty.png">
+                    </a>
+                    <div class="explorerTypeSwitchItemLabel">Explore</div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="explorerTypeSwitchButtonDivList" class="explorerTypeSwitchButtonDiv hidden">
+            <div data-dojo-attach-point="explorerTypeSwitchButtonList" class="explorerTypeSwitchButton">
+                <div class="thumbnail explorerTypeSwitchItemContainer">
+                    <a>
+                        <img class="explorerTypeSwitchItemImage" src="./jpl/assets/images/layers/empty.png">
+                    </a>
+                    <div class="explorerTypeSwitchItemLabel">List</div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="explorerDiv" class="hidden">
+            <div class="explorerQueue" data-dojo-attach-point="explorerQueue">
+            </div>
+            <div class="explorerNoResultsMessage hidden" data-dojo-attach-point="explorerNoResultsMessage">No results or out of bounds</div>
+        </div>
+
+        <div data-dojo-attach-point="listDiv" class="hidden explorerListDiv">
+            <div class="explorerBackButton hidden" data-dojo-attach-point="listDivBackButtonDiv"><i class="fa fa-angle-double-left explorerTextButtonText" aria-hidden="true" data-dojo-attach-point="explorerListBackButton"></i></div>
+            <div class="explorerQueue" data-dojo-attach-point="listQueue">
+            </div>
+            <div class="explorerNoResultsMessage hidden" data-dojo-attach-point="explorerListQueueNoResultsMessage">No results or out of bounds</div>
+        </div>
+    </div>
+</div>

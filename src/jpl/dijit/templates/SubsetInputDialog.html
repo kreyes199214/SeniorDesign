@@ -1,0 +1,92 @@
+<div id="subsetInputContainer" data-dojo-attach-point="subsetInputContainer" class="modal" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="subsetInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="subsetModalClose" data-dojo-attach-point="subsetModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Subsetting Tool</b></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td colspan="3">Bounding Box:</td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="subsetTop" style="height:40px"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="subsetLeft"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                    </td>
+                    <td height="50" nowrap>
+                     <div id="subsetRight"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                    </td>
+                    <td height="50" nowrap>
+                    <div id="subsetBottom"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" height="50">
+                      Layer:&nbsp;&nbsp;
+                      <div id="subsetLayerDiv"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" height="50" nowrap>
+                      Output Format:&nbsp;&nbsp;
+                      <select id="subsetOutputFormat" name="subsetLayer" data-dojo-type="dijit/form/Select">
+                        <option value="TIFF">TIFF</option>
+                        <!--<option value="JPEG">JPEG</option>-->
+                        <!--<option value="PNG8">PNG8</option>-->
+                      </select>
+                    </td>
+                  </tr>
+                  <!--<tr>-->
+                    <!--<td colspan="2" height="50" nowrap>-->
+                      <!--<b>Email</b>:<font color="red">*</font>-->
+                      <!--<div id="subsetEmail"><div>-->
+                    <!--</td>-->
+                  <!--</tr>-->
+                </table>
+              </div>
+              <!--<div style="text-align: center">-->
+                <!--* For DEM and other 18 bit and 32 bit science raster data <br>choose TIFF.> JPEG and PNG8 can contain only 8 bit data.-->
+                <!--<br><br>-->
+              <!--</div>-->
+              <div style="text-align: center">
+              </div>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button id="subsetSubmitButton" data-dojo-attach-point="subsetSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+              <button id="subsetEditButton" data-dojo-attach-point="subsetEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="subsetRemoveButton" data-dojo-attach-point="subsetRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+
+
+<div>
+    <form data-dojo-attach-point="layerSearchInputForm"  style="padding: 3px 0;">
+        <div data-dojo-attach-point="searchCategoryButtonBar" class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <button  type="button" data-dojo-attach-point="missionCategoryBtn" class="btn btn-default active" value="mission"></button>
+            </div>
+            <div class="btn-group">
+                <button  type="button" data-dojo-attach-point="instrumentCategoryBtn" class="btn btn-default " value="instrument"></button>
+            </div>
+        </div>
+        <div class="input-group">
+            <input id="layerSearchInput" data-dojo-attach-point="layerSearchInput" type="text" class="form-control search-input" size="150" placeholder="Layer Search...">
+        </div>
+    </form>
+    <div data-dojo-attach-point="resultStatement" style="padding-left:5px;padding-right:5px;display:none;"></div>
+    <div data-dojo-attach-point="searchResultContainer" >
+        <!-- <a class="search-result-back-btn layer-search-results-gallery-back-btn" data-dojo-attach-point="layerSearchBackBtn" style="display:none;">
+            <span class="fa fa-arrow-circle-left"></span>
+        </a> -->
+        <div data-dojo-attach-point="layerSearchBackBtn" style="display:none;" class="btn-group btn-group-justified" role="group">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span><span data-dojo-attach-point="layerSearchBackBtnText"></span></button>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="searchResultsCategoriesList" class="list-group">
+        </div>
+
+        <div data-dojo-attach-point="searchResultsLayerList" class="list-group searchResultsLayerList">
+        </div>
+
+        <h5 id="searchNoResultString" data-dojo-attach-point="searchNoResultString" style="width: 100%;text-align: center;"></h5>
+
+    </div>
+</div>
+

@@ -1,0 +1,28 @@
+<div id="rockModalContainer" data-dojo-attach-point="rockModalContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Detect Rock</h4>
+            </div>
+            <div class="modal-body">
+                <table style="align:center">
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1. Select "Rectangle" button<br></td></tr>
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2. Draw a rectangle on the map<br></td></tr>
+                    <tr><td>&nbsp;&nbsp;&nbsp; 3. Click on the rectangle<br></td></tr>
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4. Select the "Generate<br></td></tr>
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5. To Remove the rectangle, click on the shape and select<br></td></tr>
+                    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the "remove" option<br><br></td></tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="ToolModalDialogForm">
+                    <button id="rockRectangleButton" data-dojo-attach-point="rockRectangleButton" type="button" value="RECTANGLE" class="btn btn-primary" style="cursor:pointer;visibility: visible;" data-dismiss="modal">Rectangle</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

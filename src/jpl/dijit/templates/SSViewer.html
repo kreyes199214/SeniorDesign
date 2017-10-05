@@ -1,0 +1,42 @@
+<div>
+    <div id="ssViewer" data-dojo-attach-point="SSViewer">
+        <div class="ssViewerContent">
+            <div class="flexDiv">
+                <a data-dojo-attach-point="backButton" class="viewerBackLink" data-placement="left">
+                    <span id="bookmarkViewerBackButton" class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <h2 data-dojo-attach-point="ssTitle"></h2>
+            </div>
+
+            <div data-dojo-attach-point="ssContent"></div>
+
+            <div class="thumbnail">
+                <!--<img class="layerImage" data-dojo-attach-point="ssImage" src="..." alt="...">-->
+                <div class="caption">
+                    <p data-dojo-attach-point="description"></p>
+                </div>
+            </div>
+
+            <div data-dojo-attach-point="slideshowListContainer" class="hidden">
+                <ul class="list-group" data-dojo-attach-point="slideshowList">
+                    <li class="list-group-item slideshowListItem">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="http://mars.jpl.nasa.gov/imgs/2012/07/PIA05015-thm.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Spirit Landing Site</h4>
+                                This is Gusev Crater, a flat plain pocked with small craters and loose rocks and the site where the Spirit rover landed in 2004.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="slholder" data-dojo-attach-point="slideshowAttachmentContent" class="hidden"></div>
+        </div>
+    </div>
+</div>

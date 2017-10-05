@@ -1,0 +1,28 @@
+<div id="${id}">
+    <div class="dijitDialogPaneContentArea">
+        <form data-dojo-type="dijit/form/Form" data-dojo-attach-point="registerForm">
+            <table>
+                <tr>
+                    <td style="width: 150px;"><label for="FirstName">First Name:</label></td>
+                    <td><input type="text" data-dojo-type="dijit/form/TextBox" name="FirstName" /></td>
+                </tr>
+                <tr>
+                    <td style="width: 150px;"><label for="Email">Last Name:</label></td>
+                    <td><input type="text" data-dojo-type="dijit/form/TextBox" name="LastName" /></td>
+                </tr>
+                <tr>
+                    <td style="width: 150px;"><label for="Email">Email:</label></td>
+                    <td><input type="email" data-dojo-type="dijit/form/TextBox" name="Email"/></td>
+                </tr>
+                <tr>
+                    <td style="width: 150px;"><label for="Password">Password:</label></td>
+                    <td><input type="password" data-dojo-type="dijit/form/TextBox" name="Password"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="dijitDialogPaneActionBar">
+        <button data-dojo-type="dijit/form/Button" type="button" data-dojo-attach-event="click:actionRegister">Register</button>
+        <button data-dojo-type="dijit/form/Button" type="button" data-dojo-attach-event="click:actionCancel">Cancel</button>
+    </div>
+</div>

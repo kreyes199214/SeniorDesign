@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="appContainer" style="width:100%;height:100%;"></div>
+</body>
+
+<script type="text/javascript">
+    //should be a div
+    var containerID = "appContainer";
+    //base url to the build code
+    var baseURL = "http://vesta-1249282919.us-west-1.elb.amazonaws.com/vesta/";
+    //packed initialization code
+    eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2 7=1.3("E");7.D="C";7.B=e+"h/q/x.w";2 b=1.3("m");b.f="z";2 6=1.3("m");6.f="6";6.i="r";2 4=1.3("l");4.k="n/o";4.p=e+"c/c.g";4.s("t-c-u","v: j()");2 9=1.3("l");9.k="n/o";9.p=e+"h/y.g";2 8=1.A("8");8.5(b);8.5(6);1.a("d")[0].5(7);1.a("d")[0].5(4);1.a("F")[0].i+=" G";H j(){1.a("d")[0].5(9)}',44,44,'|document|var|createElement|dojoScript|appendChild|appDiv|globalStyle|appContainer|runScript|getElementsByTagName|loadingDiv|dojo|head|baseURL|id|js|app|className|myFunction|type|script|div|text|javascript|src|resources|hidden|setAttribute|data|config|addOnLoad|css|App|run|appLoadingDiv|getElementById|href|stylesheet|rel|link|body|claro|function'.split('|'),0,{}));
+
+    //source initialization code
+    /*
+    var globalStyle = document.createElement("link");
+    globalStyle.rel = "stylesheet";
+    globalStyle.href = baseURL + "app/resources/App.css?v=@@VERSION";
+
+    var loadingDiv = document.createElement("div");
+    loadingDiv.id = "appLoadingDiv";
+
+    var appDiv = document.createElement("div");
+    appDiv.id = "appDiv";
+    appDiv.className = "hidden";
+
+    var dojoScript = document.createElement("script");
+    dojoScript.type = "text/javascript";
+    dojoScript.src = baseURL + "dojo/dojo.js?v=@@VERSION";
+    dojoScript.setAttribute("data-dojo-config", "addOnLoad: myFunction()");
+
+    var runScript = document.createElement("script");
+    runScript.type = "text/javascript";
+    runScript.src = baseURL + "app/run.js?v=@@VERSION";
+
+    var appContainer = document.getElementById("appContainer");
+    appContainer.appendChild(loadingDiv);
+    appContainer.appendChild(appDiv);
+
+    document.getElementsByTagName("head")[0].appendChild(globalStyle);
+    document.getElementsByTagName("head")[0].appendChild(dojoScript);
+    document.getElementsByTagName("body")[0].className += " claro";
+    function myFunction() {
+        document.getElementsByTagName("head")[0].appendChild(runScript);
+    }
+    */
+
+</script>
+
+</html>

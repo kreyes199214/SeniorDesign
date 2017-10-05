@@ -1,0 +1,33 @@
+<div>
+    <canvas id="3dTestCanvas"></canvas>
+
+    <div id="3dContainer" style="visibility:hidden;opacity:0;">
+        <div id="cesiumExpandContainer" data-dojo-attach-point="cesiumExpandContainer" style="border: solid 1px #c8c8c8;border-radius: 3px;">
+            <span id="cesiumExpandIcon" class="glyphicon glyphicon-fullscreen" style="position:absolute;font-size:4em;left:37%;top:33%;"></span>
+        </div>
+        <div id="cesiumContainer" data-dojo-attach-point="cesiumContainer" class="cesium-container-small" tabindex="1">
+            <div id="webGLErrorMessage" style='width:80%;padding-top:100px;margin:auto;color:#c8c8c8;'>
+                <h3>Your Browser Does Not Support 3D Terrain View</h3>
+                <p style='font-size:1.3em'>
+                    Unfortunately your browser does not support Terrain View. A web browser with WebGL is required to experience the 3D visualization.
+                    Please upgrade your browser, or use a browser that supports WebGL. The following browser versions are known to support WebGL:
+                    <ul style='width:250px;margin:auto;font-size:1.2em'>
+                        <li>Google Chrome 18+</li>
+                        <li>Mozilla Firefox 40.0+</li>
+                        <li>Apple Safari 8+</li>
+                        <li>Microsoft Internet Explorer 11+</li>
+                    </ul>
+                </p>
+            </div>
+            <div id="InfoWindow"></div>
+            <div id="TourInfo"></div>
+            <div id="ContextMenu"></div>
+            <div id="facebookPopup"></div>
+        </div>
+    </div>
+
+    <a id="minimize3DContainerBtn" class="btn btn-primary" data-dojo-attach-point="minimize3DContainerBtn" style="display:none;visibility: hidden; opacity: 0;">
+        <span class="glyphicon glyphicon-fullscreen"></span>
+    </a>
+
+</div>

@@ -1,0 +1,59 @@
+<div class="dojoDndItem dojoDndHandle myLayerContainer" data-dojo-attach-point="myLayerContainer" style="">
+
+    <div class="controlHeader">
+        <div style="float:left;">
+            <span id="btnMyLayerCollapse" data-dojo-attach-point="btnMyLayerCollapse" class="fa fa-caret-right" alt="Expand/Collapse Layer" title="Expand/Collapse Layer"></span>
+            <img data-dojo-attach-point="myLayerThumbnail" class="myLayerThumbnail" width="22" height="22">
+        </div>
+
+        <div class="myLayerHeaderButtonGroup">
+            <a rel="tooltip" data-content="Toggle Visibility" alt="Toggle Visibility" data-placement="left" class="myLayerButtonLink">
+                <span data-dojo-attach-point="myLayerToggleBox" class="fa fa-eye"></span>
+            </a>
+            <a rel="tooltip" data-content="Layer Information" alt="Layer Information" data-placement="left" class="myLayerButtonLink">
+                <span data-dojo-attach-point="btnLayerInfo" class="fa fa-info-circle"></span>
+            </a>
+            <a rel="tooltip" data-content="Remove Layer" alt="Remove Layer" data-placement="left" class="myLayerButtonLink">
+                <span data-dojo-attach-point="btnRemoveLayer" class="fa fa-times-circle"></span>
+            </a>
+            <a rel="tooltip" data-content="Toggle Labels" alt="Toggle Labels" data-placement="left" class="myLayerButtonLink">
+                <span data-dojo-attach-point="btnMyLayerLabelsToggleBox" class="fa fa-font"></span>
+            </a>
+
+
+        </div>
+
+         <div>
+             <span class="myLayerTitle" data-dojo-attach-point="myLayerTitle">Unknown Layer</span>
+             <span style="white-space:nowrap;" class="myLayerSubtitle" data-dojo-attach-point="myLayerSubtitle"></span>
+        </div>
+    </div>
+
+    <div data-dojo-attach-point="myLayerControlsContainer" class="myLayerControls" style="display:none;">
+        <div class="layerControlsButtonContainer">
+            <div data-dojo-attach-point="flyToLayerBtnContainer">
+                <a rel="tooltip" data-content="Zoom to Layer" alt="Zoom to Layer" data-placement="left" data-dojo-attach-point="flyToLayerBtn" class="myLayerButtonLink" style="line-height: 0.5em;margin: 0;padding: 0;">
+                    <span class="bookmark-control fa-stack fa-lg" style="top:-8px;width:20px;height:20px;">
+                        <i class="fa fa-circle fa-stack-1x"></i>
+                        <i class="fa fa-crosshairs fa-stack-1x" style="color: #333;font-size: 0.70em;width:20px;height:20px;"></i>
+                    </span>
+                </a>
+            </div>
+
+            <label data-dojo-attach-point="viewLegendLabel" style="font-size: 0.9em;font-weight: normal;padding-left: 4px; cursor: pointer;" class="hidden">
+            <input type="checkbox" data-dojo-attach-point="viewLegendBtn" class="hidden" />
+                Legend
+            </label>
+        </div>
+
+        <div class="layer-slider-container" data-dojo-attach-point="sliderContainer"></div>
+
+        <div data-dojo-attach-point="legendContainer" class="hidden" style="margin-top: 20px;">
+            <img data-dojo-attach-point="legendImage" />
+        </div>
+
+        <div data-dojo-attach-point="colorLegendControlContainer"></div>
+
+        <br>
+    </div>
+</div>

@@ -1,0 +1,756 @@
+{
+  "Layers": [
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_eq",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/combinedNom/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "graticule_eq",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/ERGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+    {
+      "UUID": "",
+      "productLabel": "mars2020",
+      "title": "Mars 2020 Candidate Landing Site",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": 53,
+        "rightbc": 180,
+        "topbc": 30,
+        "bottombc": -30
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/static/mars2020.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars2020/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/mars2020/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+    {
+      "UUID": "",
+      "productLabel": "ez-layer",
+      "title": "Exploration Zones (USGS)",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/ez-layer.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/ez-layer.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/EZ/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/EZ/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+    {
+      "UUID": "",
+      "productLabel": "ez-layer2",
+      "title": "Exploration Zones (NASA EMC)",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureGroupLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/ez-layer2.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/ez-layer2.html",
+      "services": [
+        {
+          "serviceType": "FeatureGroup",
+          "numLayers":5,
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/EZMars/MapServer",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/EZMars/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+    {
+      "UUID": "",
+      "productLabel": "RSLs_Gullies_New_IcyCraters_clon0",
+      "title": "RSLs, Fresh Gullies, New and Icy Craters",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/RSLs_Gullies_New_IcyCraters_clon0.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/RSLs_Gullies_New_IcyCraters_clon0.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/RSLs_Gullies_New_IcyCraters_clon0/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/RSLs_Gullies_New_IcyCraters_clon0/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Aquieous_Mineral_Distribution_Options_clon0",
+      "title": "Aqueous Mineral Distribution",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Aquieous_Mineral_Distribution_Options_clon0.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/Aquieous_Mineral_Distribution_Options_clon0.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Aquieous_Mineral_Distribution_Options_clon0/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Aquieous_Mineral_Distribution_Options_clon0/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Chloride_Salt_bearing_Material_THEMIS_clon0",
+      "title": "Chloride Salt-bearing Materials",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/static/Chloride_Salt_bearing_Material_THEMIS_clon0.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Chloride_Salt_bearing_Material_THEMIS_clon0/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Chloride_Salt_bearing_Material_THEMIS_clon0/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Hydrous_Mineral_Detections_OMEGA_CRISM_clon0",
+      "title": "Hydrous Mineral Detections (OMEGA, CRISM)",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/static/Hydrous_Mineral_Detections_OMEGA_CRISM_clon0.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Hydrous_Mineral_Detections_OMEGA_CRISM_clon0/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Hydrous_Mineral_Detections_OMEGA_CRISM_clon0/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Glacial_Valleys_2010",
+      "title": "Supraglacial and Proglacial Valleys",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Mars_Fans_Glaciers_Gullies.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/Glacial_Valleys_2010.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Recessional_GLF_Options_2016",
+      "title": "Recessional Glacier-Like Forms",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Mars_Fans_Glaciers_Gullies.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/Recessional_GLF_Options_2016.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer/4",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Glacier-like_Forms_GLFs_2012",
+      "title": "Glacier-Like Forms",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Mars_Fans_Glaciers_Gullies.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/Glacier-like_Forms_GLFs_2012.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer/1",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "FanSurvey_2005_2008",
+      "title": "Alluvial Fans",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Mars_Fans_Glaciers_Gullies.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/FanSurvey_2005_2008.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer/2",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Gullied_Landform_Survey_2015",
+      "title": "Global Distribution of Gullies",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "jpl/assets/static/Mars_Fans_Glaciers_Gullies.png",
+      "colorbar": "",
+      "description": "jpl/assets/static/Gullied_Landform_Survey_2015.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer/3",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Mars_Fans_Glaciers_Gullies/MapServer"
+        }
+
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Dune_Field",
+      "title": "Dune Field",
+      "subtitle": "Dune",
+      "mission": "Surface Landforms",
+      "instrument": "Surface Landforms",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/Dune_Field.html",
+      "opacity": 0.4,
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/Dune_Field/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "endPoint":"https://trektiles.jpl.nasa.gov/trektiles/Mars/EQ//Dune_Field",
+          "mode": "rest",
+          "layerId": "Dune_Field",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "SIM3292_Global_Geology",
+      "title": "Global Geology",
+      "subtitle": "Geology",
+      "mission": "Surface Landforms",
+      "instrument": "Surface Landforms",
+      "productType": "Mosaic",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "jpl/assets/images/layers/geology.jpg",
+      "opacity": 0.5,
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "https://trektiles.jpl.nasa.gov/trektiles/Mars/EQ/SIM3292_Global_Geology/legend/SIM3292_Global_Geology.jpg",
+      "colorbar": "",
+      "description": "jpl/assets/layers/SIM3292_Global_Geology.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Mars/EQ/SIM3292_Global_Geology",
+          "layerId": "SIM3292_Global_Geology",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Hynek_Valley_Networks",
+      "title": "Valley Networks",
+      "subtitle": "",
+      "mission": "Surface Landforms",
+      "instrument": "Surface Landforms",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "jpl/assets/images/layers/lines.jpg",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/Hynek_Valley_Networks.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Mars/EQ/Hynek_Valley_Networks",
+          "layerId": "Hynek_Valley_Networks",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+
+
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_np",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49918",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/combinedNom_np/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }, {
+      "UUID": "",
+      "productLabel": "graticule_np",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49918",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/NPolarGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_sp",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49920",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/combinedNom_sp/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "graticule_sp",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49920",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/SPolarGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+
+
+  ]
+}

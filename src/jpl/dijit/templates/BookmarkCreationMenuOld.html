@@ -1,0 +1,221 @@
+<div id="createbookmarkmenuscontainer">
+    <div>
+        <a class="viewerBackLink hidden">
+            <span class="fa fa-arrow-left createBookmarkMenuBtn"></span>
+        </a>
+        <div class="searchSidebarTopBtn">
+            <button data-dojo-attach-point="cancelBookmarkBtn" type="button" class="btn btn-default createBookmarkMenuTopRightButton noActive">Cancel</button>
+            <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger createBookmarkMenuTopRightButton"><span class="fa fa-times"></span></button>
+        </div>
+        <h2 data-dojo-attach-point="createBookmarkMenuTitle">Create Bookmark</h2>
+    </div>
+
+    <div data-dojo-attach-point="addGraphicMenu" class="hidden">
+        <h4>Graphics:</h4>
+        <div class="createBookmarkGraphicToolIconsList" style="line-height:4.5;">
+            <div class="btn btn-default" data-dojo-attach-point="addPointButton">
+                <div>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Point</p>
+                </div>
+            </div>
+            <!--
+            <div class="btn btn-default" data-dojo-attach-point="addMultiPointButton">
+                <div>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Multipoint</p>
+                </div>
+            </div>
+            -->
+            <div class="btn btn-default" data-dojo-attach-point="addLineButton">
+                <div>
+                    <span class="icon-line createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Line</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addPolylineButton">
+                <div>
+                    <span class="icon-polyline createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Polyline</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addFreehandLineButton">
+                <div>
+                    <span class="icon-freehand createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Freehand Line</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addRectangleButton">
+                <div>
+                    <span class="icon-checkbox3 createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Rectangle</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addCircleButton">
+                <div>
+                    <span class="fa fa-circle-o createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Circle</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addEllipseButton">
+                <div>
+                    <span class="fa fa-circle-thin createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Ellipse</p>
+                </div>
+            </div>
+            <!--
+            <div class="btn btn-default" data-dojo-attach-point="addArrowButton">
+                <div>
+                    <span class="fa fa-arrows createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addLeftArrowButton">
+                <div>
+                    <span class="fa fa-arrow-left createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Left Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addDownArrowButton">
+                <div>
+                    <span class="fa fa-arrow-down createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Down Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addRightArrowButton">
+                <div>
+                    <span class="fa fa-arrow-right createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Right Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addUpArrowButton">
+                <div>
+                    <span class="fa fa-arrow-up createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Up Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addTriangleButton">
+                <div>
+                    <span class="fa fa-caret-up createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Triangle</p>
+                </div>
+            </div>
+            -->
+        </div>
+
+        <h4>Graphic Color:</h4>
+        <div>
+            <label>Outline:</label>
+            <input data-dojo-attach-point="graphicOutlineColorSelector" type="color" value="#ff0000">
+
+            <label>Fill:</label>
+            <input data-dojo-attach-point="graphicFillColorSelector" type="color" value="#ff0000">
+        </div>
+
+        <br>
+
+        <h4>Details:</h4>
+        <div>
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" data-dojo-attach-point="titleInput" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Description:</label>
+                <textarea class="form-control" data-dojo-attach-point="descriptionInput" rows="5" style="resize:both;"></textarea>
+            </div>
+        </div>
+
+        <div style="text-align:right;">
+            <button data-dojo-attach-point="addingShapeNextButton" class="btn btn-success hidden">Next</button>
+            <button data-dojo-attach-point="addingShapeNextButtonDisabled" class="btn btn-danger">Next</button>
+        </div>
+
+    </div>
+
+    <div data-dojo-attach-point="addAnnotationMenu" class="hidden">
+
+        <h4>Annotations:</h4>
+
+        <div class="createBookmarkAnnotationsIconsList" style="line-height:4.5;">
+            <div class="btn btn-default" data-dojo-attach-point="addPencilButton">
+                <div>
+                    <span class="fa fa-pencil createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Pen</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="selectButton">
+                <div>
+                    <span class="fa fa-hand-pointer-o createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Select</p>
+                </div>
+            </div>
+        </div>
+
+        <h4>Annotation Color:</h4>
+        <div>
+            <label>Outline:</label>
+            <input data-dojo-attach-point="annotationOutlineColorSelector" type="color" value="#ff0000">
+        </div>
+
+        <br>
+
+        <div style="text-align:right;">
+            <button data-dojo-attach-point="addingAnnotationNextButton" class="btn btn-success hidden">Next</button>
+            <button data-dojo-attach-point="addingAnnotationNextButtonDisabled" class="btn btn-danger">Next</button>
+        </div>
+
+    </div>
+</div>

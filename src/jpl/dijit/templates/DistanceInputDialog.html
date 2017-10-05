@@ -1,0 +1,37 @@
+<div id="distanceInputContainer" data-dojo-attach-point="distanceInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="distanceInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="distanceModalClose" data-dojo-attach-point="distanceModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Distance Tool</b></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td>
+                      <b>Distance</b>:&nbsp;&nbsp; 
+                    </td>
+                    <td>
+                      <div id="distanceBox"><div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+<!--
+              <button id="distanceOKButton" data-dojo-attach-point="distanceOKButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+              <button id="distanceEditButton" data-dojo-attach-point="distanceEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="distanceRemoveButton" data-dojo-attach-point="distanceRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">OK</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

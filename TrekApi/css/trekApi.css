@@ -1,0 +1,76 @@
+body{
+    font-size: large;
+}
+
+p{
+    word-break: break-all;
+    word-break: break-word;
+}
+
+hr{
+    border-top: 1px solid #c0bcbc;
+}
+
+#introContainer {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.22),
+            rgba(0, 0, 0, 0.22)
+    ), url("../assets/topBanner.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.footerContainer{
+    text-align: center;
+    background-color: #e1e1e1;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contentContainer{
+}
+
+.h1Top{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 68px;
+}
+
+.h1Center{
+    text-align: center;
+    font-size: 68px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1Bottom{
+    text-align: center;
+    font-size: 68px;
+    padding-bottom: 150px;
+}
+
+.introLogo{
+    text-align: center;
+}
+.nasaLogoLarge{
+
+}
+
+.layerList h4{
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.getWmtsButton{
+    padding:0;
+}
+
+.showAbstractButton{
+    padding:0;
+}
+
+.layerButton{
+    margin-right:5px;
+}
+

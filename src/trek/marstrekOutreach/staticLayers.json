@@ -1,0 +1,112 @@
+{
+  "Layers": [
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_eq",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/outreach_nomenclature/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Imagery",
+          "protocol": "ArcGISMap",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/combinedNom/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "regions",
+      "title": "Regions",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "region",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mars_regions/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Imagery",
+          "protocol": "ArcGISMap",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mars_regions/MapServer"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "mc5m_quadsdd_dense",
+      "title": "Quadrangles Regions",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "region",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mc5m_quadsdd_dense/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        },
+        {
+          "serviceType": "Imagery",
+          "protocol": "ArcGISMap",
+          "endPoint": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/arcgis/rest/services/mc5m_quadsdd_dense/MapServer"
+        }
+      ]
+    }
+  ]
+}

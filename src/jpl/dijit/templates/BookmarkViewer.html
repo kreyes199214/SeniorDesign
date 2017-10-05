@@ -1,0 +1,75 @@
+<div>
+    <div id="bookmarkViewerContent" data-dojo-attach-point="nomenclatureViewer">
+        <div class="bookmarkViewerContent">
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="bookmarkViewerSidebarTopBtn">
+                    <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton"><span id="layerViewerSidebarBtnback" class="fa fa-arrow-left layerViewerSideBarBtn"></span></button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="title" class="bookmarkViewerSidebarTitle"></h2>
+            </div>
+
+            <div class="thumbnail">
+                <img class="bookmarkImage img-thumbnail" data-dojo-attach-point="bookmarkImage" src="" alt="...">
+                <div class="caption">
+                    <p data-dojo-attach-point="description">
+                    </p>
+                    <p>
+                        <button class="btn btn-success hidden" role="button" data-dojo-attach-point="addBookmarkButton">Add</button>
+                        <button class="btn btn-danger hidden" role="button" data-dojo-attach-point="removeBookmarkButton">Remove</button>
+                        <button class="btn btn-default" role="button" data-dojo-attach-point="ZoomBtn">Fly To Area</button>
+                    </p>
+                    <p>
+                        <button class="btn btn-danger hidden" role="button" data-dojo-attach-point="deleteBookmarkButton">Delete Bookmark</button>
+                    </p>
+                    <p>
+                        <button class="btn btn-success hidden" role="button" data-dojo-attach-point="start3DTourButton">Start Tour</button>
+                    </p>
+                </div>
+            </div>
+
+            <div id="waypointsGroupContainer" class="panel-group hidden" data-dojo-attach-point="bookmarkWaypoints">
+                <div class="panel panel-default" style="border-radius:0;border-bottom:none">
+                    <div class="panel-heading text-center" style="background-color: white; padding: 5px 10px 3px;;text-align:left;">
+
+                        <h1 data-dojo-attach-point="pointsOfInterestTitle" class="panel-title" style="font-weight: 400; font-size: 1.3em;text-align:left;">
+                            Points Of Interest
+                        </h1>
+
+                        <div data-dojo-attach-point="toggleWaypointsContainer" style="position: relative;text-align:right;">
+                            <label style="cursor: pointer;font-weight: 300;margin-bottom:0;">
+                                <input type="checkbox" data-dojo-attach-point="checkbox" style="cursor: pointer;">
+                                <span data-dojo-attach-point="hideMarkerlabel"style="font-size:small;">
+                                        Hide Markers
+                                    </span>
+                            </label>
+                        </div>
+
+                        <span data-dojo-attach-point="pointsOfInterestInstructions">
+                                Click each item below for detailed information.
+                            </span>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body" style="padding:0;border-top:0">
+                            <div data-dojo-attach-point="bookmarkWaypointList" class="waypoint-list list-group" style="margin-bottom:0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-dojo-attach-point="metadataContent">
+                <div class="thumbnail">
+                    <table class="table">
+                        <tr><td style="border-top:none;">Item Type</td><td data-dojo-attach-point="itemType" style="border-top:none;"></td></tr>
+                        <tr><td>Extent</td><td data-dojo-attach-point="extent"></td></tr>
+                        <tr><td>Layers</td><td data-dojo-attach-point="layers"></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

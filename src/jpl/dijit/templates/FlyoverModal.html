@@ -1,0 +1,42 @@
+<div data-dojo-attach-point="popoverContainer" class="flyoverInfo popover fade top">
+    <div class="popover-content">
+        <div id="flyOverButtons" style="display: block;">
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-content="${PLAY_SHORTCUT}" data-placement="top" data-dojo-attach-event="onclick: togglePlayPause">
+                <i data-dojo-attach-point="iconPlayPauseToggle" class="fa fa-play"></i>
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-content="${STEP_BACKWARD_SHORTCUT}" data-placement="top" data-dojo-attach-event="onclick: stepBackward">
+                <i class="fa fa-step-backward"></i>
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-content="${STEP_FORWARD_SHORTCUT}" data-placement="top" data-dojo-attach-event="onclick: stepForward">
+                <i class="fa fa-step-forward"></i>
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-content="${FAST_BACKWARD_SHORTCUT}" data-placement="top" data-dojo-attach-event="onclick: fastBackward">
+                <i class="fa fa-fast-backward"></i>
+            </a>
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-content="${FAST_FORWARD_SHORTCUT}" data-placement="top" data-dojo-attach-event="onclick: fastForward">
+                <i class="fa fa-fast-forward"></i>
+            </a>
+        </div>
+        <div style="width:100%;">
+            <a class="btn btn-danger" role="button" data-dojo-attach-event="onclick: endTour" style="width: 78%; margin-top: 5px; margin-bottom: 5px" data-dojo-attach-point="exitTourBtn"></a>
+            <a class="btn btn-primary" role="button" data-toggle="tooltip" data-html="true" data-dojo-attach-event="onclick: showHelp">
+                <i class="fa fa-question-circle"></i>
+            </a>
+        </div>
+        <table style="width: 100%;">
+            <tr>
+                <th data-dojo-attach-point="distanceLabel"></th>
+                <th data-dojo-attach-point="speedLabel"></th>
+            </tr>
+            <tr>
+                <td>
+                    <div data-dojo-attach-point="currentDistance" style="display: inline;"></div>
+                </td>
+                <td>
+                    <div data-dojo-attach-point="currentSpeed" style="display: inline;"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+

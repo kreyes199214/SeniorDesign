@@ -1,0 +1,32 @@
+<div id="terrainExaggerationInputContainer" data-dojo-attach-point="terrainExaggerationInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="terrainExaggerationInputDialogForm">
+            <div class="modal-header text-center">
+                <button data-dojo-attach-point="terrainExaggerationModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Terrain Exaggeration</b></h4>
+            </div>
+            <div class="modal-body">
+                <p class="terrainExaggerationModalDescription">Enter a terrain exaggeration value from 0 to 20. Where 0 is a flat surface.</p>
+               <table align="center" border="0">
+                  <tr>
+                    <td height="50" nowrap>
+                      Exaggeration:&nbsp;
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="terrainExaggerationValueInput" style="height:40px"></div>
+                    </td>
+                  </tr>
+                </table>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button data-dojo-attach-point="submitButton" type="button" class="btn btn-success" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+                <button data-dojo-attach-point="cancelButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

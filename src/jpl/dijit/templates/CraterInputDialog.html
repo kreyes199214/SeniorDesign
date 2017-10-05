@@ -1,0 +1,91 @@
+<div id="craterInputContainer" data-dojo-attach-point="craterInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="craterInputDialogForm">
+                <div class="modal-header text-center">
+                    <button id="craterModalClose" data-dojo-attach-point="craterModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-visible="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"><b>Detect Crater</b></h4>
+                </div>
+                <div class="modal-body">
+
+                    <div data-dojo-attach-point="loadingBox">
+                        <b>Loading Data... <i class="fa fa-spinner fa-spin"></i></b>
+                        <div class="bg-warning">
+                            This process may take several moments depending on rectangle size.
+                        </div>
+                    </div>
+                    <div data-dojo-attach-point="errorBox" class="hidden">
+                        <div class="bg-danger">
+                            This area contains no data. This tool can not be run here.
+                        </div>
+                    </div>
+                    <div data-dojo-attach-point="contentBox" class="hidden">
+                        <table align="center" border="0">
+                            <tr>
+                                <td colspan="2">Bounding Box:</td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="craterTop" style="height:40px"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="craterLeft"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="craterRight"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" nowrap>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                                </td>
+                                <td height="50" nowrap>
+                                    <div id="craterBottom"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" width="80%"nowrap>
+                                    data:&nbsp;&nbsp;
+                                    <div id="imgData"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" width="80%"nowrap>
+                                    downsample rate(X):&nbsp;&nbsp;
+                                    <div id="downsample"></div>
+                                    <span data-dojo-attach-point="legendBtn" class="fa fa-question mediaItemIconSizeToFit" aria-hidden="true"
+                                          alt="How many times the data should be reduced for processing"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="50" nowrap>
+                                    <b>Email</b>:<font color="red">*</font>
+                                    <div id="craterEmail"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer" style="padding:5px;text-align:center;">
+                    <button id="craterSubmitButton" data-dojo-attach-point="craterSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+                    <button id="craterRemoveButton" data-dojo-attach-point="craterRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

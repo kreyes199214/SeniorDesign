@@ -1,0 +1,9 @@
+.ElevationPlotLabel{
+	color: black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-weight: 500;
+	font-size: 12px;
+	white-space: nowrap;
+  	overflow: hidden;
+}

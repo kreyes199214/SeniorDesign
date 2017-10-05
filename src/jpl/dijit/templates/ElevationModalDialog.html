@@ -1,0 +1,27 @@
+<div id="elevationModalContainer" data-dojo-attach-point="elevationModalContainer" class="modal fade" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Elevation Profile Tool</h4>
+            </div>
+            <div class="modal-body">
+              <table style="align:center">
+                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1. Select "Line", "Polyline", or "Freehand Polyline" button<br></td></tr>
+                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2. Draw a line, a polyline, or a freehand polyline on the map<br></td></tr>
+                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;3. Click "submit" to start the job<br></td></tr>
+                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4. To Remove the line, the polyline, or the freehand polyline,<br></td></tr>
+                <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;click on the shape and select "remove" option<br><br></td></tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+                <button id="elevationLineButton" data-dojo-attach-point="elevationLineButton" type="button" value="LINE" class="btn btn-primary" style="cursor:pointer;visibility:visible;" data-dismiss="modal">Line</button>
+                <button id="elevationPolylineButton" data-dojo-attach-point="elevationPolylineButton" type="button" value="POLYLINE" class="btn btn-primary" style="cursor:pointer;visibility: visible;" data-dismiss="modal">Polyline</button>
+                <button id="elevationFreehandButton" data-dojo-attach-point="elevationFreehandButton" type="button" value="FREEHAND_POLYLINE" class="btn btn-primary" style="cursor:pointer;visibility: visible;" data-dismiss="modal">Freehand polyline</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

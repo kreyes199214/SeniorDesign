@@ -1,0 +1,214 @@
+.slideshow .topcontainer {
+  table-layout: fixed;
+  position:relative;
+}
+
+.slideshow .container {
+  position: relative;
+  /*Override Bootstrap container*/
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.slideshow .rotator {
+  overflow:hidden;
+  height: 100%;
+}
+
+.slideshow .rotator img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slideshow .pane {
+  //height:600px;
+  border:2px black solid;
+  margin:auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.slideshow .bcontainer {
+  display: table;
+  table-layout: fixed;
+  vertical-align: middle;
+  position:relative;
+  min-width: 300px;
+}
+
+.slideshow .ccontainer {
+  display: table;
+  vertical-align: middle;
+  table-layout: fixed;
+  min-width: 300px;
+}
+
+.slideshow .container .rotatorContainer {
+  //border:2px red solid;
+}
+
+.slideshow .container .pane {
+  display: block;
+}
+
+
+.slideshow .container .limg {
+  position:absolute;
+  vertical-align: middle;
+  top: 50%;
+  left: 5px;
+  z-index:40;
+  margin-top:-25px;
+}
+
+.slideshow .container .rimg {
+  position:absolute;
+  vertical-align: middle;
+  top: 50%;
+  right: 5px;
+  z-index:40;
+  margin-top:-25px;
+}
+
+.slideshow .dots {
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+  z-index:20;
+}
+
+.slideshow .dots ul{
+  margin: 5px;
+  padding-top: 2px;
+  color: black;
+  font: 8pt sans-serif,arial,helvetica;
+}
+
+.slideshow .dots li{
+  float:left;
+  list-style:none;
+  margin:auto auto;
+  padding:0;
+  height:20px;
+  border-top-style: none;
+}
+
+.slideshow .dots li:hover{
+  /* outreach.css */
+  /* background-color: #003D68; */
+  background-color: white;
+}
+
+.slideshow .stopstart {
+  display: table-cell;
+  z-index:20;
+
+  /*Override Bootstrap Styles*/
+  padding:0px;
+  border-bottom: none;
+  border-top: none;
+}
+
+.slideshow .stopstart ul {
+  height:25px;
+  width:40px;
+  margin:0px;
+  padding-left: 3px;
+  padding-top: 2px;
+}
+
+.slideshow .stopstart li {
+  float:left;
+  list-style:none;
+  margin:0px;
+  border-bottom-style: none;
+  border-top-style: none;
+}
+
+.slideshow .stopstart li:hover{
+  /* outreach.css */
+  /* background-color: #003D68; */
+  background-color: white;
+}
+
+.slideshow .stopstart li.dojoxRotatorIcon a {
+  display:block;
+  width:35px;
+  height:35px;
+  padding:0px;
+}
+
+.slideshow .stopstart li.dojoxRotatorPlay a {
+  background: url("../../assets/images/slideshows/play_black.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.slideshow .stopstart li.dojoxRotatorPause a {
+  background:url("../../assets/images/slideshows/pause_black.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.slideshow .stopstart li a span {
+  display:none;
+}
+
+.slideshow .ldiv {
+  float:left;
+}
+
+.slideshow .rdiv {
+  float:right;
+}
+
+.slideshow .lnob {
+  position: absolute;
+  left: 5px;
+  z-index:40;
+}
+
+.slideshow .rnob {
+  position: absolute;
+  right: 5px;
+  z-index:40;
+}
+
+.slideshow .normalButton .dijitButtonNode {
+  width: 14px;
+  height: 14px;
+}
+
+.slideshow .sltitle {
+  display: table-cell;
+  font: 10pt sans-serif,arial,helvetica;
+  color: black;
+  vertical-align: middle;
+  height:30px;
+  padding-left: 5px;
+}
+
+.slideshow .sldesc {
+  display: table-cell;
+  font: 10pt sans-serif,arial,helvetica;
+  color: black;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+
+.slideshow .dojoxRotatorInfo .dojoxRotatorFirst .dojoxRotatorLast{
+  color: lightgray;
+}
+
+.slholder{
+  margin-left: auto;
+  margin-right: auto;
+  //width: 900px;
+}
+

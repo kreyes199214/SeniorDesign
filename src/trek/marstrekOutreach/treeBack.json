@@ -1,0 +1,767 @@
+{
+  "list":[
+    {
+      "title":"Places",
+      "img":"",
+      "list":[
+        {
+          "title":"Official Place Names (Nomenclatures)",
+          "img":"",
+          "desciption":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"featureLayer",
+              "productLabel":"nomenclature_eq"
+            }
+          ]
+        },
+        {
+          "title":"Outreach Regions (Unofficial)",
+          "img":"",
+          "selected":true,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"featureLayer",
+              "productLabel":"regions"
+            }
+          ],
+          "description":"test"
+        },
+        {
+          "title":"Official Regions (Quadrangles)",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"featureLayer",
+              "productLabel":"mc5m_quadsdd_dense"
+            }
+          ]
+        },
+        {
+          "title":"Landing Sites",
+          "img":"",
+          "list":[
+            {
+              "title":"Mission Type",
+              "img":"",
+              "list":[
+                {
+                  "title":"Rovers",
+                  "img":"",
+                  "list":[
+                    {
+                      "title":"Curiosity",
+                      "img":"",
+                      "list":[
+                        {
+                          "item_UUID":"richTesting5",
+                          "nodeType":"featureItem",
+                          "title":"curiosity",
+                          "img":"http://mars.nasa.gov/images/msl20110602_PIA14175.jpg",
+                          "description":"Menifest example. Lorem ipsum congue ultrices dui ut elementum iaculis ornare, leo placerat pretium aliquam massa tristique primis posuere, velit nisi est nibh viverra orci rutrum ante sociosqu sit molestie ornare.",
+                          "shape":"POINT (137.4 -4.5)"
+                        }
+                      ]
+                    },
+                    {
+                      "title":"Pathfinder",
+                      "img":"",
+                      "selected":false,
+                      "list":[
+                        {
+                          "nodeType":"featureItem",
+                          "title":"Pathfinder Landing Site",
+                          "img":"",
+                          "description":"",
+                          "shape":"POINT (-33.25 19.1)",
+                          "item_UUID":"undefined",
+                          "color":[
+                            0,
+                            92,
+                            230,
+                            200
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selected":"false"
+                },
+                {
+                  "title":"Landers",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"Humans (Potential)",
+                  "img":"",
+                  "list":[
+
+                  ],
+                  "selected":"false"
+                }
+              ]
+            },
+            {
+              "title":"Mission Time",
+              "img":"",
+              "list":[
+                {
+                  "title":"Past",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"Present",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"Future",
+                  "img":"",
+                  "list":[
+
+                  ]
+                }
+              ]
+            },
+            {
+              "title":"Mission Sponsor",
+              "img":"",
+              "list":[
+                {
+                  "title":"NASA-led",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"US Industry-led",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"European Space Agency",
+                  "img":"",
+                  "list":[
+
+                  ]
+                },
+                {
+                  "title":"China",
+                  "img":"",
+                  "list":[
+
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "selected":"false"
+    },
+    {
+      "title":"Landforms",
+      "img":"",
+      "list":[
+        {
+          "title":"Chaotic Terrain",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody1",
+              "nodeType":"featureItem",
+              "title":"Noctis Labyrinthus",
+              "img":"",
+              "description":"",
+              "shape":"POINT (102.2 -7.0)",
+              "color":[
+                255,
+                170,
+                0,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Vocanoes",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody8",
+              "nodeType":"featureItem",
+              "shape":"POINT (-109.6 40.47)",
+              "title":"Alba Mons",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody9",
+              "nodeType":"featureItem",
+              "shape":"POINT (150.47 18.87)",
+              "title":"Albor Mons",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody10",
+              "nodeType":"featureItem",
+              "shape":"POINT (-120.09 -8.35)",
+              "title":"Arsia Mons",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody11",
+              "nodeType":"featureItem",
+              "shape":"POINT (-104.08 11.92)",
+              "title":"Ascraeus Mons",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody12",
+              "nodeType":"featureItem",
+              "shape":"POINT (147.21 25.02)",
+              "title":"Elysium Mons",
+              "description":"Elysium Mons is the second largest volcanic region on Mars, after Tharsis.",
+              "img":"http://mars.nasa.nasa.gov/images/Elysium_MOLA_zoom_64.jpg",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody13",
+              "nodeType":"featureItem",
+              "shape":"POINT (150.24 32.12)",
+              "title":"Hecates Tholus",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody14",
+              "nodeType":"featureItem",
+              "shape":"POINT (-133.8 18.65)",
+              "title":"Olympus Mons",
+              "description":"This volcano is the largest mountain in our Solar System!",
+              "img":"http://mars.nasa.nasa.gov/images/olympus_hires.jpg",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody15",
+              "nodeType":"featureItem",
+              "shape":"POINT (-112.96 1.48)",
+              "title":"Pavonis Mons",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            },
+            {
+              "item_UUID":"richTesting2",
+              "nodeType":"featureItem",
+              "title":"Olympus Mons",
+              "img":"http://mars.nasa.gov/images/msl20110602_PIA14175.jpg",
+              "description":"Slideshow example. Lorem ipsum congue ultrices dui ut elementum iaculis ornare, leo placerat pretium aliquam massa tristique primis posuere, velit nisi est nibh viverra orci rutrum ante sociosqu sit molestie ornare.",
+              "shape":"POINT (-133.8 18.65)",
+              "color":[
+                255,
+                127,
+                127,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Canyons",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody1",
+              "nodeType":"featureItem",
+              "title":"Noctis Labyrinthus",
+              "img":"",
+              "description":"",
+              "shape":"POINT (102.2 -7.0)",
+              "color":[
+                0,
+                112,
+                255,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody5",
+              "nodeType":"featureItem",
+              "shape":"POINT (-65 24.6)",
+              "title":"Kasei Valles",
+              "description":"",
+              "img":"",
+              "color":[
+                0,
+                112,
+                255,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody7",
+              "nodeType":"featureItem",
+              "shape":"POINT (-59.2 -13.9)",
+              "title":"Valles Marineris",
+              "description":"Valles Marineris is the largest canyon in the solar system. It runs along the Martian equator east of a region called Tharsis. If you put Valles Marineris on Earth, it would run from Los Angeles to the Atlantic coast!",
+              "img":"http://mars.nasa.nasa.gov/imgs/2012/06/PIA00422a.jpg",
+              "color":[
+                0,
+                112,
+                255,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Outflow Channel",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody5",
+              "nodeType":"featureItem",
+              "shape":"POINT (-65 24.6)",
+              "title":"Kasei Valles",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                0,
+                197,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody6",
+              "nodeType":"featureItem",
+              "shape":"POINT (177.3 -21.8)",
+              "title":"Ma'adim Vallis",
+              "description":"",
+              "img":"",
+              "color":[
+                255,
+                0,
+                197,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Valley",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody5",
+              "nodeType":"featureItem",
+              "shape":"POINT (-65 24.6)",
+              "title":"Kasei Valles",
+              "description":"",
+              "img":"",
+              "color":[
+                56,
+                168,
+                0,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody6",
+              "nodeType":"featureItem",
+              "shape":"POINT (177.3 -21.8)",
+              "title":"Ma'adim Vallis",
+              "description":"",
+              "img":"",
+              "color":[
+                56,
+                168,
+                0,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody7",
+              "nodeType":"featureItem",
+              "shape":"POINT (-59.2 -13.9)",
+              "title":"Valles Marineris",
+              "description":"Valles Marineris is the largest canyon in the solar system. It runs along the Martian equator east of a region called Tharsis. If you put Valles Marineris on Earth, it would run from Los Angeles to the Atlantic coast!",
+              "img":"http://mars.nasa.nasa.gov/imgs/2012/06/PIA00422a.jpg",
+              "color":[
+                56,
+                168,
+                0,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Craters",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody2",
+              "nodeType":"featureItem",
+              "title":"Airy-0",
+              "img":"",
+              "description":"",
+              "shape":"POINT (0 5.1)",
+              "color":[
+                0,
+                92,
+                230,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody3",
+              "title":"Gale",
+              "nodeType":"featureItem",
+              "description":"Curiosity's landing site is Gale Crater.  The crater lies on the boundary between Mars' cratered southern highlands and its smooth, northern plains.",
+              "img":"http://mars.nasa.nasa.gov/images/12pia14294.jpg",
+              "shape":"POINT (137.8 -5.4)",
+              "color":[
+                0,
+                92,
+                230,
+                200
+              ]
+            },
+            {
+              "item_UUID":"melody4",
+              "shape":"POINT (175.4 -14.5)",
+              "nodeType":"featureItem",
+              "title":"Gusev",
+              "description":"This is Gusev Crater, a flat plain pocked with small craters and loose rocks and the site where the Spirit rover landed in 2004.",
+              "img":"http://mars.jpl.nasa.gov/imgs/2012/07/PIA05015.jpg",
+              "color":[
+                0,
+                92,
+                230,
+                200
+              ]
+            },
+            {
+              "item_UUID":"richTesting1",
+              "nodeType":"featureItem",
+              "title":"Victoria Crater",
+              "img":"http://mars.nasa.gov/images/msl20110602_PIA14175.jpg",
+              "description":"Hotspot example. Lorem ipsum congue ultrices dui ut elementum iaculis ornare, leo placerat pretium aliquam massa tristique primis posuere, velit nisi est nibh viverra orci rutrum ante sociosqu sit molestie ornare.",
+              "shape":"POINT (-5.5 -2.05)",
+              "color":[
+                0,
+                92,
+                230,
+                200
+              ]
+            },
+            {
+              "item_UUID":"richTesting8",
+              "nodeType":"featureItem",
+              "title":"SS and Manifest",
+              "img":"http://mars.nasa.gov/images/msl20110602_PIA14175.jpg",
+              "description":"Slide and Menifest example. Lorem ipsum congue ultrices dui ut elementum iaculis ornare, leo placerat pretium aliquam massa tristique primis posuere, velit nisi est nibh viverra orci rutrum ante sociosqu sit molestie ornare.",
+              "shape":"POINT (0.0 0.0)",
+              "color":[
+                0,
+                92,
+                230,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Dunes",
+          "img":"",
+          "list":[
+
+          ]
+        },
+        {
+          "title":"RSLs",
+          "img":"",
+          "list":[
+
+          ]
+        },
+        {
+          "title":"Channels",
+          "img":"",
+          "list":[
+            {
+              "item_UUID":"melody1",
+              "nodeType":"featureItem",
+              "title":"Noctis Labyrinthus",
+              "img":"",
+              "description":"",
+              "shape":"POINT (102.2 -7.0)",
+              "color":[
+                197,
+                0,
+                255,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Deltas",
+          "img":"",
+          "list":[
+
+          ]
+        },
+        {
+          "title":"Ice",
+          "img":"",
+          "list":[
+
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Best of Mars",
+      "img":"",
+      "list":[
+        {
+          "title":"Beautiful",
+          "img":"",
+          "list":[
+
+          ]
+        },
+        {
+          "title":"Strange",
+          "img":"",
+          "list":[
+
+          ]
+        },
+        {
+          "title":"Cool",
+          "img":"",
+          "list":[
+
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Layers",
+      "img":"",
+      "list":[
+        {
+          "title":"Elevation Map:  Highs & Lows of Martian Terrain",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"Mars_MGS_MOLA_ClrShade_merge_global_463m"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Thermal inertia",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"TES_Thermal_inertia"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Albedo Mosaic",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"Mars_MGS_TES_Albedo_mosaic_global_7410m"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer High-Ca Pyroxene",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"tes_clinopyroxene"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Surface Dust",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"TES_Dust"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Plagioclase",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"TES_Plagioclase"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Sheet silicates/High-Si glass",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"TES_Glass_Clay"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Spectrometer Dust Cover Index",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"tes_ruffdust"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Mars Orbiter Laser Altimeter Vertical Roughness",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"mola_roughness"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Imaging System Infrared Night",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"Mars_MO_THEMIS-IR-Night_mosaic_60N60S_100m_v14_clon0_ly"
+            }
+          ],
+          "description":""
+        },
+        {
+          "title":"Thermal Emission Imaging System Infrared Day",
+          "img":"",
+          "selected":false,
+          "list":[
+            {
+              "nodeType":"layerService",
+              "layerType":"mapLayer",
+              "productLabel":"Mars_MO_THEMIS-IR-Day_mosaic_global_100m_v12_clon0_ly"
+            }
+          ],
+          "description":""
+        }
+      ]
+    }
+  ]
+}

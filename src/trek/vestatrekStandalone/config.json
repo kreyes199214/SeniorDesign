@@ -1,0 +1,81 @@
+{
+  "_comment": "Application Config",
+
+  "title": "VESTA TREK",
+  "theme": "",
+  "controls": {
+    "help": true,
+    "layers": true,
+    "tools": true,
+    "projection": true,
+    "basemaps": false,
+    "mappermalink": true
+  },
+  "menu":{
+    "about": true,
+    "credits": true,
+    "relatedLinks": true,
+    "releaseNotes": true,
+    "systemRequirements": true
+  },
+
+  "useIndexerLayers": false,
+
+  "googleAnalyticsID": "UA-60449111-1",
+  "permalinkVersions": ["0.1"],
+  "layerOptions": {
+    "removable": false,
+    "downloadable": false,
+    "metadata": false
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": false,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 255000,
+  "elevationPoints": 100,
+  "projections": {
+    "northpole": "IAU2000:2000003",
+    "southpole": "IAU2000:2000005",
+    "equirect": "IAU2000:2000004"
+  },
+  "extents": {
+    "northpole": {
+      "xmin": "-509990.3239478506",
+      "ymin": "-509940.00000000006",
+      "xmax": "510009.6760521494",
+      "ymax": "509999.99999999994",
+      "wkid": "",
+      "wkt": "PROJCS[\"Vesta2013_NPolar_Stereographic\",GEOGCS[\"GCS_Vesta\",DATUM[\"D_Vesta_ClaudiaDoublePrime\",SPHEROID[\"custom\",255000.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin": "-509990.3239478506",
+      "ymin": "-509940.00000000006",
+      "xmax": "510009.6760521494",
+      "ymax": "509999.99999999994",
+      "wkid": "",
+      "wkt": "PROJCS[\"Vesta2013_SPolar_Stereographic\",GEOGCS[\"GCS_Vesta\",DATUM[\"D_Vesta_ClaudiaDoublePrime\",SPHEROID[\"custom\",255000.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "",
+      "wkt": "GEOGCS[\"GCS_Vesta_2013\",DATUM[\"D_unknown\",SPHEROID[\"Unknown\",255000.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    }
+  },
+
+  "_comment": "Service Information Config",
+
+  "services": {
+    "layersService": "jpl/config/layers.json",
+    "basemapService": "jpl/config/basemaps.json",
+    "terrainEndpoint": "//vestahub.s3.amazonaws.com/Vesta_Dawn_HAMO_DTM_DLR_Global_48ppd_v2_f1500_ev10/"
+  }
+
+
+}

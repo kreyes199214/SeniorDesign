@@ -1,0 +1,23 @@
+.layerViewerContent{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.layerImage{
+    min-width: 60%;
+    min-height: 60%;
+}
+
+.layerViewerSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    right: 5px;
+    float: right;
+    padding-left: 5px;
+}
+
+h1.layerViewerSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom:0;
+}

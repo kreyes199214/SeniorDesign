@@ -1,0 +1,97 @@
+{
+  "Layers": [
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_eq",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104903",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://moontrek.jpl.nasa.gov/arcgis/rest/services/CombinedNomenclature/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_np",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::30118",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://moontrek.jpl.nasa.gov/arcgis/rest/services/CombinedNomenclatureN/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_sp",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::30120",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://moontrek.jpl.nasa.gov/arcgis/rest/services/CombinedNomenclatureS/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+  ]
+}

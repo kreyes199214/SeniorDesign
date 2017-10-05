@@ -1,0 +1,56 @@
+<div id="loginInputDialog" data-dojo-attach-point="loginInputDialog" class="modal" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="loginInputDialogForm">
+            <div class="modal-header text-center">
+                <button id="loginModalClose" data-dojo-attach-point="loginModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title" data-dojo-attach-point="modalTitle"></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td align="right">
+                      <b>Username</b>:&nbsp;
+                    </td>
+                    <td>
+                      <div id="userLoginUsername"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="right">
+                      <div id="loginToken" style="visibility: hidden">NA</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right">
+                      <b>Password</b>:&nbsp;
+                    </td>
+                    <td>
+                      <div id="userLoginPassword"></div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td></td>
+                    <td><a class="stool btn btn-link" href="https://www.lmmp.nasa.gov/openam/XUI/#passwordReset/" target="_blank">Forgot password?</a></td>
+                  </tr>
+                </table>
+              </div>
+              <div>
+
+              </div>
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;">
+              <button id="btnLogin" data-dojo-attach-point="btnLogin" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+              <br>
+              <button id="registerLink" type="button" class="btn btn-link" data-dojo-attach-point="registerLink" style="visibility:visible; margin-top:5px;">Don't have account? Register Here</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+

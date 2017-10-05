@@ -1,0 +1,23 @@
+.bookmarkViewerContent{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.bookmarkViewerSidebarTopBtn {
+    height: 37px;
+    position: relative;
+    right: 5px;
+    float: right;
+    padding-left: 5px;
+}
+
+h1.bookmarkViewerSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom:0;
+}
+
+.bookmarkImage{
+    min-width: 60%;
+    min-height: 60%;
+}

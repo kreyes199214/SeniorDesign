@@ -1,0 +1,188 @@
+div.push-menu-layers {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -600px;
+    max-width: 600px;
+    display: none;
+}
+
+body.layers-sidebar-open div.push-menu-layers {
+    right: 0;
+    display: inline;
+}
+body.layers-sidebar-open #mainContentWrapper {
+    width: calc(100% - 600px);
+}
+
+.layersSideBarTitleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.layersSideBarLink{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+}
+
+.layersSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+.staticLayerItemToggleBtnDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.staticLayerTitle{
+    font-size: 18px;
+}
+
+#layersSidebarStackContainer {
+    padding: 15px;
+}
+
+#nonIndexerLayersSidebarStackContainer{
+    padding: 15px;
+    overflow:auto;
+}
+
+#layersSidebarStackContainer.dijitLayoutContainer{
+    overflow:auto;
+}
+
+.layerSliderHolder{
+    word-break: normal;
+    padding: 10px 0px 10px 0px;
+    overflow: visible;
+}
+
+.media-body.layerItemMediaBody{
+    word-break: break-all;
+    overflow: visible;
+}
+
+.media-body.layerSetItemMediaBody{
+    word-break: break-all;
+    overflow: visible;
+}
+
+.legendTd{
+    display:table-caption;
+}
+
+.btn.btn-link.legendBtn {
+    padding:0px;
+}
+
+.btn.layerSidebarTopBtn {
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    position: relative;
+    top: -4px;
+}
+
+h1.layerSidebarTitle{
+    position: relative;
+    top: -14px;
+    margin-bottom: 0;
+}
+
+span[alt]:hover:after {
+    content: attr(alt);
+    padding: 5px 5px;
+    font-size:14px;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    position:absolute;
+    margin-left:-40px;
+    margin-top:-30px;
+    white-space: nowrap;
+    z-index: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFFFFF),color-stop(1, #FFFFFF));
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+}
+
+.staticLayerItemMedia{
+    overflow:initial;
+}
+
+.basemapSetButtonP{
+    margin:0;
+}
+
+.layerSidebarAddBtn{
+    float:right;
+}
+
+.autoLayersCheckboxContainer{
+    float:right;
+}
+
+.autoLayersCheckboxContainer:hover{
+    cursor:pointer;
+    color:grey;
+}
+
+.autoLayerContainerMessage{
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.autoLayerContainer{
+   padding: 10px;
+}
+
+.autoLayerSectionContainer{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.autoLayerSectionTitleContainer{
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+}
+
+.autoLayerSectionButtonContainer{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+    text-align: right;
+}
+
+
+/*dojo drag and drop classes */
+.dojoDndMove .dojoDndAvatarHeader{
+    display:none;
+}
+
+.dojoDndItemBefore{
+    border-top: 5px solid #5acaff;
+}
+
+.dojoDndItemAfter{
+    border-bottom: 5px solid #5acaff;
+}
+
+.dojoDndAvatar{
+    pointer-events: none;
+}

@@ -1,0 +1,20 @@
+{
+  "_comment": "default basemaps order: eq,np,sp",
+  "defaultBasemaps": [
+    "LRO_WAC_Mosaic_Global_303ppd",
+    "LRO_WAC_Mosaic_NPole60_100m_v02",
+    "LRO_WAC_Mosaic_SPole60_100m_v02"
+  ],
+  "basemaps": {
+    "equirect": [
+      "LRO_WAC_Mosaic_Global_303ppd"
+    ],
+    "_comment":"LRO_LOLA_ClrShade_Global_256ppd_v06",
+    "s_pole": [
+      "LRO_WAC_Mosaic_SPole60_100m_v02"
+    ],
+    "n_pole": [
+      "LRO_WAC_Mosaic_NPole60_100m_v02"
+    ]
+  }
+}

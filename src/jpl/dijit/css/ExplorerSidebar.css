@@ -1,0 +1,131 @@
+div.push-menu-explorer {
+    bottom: -156px;
+    width: 100%;
+    display: none;
+}
+
+body.explorer-sidebar-open div.push-menu-explorer {
+    bottom: 0;
+    height: 156px;
+    display: inline;
+}
+
+body.explorer-sidebar-open #mainContentWrapper {
+    height: calc(100% - 156px);
+}
+
+.explorerQueue{
+    overflow-x:auto;
+    white-space:nowrap;
+    padding:5px 0 5px 5px;
+}
+
+.explorerQueueItem{
+    display:inline-block;
+}
+
+.explorerTypeSwitchItemContainer{
+    display:inline-block;
+}
+
+.explorerQueueItemLabel{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explorerTypeSwitchItemLabel{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thumbnail.explorerQueueItem:hover{
+    cursor:pointer;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.thumbnail.explorerQueueItem{
+    margin-bottom:0;
+    width:200px;
+}
+
+.thumbnail.explorerQueueIconItem{
+    width:200px;
+}
+
+.thumbnail.explorerTypeSwitchItemContainer{
+    margin-bottom: 0;
+    width: 100px;
+}
+
+.thumbnail.explorerTypeSwitchItemContainerBack{
+    margin-bottom: 0;
+    width: 100px;
+}
+
+.thumbnail.explorerTypeSwitchItemContainer:hover{
+    cursor:pointer;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.carousel-inner>.item>a>img.explorerItemImage, .carousel-inner>.item>img.explorerItemImage, .img-responsive.explorerItemImage, .thumbnail a>img.explorerItemImage, .thumbnail a>span.explorerItemImage, .thumbnail>img.explorerItemImage{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.explorerTypeSwitchButtonDiv>.item>a>img.explorerTypeSwitchItemImage, .explorerTypeSwitchButtonDiv>.item>img.explorerTypeSwitchItemImage, .img-responsive.explorerTypeSwitchButtonDiv, .thumbnail a>img.explorerTypeSwitchItemImage, .thumbnail a>span.explorerTypeSwitchItemImage, .thumbnail>img.explorerTypeSwitchItemImage{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.explorerNoResultsMessage{
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.explorerTypeSwitchButtonDiv{
+    height: 100%;
+    float: left;
+    padding: 18px 6px 40px 6px;
+}
+
+.explorerTypeSwitchButton{
+    height: 100%;
+    width: 100%;
+}
+
+.explorerBackButton{
+    float: left;
+    padding: 5px 0px 25px 0px;
+    height: 100%;
+}
+
+.explorerTextButtonText{
+    border: 1px solid #ddd;
+    height: 100%;
+    font-size: 60px;
+    padding: 30px 8px 4px 4px;
+}
+
+.explorerTextButtonText:hover{
+    cursor: pointer;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.explorerListDiv{
+    height: 100%;
+}

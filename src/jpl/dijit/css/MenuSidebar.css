@@ -1,0 +1,133 @@
+/*
+div.push-menu-right {
+    top: 0;
+    width: 300px;
+    height: 100%;
+    right: -300px;
+}
+
+body.sidebar-open div.push-menu-right {
+    right: 0
+}
+body.sidebar-open #mainContentWrapper {
+    left: 300px
+}
+body.sidebar-open #mainContentWrapper {
+    left: -300px
+}
+*/
+
+div.push-menu-menu {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -615px;
+    max-width: 615px;
+    display:none;
+}
+
+body.menu-sidebar-open div.push-menu-menu {
+    left: 0;
+    display:inline;
+}
+body.menu-sidebar-open #mainContentWrapper {
+    width: calc(100% - 615px);
+    left: 615px;
+}
+
+.list-group-item.menuSidebarButton{
+    text-align: center;
+    font-size: 22px;
+}
+
+.menuSideBarTitleDiv{
+    position:relative;
+    top: -15px;
+    margin-bottom:20px;
+}
+
+.menuSideBarLink{
+    font-size: 30px;
+    color: black;
+}
+
+.menuSideBarLink:hover{
+    cursor: pointer;
+    color: #66afe9;
+}
+
+.menuSideBarRelatedLink a{
+    font-size: 22px;
+    color: #428bca;
+}
+
+.menuSideBarRelatedLink a:hover{
+    cursor: pointer;
+    color: #2a6496;
+}
+
+.menuSideBarRelatedLinks{
+    font-size: 23px;
+}
+
+#loginPanel{
+    position:relative;
+}
+
+.menuSidebarLoginPanel{
+    display: block;
+    margin: 0 auto;
+}
+
+.menuSidebarContainer{
+    padding:15px;
+}
+
+.menuSideBarCreditLink{
+    cursor:pointer;
+}
+
+.menuSidebarTitle{
+    word-wrap: break-word;
+}
+
+.menuSidebarTitleImage{
+
+}
+
+.btn.menuSidebarTopBtn{
+    height: 37px;
+    position: relative;
+    top: -4px;
+}
+
+.menuSidebarH1{
+    margin-bottom: 0;
+}
+.menuSidebarTitle.searchSidebarTitle{
+    position: relative;
+    top: -14px;
+}
+
+.menuSidebarTopBackBtn{
+    margin-right:4px;
+}
+
+.menuSidebarTopBtn{
+    height: 37px;
+    position:relative;
+    float:right;
+}
+
+.menuSidebarTopLeftLogo{
+    float:left;
+}
+
+.menuSidebarBtn{
+   height:37px;
+}
+
+.menuContainer{
+    position:relative;
+    top:-17px;
+}

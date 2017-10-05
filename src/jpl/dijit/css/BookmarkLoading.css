@@ -1,0 +1,21 @@
+.bookmark-loading-container {
+    background-color: #333;
+    height: 110px;
+    min-height: 110px;
+    width: 300px;
+    padding: 10px 10px 10px 40px;
+    font-size: 1.2em;
+}
+
+.bookmark-loading-check {
+    font-size: 1.2em;
+    color: lightgreen;
+    margin-left: 5px;
+}
+
+.bookmark-loading-message {
+    color: #C8C8C8;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 10px 10px 10px 40px;
+}

@@ -1,0 +1,26 @@
+.tourInfoWindow .esriPopup {
+    z-index: 40;
+    left: 90px;
+    top: 345px;
+    visibility: hidden;
+    -webkit-transition: left 0.5s;
+    transition: left 0.5s;
+}
+
+body.sidebar-open .esriPopup {
+    left: 325px;
+}
+
+.tourInfoWindow .esriPopupVisible {
+    visibility: visible;
+}
+
+.tourInfoWindow .esriPopupWrapper {
+    position: absolute;
+    left: -13px;
+    top: -335px;
+}
+
+.tourInfoWindow .contentPane {
+    max-height: 470px;
+}

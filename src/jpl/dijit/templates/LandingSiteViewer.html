@@ -1,0 +1,25 @@
+<div>
+    <div id="landingSiteViewer" data-dojo-attach-point="landingSiteViewer">
+        <div class="panel-group" role="tablist">
+            <div class="panel panel-default">
+                <div class="panel-heading viewerPanelTitle">
+                    <a data-dojo-attach-point="backButton" class="viewerBackLink" data-placement="left">
+                        <span id="bookmarkViewerBackButton" class="fa fa-arrow-left searchSideBarBtn"></span>
+                    </a>
+                    <h4 class="panel-title">
+                        <a data-dojo-attach-point="tableOfContentsLink" class="tableOfContentsTitle">Table Of Contents</a>
+                    </h4>
+                </div>
+                <div data-dojo-attach-point="tableOfContentsPanel" class="panel-collapse collapse in hidden">
+                    <ul class="list-group" data-dojo-attach-point="tableOfContents">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="landingSiteViewerContent">
+            <h2 data-dojo-attach-point="landingSiteTitle"></h2>
+            <div data-dojo-attach-point="landingSiteSections"></div>
+        </div>
+    </div>
+</div>

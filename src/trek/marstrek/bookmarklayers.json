@@ -1,0 +1,433 @@
+[
+  {
+    "UUID": "",
+    "productLabel": "martian_path",
+    "title": "Path",
+    "subtitle": "Martian Path",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "jpl/assets/images/layers/poi.png",
+    "bounding": {
+      "leftbc": -28.04,
+      "rightbc": 15.4,
+      "topbc": 31.21,
+      "bottombc": -2.87
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/rover_path.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/martian_path/MapServer/0",
+        "renderer": "pathline"
+      },
+      {
+        "serviceType": "PathElevation",
+        "protocol": "PathElevation",
+        "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Mars/path/martianPathElevation.json",
+        "elevationOffset": 160,
+        "viewOffset": 120000
+      }
+    ]
+  },
+
+  {
+    "UUID": "",
+    "productLabel": "curiosity_path",
+    "title": "Curiosity Landing Site Path",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+    "bounding": {
+      "leftbc": -5.5964391,
+      "rightbc": -4.9954112,
+      "topbc": -1.8994384,
+      "bottombc": -2.7513281
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/curiosity_path/MapServer/0",
+        "renderer": "pathline"
+      },
+      {
+        "serviceType": "PathElevation",
+        "protocol": "PathElevation",
+        "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Mars/path/curiosityPathElevation.json",
+        "elevationOffset": -360,
+        "viewOffset" : 800
+      }
+    ]
+  },
+
+  {
+    "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+    "productLabel": "spirit_path",
+    "title": "Rover Path",
+    "subtitle": "Spirit Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "jpl/assets/images/layers/poi.png",
+    "bounding": {
+      "leftbc": 175.3262881,
+      "rightbc": 176.0865534,
+      "topbc": -14.3183956,
+      "bottombc": -14.9515511
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/rover_path.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/spirit_path2/MapServer/0",
+        "renderer": "pathline"
+      },
+      {
+        "serviceType": "PathElevation",
+        "protocol": "PathElevation",
+        "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Mars/path/spiritPathElevation.json",
+        "elevationOffset": 1,
+        "viewOffset" : 800
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "opportunity_path",
+    "title": "Rover Path",
+    "subtitle": "Opportunity Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "jpl/assets/images/layers/poi.png",
+    "bounding": {
+      "leftbc": -5.5964391,
+      "rightbc": -4.9954112,
+      "topbc": -1.8994384,
+      "bottombc": -2.7513281
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/rover_path.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/opportunity_path2/MapServer/0",
+        "renderer": "pathline"
+      },
+      {
+        "serviceType": "Imagery",
+        "protocol": "WMTS",
+        "endPoint":"https://marstrek.jpl.nasa.gov/arcgis/rest/services/opportunity_path/MapServer/WMTS",
+        "mode": "rest",
+        "layerId": "opportunity_path",
+        "tileMatrixSet": "default028mm",
+        "format": "png"
+      }
+    ]
+
+  },
+
+
+
+
+
+  {
+    "UUID": "",
+    "productLabel": "martian_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Martian Path",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": -28.04,
+      "rightbc": 15.4,
+      "topbc": 31.21,
+      "bottombc": -2.87
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/martian_waypoints/MapServer/0",
+        "elevationOffset": 150,
+        "viewOffset": 120000,
+        "renderer": "waypoints"
+      }
+    ]
+  },
+
+  {
+    "UUID": "",
+    "productLabel": "curiosity_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Curiosity Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": 137.1224669,
+      "rightbc": 137.7298129,
+      "topbc": -4.2489588,
+      "bottombc": -4.9254743
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/curiosity_waypoints/MapServer/0",
+        "elevationOffset": -360,
+        "viewOffset" : 800,
+        "renderer": "waypoints"
+      }
+    ]
+  },
+
+  {
+    "UUID": "",
+    "productLabel": "spirit_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Spirit Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": 175.4264209,
+      "rightbc": 175.5801329,
+      "topbc": -14.5345989,
+      "bottombc": -14.6918829
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/spirit_waypoints/MapServer/0",
+        "elevationOffset": 1,
+        "viewOffset" : 800,
+        "renderer": "waypoints"
+      }
+    ]
+  },
+
+  {
+    "UUID": "",
+    "productLabel": "opportunity_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Opportunity Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": -5.5964391,
+      "rightbc": -4.9954112,
+      "topbc": -1.8994384,
+      "bottombc": -2.7513281
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/opportunity_waypoints/MapServer/0",
+        "elevationOffset": 3,
+        "viewOffset" : 800,
+        "renderer": "waypoints"
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "phoenix_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Phoenix Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": -125.7546,
+      "rightbc": -125.7466,
+      "topbc": 68.2185,
+      "bottombc": 68.2131
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/phoenix_waypoints/MapServer/0",
+        "renderer": "waypoints"
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "sojourner_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Sojourner Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": 175.3262881,
+      "rightbc": 176.0865534,
+      "topbc": -14.3183956,
+      "bottombc": -14.9515511
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/sojourner_waypoints/MapServer/0",
+        "elevationOffset": -20,
+        "viewOffset" : 800 ,
+        "renderer": "waypoints"
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "viking_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Viking 1 Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": -48.0277775,
+      "rightbc": -47.8560357,
+      "topbc": 22.4770204,
+      "bottombc": 22.0772710
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/viking_waypoints/MapServer/0",
+        "elevationOffset": 30,
+        "viewOffset" : 800,
+        "renderer":"waypoints"
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "viking2_waypoints",
+    "title": "Points of Interest",
+    "subtitle": "Viking 2 Landing Site",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": 134.276284,
+      "rightbc": 134.2919559,
+      "topbc": 47.682491,
+      "bottombc": 47.667278
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "mode": "rest",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/viking2_waypoints/MapServer/0",
+        "elevationOffset": 1,
+        "viewOffset" : 800,
+        "renderer":"waypoints"
+      }
+    ]
+  },
+  {
+    "UUID": "",
+    "productLabel": "major_features",
+    "title": "Points of Interest",
+    "subtitle": "Mars Major Features",
+    "mission": "",
+    "instrument": "",
+    "productType": "featureLayer",
+    "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+    "thumbnailImage": "",
+    "bounding": {
+      "leftbc": -180,
+      "rightbc": 180,
+      "topbc": 90,
+      "bottombc": -90
+    },
+    "legend": "",
+    "colorbar": "",
+    "description": "jpl/assets/layers/points_of_interest.html",
+    "services": [
+      {
+        "serviceType": "Feature",
+        "protocol": "ArcGISFeature",
+        "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/major_features/MapServer/0",
+        "elevationOffset": 10000,
+        "viewOffset" : 1500000.0,
+        "renderer":"waypoints"
+      }
+    ]
+  }
+]
+

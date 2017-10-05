@@ -1,0 +1,82 @@
+{
+  "_comment": "Application Config",
+
+  "title": "Mars Trek",
+  "theme": "",
+  "controls": {
+    "help": true,
+    "layers": true,
+    "scalebars": true,
+    "projection": true,
+    "basemaps": false,
+    "mappermalink": true
+  },
+  "menu":{
+    "about": false,
+    "credits": false,
+    "relatedLinks": false,
+    "releaseNotes": false,
+    "systemRequirements": true
+  },
+
+  "useIndexerLayers": false,
+
+  "googleAnalyticsID": "UA-85905476-1",
+  "permalinkVersions": ["0.1"],
+  "layerOptions": {
+    "removable": false,
+    "downloadable": false,
+    "metadata": false
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": true,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 3390000,
+  "elevationPoints": 100,
+  "elevationMinValue": -8201,
+  "equatorialRadiusKm": 0.532,
+  "projections": {
+    "northpole": "IAU2000:49918",
+    "southpole": "IAU2000:49920",
+    "equirect": "IAU2000:49900"
+  },
+
+  "extents": {
+    "northpole": {
+      "xmin": "-1809300.00",
+      "ymin": "-1809300.00",
+      "xmax": "1809300.00",
+      "ymax": "1809300.00",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Npolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_unknown\",SPHEROID[\"Unknown\",3376200.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin": "-1809300.00",
+      "ymin": "-1809300.00",
+      "xmax": "1809300.00",
+      "ymax": "1809300.00",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Spolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_Mars_2000_Sphere_Polar\",SPHEROID[\"Mars_2000_Sphere_Polar\",3376200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "104905",
+      "wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190.0,169.8944472236118]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433],AUTHORITY[\"ESRI\",104905]]"
+    }
+  },
+
+  "services": {
+    "layersService": "jpl/config/staticLayers.json",
+    "basemapService": "jpl/config/basemaps.json",
+    "terrainEndpoint": "http://dzw9r5p966egh.cloudfront.net/mars_v6/"
+
+  }
+
+}

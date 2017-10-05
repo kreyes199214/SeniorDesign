@@ -1,0 +1,37 @@
+<div id="elevationInputContainer" data-dojo-attach-point="elevationInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="elevationInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="elevationModalClose" data-dojo-attach-point="elevationModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Elevation Profile Tool</b></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td>
+                      <b>Distance</b>:&nbsp;&nbsp;
+                    </td>
+                    <td>
+                      <div id="elevationBox"><div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button id="elevationSubmitButton" data-dojo-attach-point="elevationSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+              <button id="elevationEditButton" data-dojo-attach-point="elevationEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="elevationRemoveButton" data-dojo-attach-point="elevationRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

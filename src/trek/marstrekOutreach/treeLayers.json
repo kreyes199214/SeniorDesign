@@ -1,0 +1,338 @@
+{
+  "Layers": [
+    {
+      "UUID": "",
+      "productLabel": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+      "title": "Color Hillshade",
+      "subtitle": "Mars Orbiter Laser Altimeter",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Mars Orbiter Laser Altimeter (MOLA)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/clrhillshde.jpg",
+      "bounding": {
+        "leftbc": -180.0,
+        "rightbc": 180.0,
+        "topbc": 90.0,
+        "bottombc": -90.0
+      },
+      "legend": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/colorhillshade_mola_lut.gif",
+      "colorbar": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m/legend/mgs_mola_colorshade.json",
+      "description": "jpl/assets/layers/mgs_mola_colorshade.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "http://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_MOLA_ClrShade_merge_global_463m",
+          "layerId": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "TES_Thermal_inertia",
+      "title": "TES Thermal inertia",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "jpl/assets/images/legends/test_ti.jpg",
+      "description": "jpl/assets/layers/TES_Thermal_Inertia.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/TES_Thermal_Inertia",
+          "layerId": "TES_Thermal_Inertia",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Mars_MGS_TES_Albedo_mosaic_global_7410m",
+      "title": "Albedo Mosaic",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/tes.png",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/mgs_tes_albedo.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MGS_TES_Albedo_mosaic_global_7410m",
+          "layerId": "Mars_MGS_TES_Albedo_mosaic_global_7410m",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "tes_clinopyroxene",
+      "title": "TES High-Ca Pyroxene",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "jpl/assets/images/legends/tes_clinopyroxene.jpg",
+      "description": "jpl/assets/layers/TES_Clinopyroxene.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/TES_Clinopyroxene",
+          "layerId": "TES_Clinopyroxene",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "TES_Dust",
+      "title": "TES Surface Dust",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "jpl/assets/images/legends/tes_dust.jpg",
+      "description": "jpl/assets/layers/TES_Dust.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/TES_Dust",
+          "layerId": "TES_Dust",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "TES_Plagioclase",
+      "title": "TES Plagioclase",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "jpl/assets/images/legends/tes_plagioclase.jpg",
+      "description": "jpl/assets/layers/TES_Plagioclase.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://marstrek.jpl.nasa.gov/arcgis/rest/services/TES_Plagioclase/MapServer/WMTS",
+          "layerId": "TES_Plagioclase",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "TES_Glass_Clay",
+      "title": "TES Sheet silicates/High-Si glass",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "jpl/assets/images/legends/TES_Glass_Clay.jpg",
+      "description": "jpl/assets/layers/TES_Glass_Clay.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/TES_Glass_Clay",
+          "layerId": "TES_Glass_Clay",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "tes_ruffdust",
+      "title": "TES Dust Cover Index",
+      "subtitle": "Thermal Emission Spectrometer",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Thermal Emission Spectrometer (TES)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/color.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "",
+      "description": "jpl/assets/layers/tes_ruffdust.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/tes_ruffdust",
+          "layerId": "tes_ruffdust",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+      "productLabel": "mola_roughness",
+      "title": "MOLA Vertical Roughness",
+      "subtitle": "Mars Orbiter Laser Altimeter",
+      "mission": "Mars Global Surveyor",
+      "instrument": "Mars Orbiter Laser Altimeter (MOLA)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/layers/clrhillshde.jpg",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "",
+      "description": "jpl/assets/layers/mola_roughness.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/mola_roughness",
+          "layerId": "mola_roughness",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Mars_MO_THEMIS-IR-Night_mosaic_60N60S_100m_v14_clon0_ly",
+      "title": "Infrared Night",
+      "subtitle": "Thermal Emission Imaging System",
+      "mission": "Mars Odyssey",
+      "instrument": "Thermal Emission Imaging System (THEMIS)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/basemaps/themis_night.png",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 60.000000,
+        "bottombc": -60.000000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/mody_themis_irnight.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MO_THEMIS-IR-Night_mosaic_60N60S_100m_v14_clon0_ly",
+          "layerId": "Mars_MO_THEMIS-IR-Night_mosaic_60N60S_100m_v14_clon0_ly",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "Mars_MO_THEMIS-IR-Day_mosaic_global_100m_v12_clon0_ly",
+      "title": "Infrared Day",
+      "subtitle": "Thermal Emission Imaging System",
+      "mission": "Mars Odyssey",
+      "instrument": "Thermal Emission Imaging System (THEMIS)",
+      "productType": "Mosaic",
+      "layerProjection": "IAU2000:49900",
+      "thumbnailImage": "jpl/assets/images/basemaps/themis_day.png",
+      "bounding": {
+        "leftbc": -180.000000,
+        "rightbc": 180.000000,
+        "topbc": 90.000000,
+        "bottombc": -90.000000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/mody_themis_irday.html",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "WMTS",
+          "mode": "rest",
+          "endPoint": "https://d1poygwgh8gv6r.cloudfront.net/catalog/Mars_MO_THEMIS-IR-Day_mosaic_global_100m_v12_clon0_ly",
+          "layerId": "Mars_MO_THEMIS-IR-Day_mosaic_global_100m_v12_clon0_ly",
+          "tileMatrixSet": "default028mm",
+          "format": "png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+<div id="createbookmarkmenuscontainer">
+    <div data-dojo-attach-point="bookmarkDetailsMenuContent">
+        <h4>Graphics:</h4>
+        <div class="createBookmarkGraphicToolIconsList" style="line-height:4.5;">
+            <div class="btn btn-default" data-dojo-attach-point="addPointButton">
+                <div>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Point</p>
+                </div>
+            </div>
+            <!--
+            <div class="btn btn-default" data-dojo-attach-point="addMultiPointButton">
+                <div>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                    <span class="fa fa-circle createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Multipoint</p>
+                </div>
+            </div>
+            -->
+            <div class="btn btn-default" data-dojo-attach-point="addLineButton">
+                <div>
+                    <span class="icon-line createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Line</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addPolylineButton">
+                <div>
+                    <span class="icon-polyline createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Polyline</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addFreehandLineButton">
+                <div>
+                    <span class="icon-freehand createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Freehand Line</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addRectangleButton">
+                <div>
+                    <span class="icon-checkbox3 createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Rectangle</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addCircleButton">
+                <div>
+                    <span class="fa fa-circle-o createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Circle</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addEllipseButton">
+                <div>
+                    <span class="fa fa-circle-thin createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Ellipse</p>
+                </div>
+            </div>
+            <!--
+            <div class="btn btn-default" data-dojo-attach-point="addArrowButton">
+                <div>
+                    <span class="fa fa-arrows createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addLeftArrowButton">
+                <div>
+                    <span class="fa fa-arrow-left createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Left Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addDownArrowButton">
+                <div>
+                    <span class="fa fa-arrow-down createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Down Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addRightArrowButton">
+                <div>
+                    <span class="fa fa-arrow-right createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Right Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addUpArrowButton">
+                <div>
+                    <span class="fa fa-arrow-up createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Up Arrow</p>
+                </div>
+            </div>
+            <div class="btn btn-default" data-dojo-attach-point="addTriangleButton">
+                <div>
+                    <span class="fa fa-caret-up createBookmarkToolIcon">
+                    </span>
+                </div>
+                <div class="caption">
+                    <p>Triangle</p>
+                </div>
+            </div>
+            -->
+        </div>
+
+        <h4>Graphic Color:</h4>
+        <div>
+            <label>Outline:</label>
+            <input data-dojo-attach-point="graphicOutlineColorSelector" type="color" value="#ff0000">
+
+            <label>Fill:</label>
+            <input data-dojo-attach-point="graphicFillColorSelector" type="color" value="#ff0000">
+        </div>
+
+        <br>
+
+        <h4>Details:</h4>
+        <div>
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" data-dojo-attach-point="titleInput" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Description:</label>
+                <textarea class="form-control" data-dojo-attach-point="descriptionInput" rows="5" style="resize:both;"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="mediaUrlInput">Media URL:</label>
+                <input type="text" data-dojo-attach-point="mediaUrlInput" id="mediaUrlInput" class="form-control">
+                <p class="help-block">Media URL for this bookmark.</p>
+            </div>
+        </div>
+
+        <div style="text-align:right;">
+            <button data-dojo-attach-point="addingShapeNextButton" class="btn btn-success hidden">Next</button>
+            <button data-dojo-attach-point="addingShapeNextButtonDisabled" class="btn btn-danger">Next</button>
+        </div>
+    </div>
+</div>

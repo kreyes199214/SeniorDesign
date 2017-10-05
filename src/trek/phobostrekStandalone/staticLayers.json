@@ -1,0 +1,1963 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "",
+        "productLabel": "f242a19_CLEAR_Ortho",
+        "title": "f242a19_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 60.1639589,
+          "bottombc": -89.9667911
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.077990,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f242a19_CLEAR_Ortho/thumbnail/f242a19_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f242a19_CLEAR_Ortho",
+            "layerId": "f242a19_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f246a07_CLEAR_Ortho",
+        "title": "f246a07_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 38.0596647,
+          "rightbc": 81.2072947,
+          "topbc": 29.5281536,
+          "bottombc": -41.1099064
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.030110,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a07_CLEAR_Ortho/thumbnail/f246a07_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a07_CLEAR_Ortho",
+            "layerId": "f246a07_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f246a08_CLEAR_Ortho",
+        "title": "f246a08_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 63.5628347,
+          "rightbc": 132.3942947,
+          "topbc": 43.0174336,
+          "bottombc": -17.9854264
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.030110,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a08_CLEAR_Ortho/thumbnail/f246a08_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a08_CLEAR_Ortho",
+            "layerId": "f246a08_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f246a62_CLEAR_Ortho",
+        "title": "f246a62_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 41.5420176,
+          "rightbc": 141.8584538,
+          "topbc": 56.5149731,
+          "bottombc": -52.3421121
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.072378,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a62_CLEAR_Ortho/thumbnail/f246a62_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f246a62_CLEAR_Ortho",
+            "layerId": "f246a62_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f248a01_CLEAR_Ortho",
+        "title": "f248a01_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 32.0270939,
+          "rightbc": 91.5441266,
+          "topbc": 44.8230165,
+          "bottombc": -35.9901296
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f248a01_CLEAR_Ortho/thumbnail/f248a01_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f248a01_CLEAR_Ortho",
+            "layerId": "f248a01_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f248a05_CLEAR_Ortho",
+        "title": "f248a05_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 57.58243,
+          "rightbc": 114.2599809,
+          "topbc": 25.9554072,
+          "bottombc": -38.306549
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f248a05_CLEAR_Ortho/thumbnail/f248a05_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f248a05_CLEAR_Ortho",
+            "layerId": "f248a05_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f249a03_CLEAR_Ortho",
+        "title": "f249a03_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 5.425633,
+          "rightbc": 123.0399575,
+          "topbc": 74.9364681,
+          "bottombc": -33.1880094
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f249a03_CLEAR_Ortho/thumbnail/f249a03_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f249a03_CLEAR_Ortho",
+            "layerId": "f249a03_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "f252a63_CLEAR_Ortho",
+        "title": "f252a63_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 13.0656544,
+          "bottombc": -89.9776452
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f252a63_CLEAR_Ortho/thumbnail/f252a63_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/f252a63_CLEAR_Ortho",
+            "layerId": "f252a63_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h0413_0002_sr2_CLEAR_Ortho",
+        "title": "h0413_0002_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.9558322,
+          "bottombc": -4.5316604
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0413_0002_sr2_CLEAR_Ortho/thumbnail/h0413_0002_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0413_0002_sr2_CLEAR_Ortho",
+            "layerId": "h0413_0002_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h0715_0004_sr2_CLEAR_Ortho",
+        "title": "h0715_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -167.6333096,
+          "rightbc": 42.3388962,
+          "topbc": 88.9097074,
+          "bottombc": 17.9226627
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0715_0004_sr2_CLEAR_Ortho/thumbnail/h0715_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0715_0004_sr2_CLEAR_Ortho",
+            "layerId": "h0715_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h0748_0003_sr2_CLEAR_Ortho",
+        "title": "h0748_0003_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.9931938,
+          "bottombc": 24.1246887
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0748_0003_sr2_CLEAR_Ortho/thumbnail/h0748_0003_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h0748_0003_sr2_CLEAR_Ortho",
+            "layerId": "h0748_0003_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h1558_0005_sr2_CLEAR_Ortho",
+        "title": "h1558_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -175.7407773,
+          "rightbc": 172.7682503,
+          "topbc": 76.0573161,
+          "bottombc": -88.8941587
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1558_0005_sr2_CLEAR_Ortho/thumbnail/h1558_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1558_0005_sr2_CLEAR_Ortho",
+            "layerId": "h1558_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h1574_0005_sr2_CLEAR_Ortho",
+        "title": "h1574_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 58.6094478,
+          "bottombc": -89.6787523
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1574_0005_sr2_CLEAR_Ortho/thumbnail/h1574_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1574_0005_sr2_CLEAR_Ortho",
+            "layerId": "h1574_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h1607_0005_sr2_CLEAR_Ortho",
+        "title": "h1607_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 60.2159967,
+          "bottombc": -89.902922
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1607_0005_sr2_CLEAR_Ortho/thumbnail/h1607_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h1607_0005_sr2_CLEAR_Ortho",
+            "layerId": "h1607_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h2233_0005_sr2_CLEAR_Ortho",
+        "title": "h2233_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -3.2987275,
+          "bottombc": -89.9402836
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2233_0005_sr2_CLEAR_Ortho/thumbnail/h2233_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2233_0005_sr2_CLEAR_Ortho",
+            "layerId": "h2233_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h2780_0004_sr2_CLEAR_Ortho",
+        "title": "h2780_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -106.509728,
+          "rightbc": -8.0992671,
+          "topbc": 56.9281757,
+          "bottombc": -9.2765839
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2780_0004_sr2_CLEAR_Ortho/thumbnail/h2780_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2780_0004_sr2_CLEAR_Ortho",
+            "layerId": "h2780_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h2780_0006_sr2_CLEAR_Ortho",
+        "title": "h2780_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.9931938,
+          "bottombc": 42.0582579
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2780_0006_sr2_CLEAR_Ortho/thumbnail/h2780_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2780_0006_sr2_CLEAR_Ortho",
+            "layerId": "h2780_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h2813_0005_sr2_CLEAR_Ortho",
+        "title": "h2813_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -147.7942987,
+          "rightbc": -86.8575251,
+          "topbc": 48.3350071,
+          "bottombc": -17.2719668
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2813_0005_sr2_CLEAR_Ortho/thumbnail/h2813_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2813_0005_sr2_CLEAR_Ortho",
+            "layerId": "h2813_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h2846_0006_sr2_CLEAR_Ortho",
+        "title": "h2846_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 36.790272,
+          "bottombc": -57.0247118
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2846_0006_sr2_CLEAR_Ortho/thumbnail/h2846_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h2846_0006_sr2_CLEAR_Ortho",
+            "layerId": "h2846_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3310_0003_sr2_CLEAR_Ortho",
+        "title": "h3310_0003_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -161.1323908,
+          "rightbc": -121.4170074,
+          "topbc": 48.6712615,
+          "bottombc": 8.7690701
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0003_sr2_CLEAR_Ortho/thumbnail/h3310_0003_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0003_sr2_CLEAR_Ortho",
+            "layerId": "h3310_0003_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3310_0004_sr2_CLEAR_Ortho",
+        "title": "h3310_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 81.1011325,
+          "bottombc": 34.8848302
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0004_sr2_CLEAR_Ortho/thumbnail/h3310_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3310_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3310_0006_sr2_CLEAR_Ortho",
+        "title": "h3310_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 67.2964466,
+          "rightbc": 112.5039856,
+          "topbc": 62.1588,
+          "bottombc": 13.9996945
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0006_sr2_CLEAR_Ortho/thumbnail/h3310_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3310_0006_sr2_CLEAR_Ortho",
+            "layerId": "h3310_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3761_0004_sr2_CLEAR_Ortho",
+        "title": "h3761_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -107.7800225,
+          "rightbc": -24.2021178,
+          "topbc": -0.0109065,
+          "bottombc": -31.0583981
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3761_0004_sr2_CLEAR_Ortho/thumbnail/h3761_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3761_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3761_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3769_0004_sr2_CLEAR_Ortho",
+        "title": "h3769_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -57.1924127,
+          "rightbc": -9.2574768,
+          "topbc": 38.1352896,
+          "bottombc": -26.2387514
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3769_0004_sr2_CLEAR_Ortho/thumbnail/h3769_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3769_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3769_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3769_0005_sr2_CLEAR_Ortho",
+        "title": "h3769_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -53.8672301,
+          "rightbc": 32.4754331,
+          "topbc": -19.0653237,
+          "bottombc": -80.5625213
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3769_0005_sr2_CLEAR_Ortho/thumbnail/h3769_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3769_0005_sr2_CLEAR_Ortho",
+            "layerId": "h3769_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3802_0003_sr2_CLEAR_Ortho",
+        "title": "h3802_0003_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -98.327537,
+          "rightbc": -52.5969356,
+          "topbc": 30.8497772,
+          "bottombc": -23.2124616
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0003_sr2_CLEAR_Ortho/thumbnail/h3802_0003_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0003_sr2_CLEAR_Ortho",
+            "layerId": "h3802_0003_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3802_0004_sr2_CLEAR_Ortho",
+        "title": "h3802_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -122.2389626,
+          "rightbc": -16.5429893,
+          "topbc": -3.2987275,
+          "bottombc": -57.0620734
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0004_sr2_CLEAR_Ortho/thumbnail/h3802_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3802_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3802_0005_sr2_CLEAR_Ortho",
+        "title": "h3802_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -38.493357,
+          "bottombc": -89.7161139
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0005_sr2_CLEAR_Ortho/thumbnail/h3802_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3802_0005_sr2_CLEAR_Ortho",
+            "layerId": "h3802_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3835_0005_sr2_CLEAR_Ortho",
+        "title": "h3835_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -145.8141338,
+          "rightbc": -47.5157577,
+          "topbc": 28.794889,
+          "bottombc": -43.3877269
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0005_sr2_CLEAR_Ortho/thumbnail/h3835_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0005_sr2_CLEAR_Ortho",
+            "layerId": "h3835_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3835_0006_sr2_CLEAR_Ortho",
+        "title": "h3835_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -1.6921786,
+          "bottombc": -89.7161139
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0006_sr2_CLEAR_Ortho/thumbnail/h3835_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0006_sr2_CLEAR_Ortho",
+            "layerId": "h3835_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3835_0007_sr2_CLEAR_Ortho",
+        "title": "h3835_0007_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -22.0168903,
+          "bottombc": -89.8655604
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0007_sr2_CLEAR_Ortho/thumbnail/h3835_0007_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3835_0007_sr2_CLEAR_Ortho",
+            "layerId": "h3835_0007_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3843_0006_sr2_CLEAR_Ortho",
+        "title": "h3843_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 104.097625,
+          "rightbc": 161.1114304,
+          "topbc": 29.2805899,
+          "bottombc": -27.023345
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3843_0006_sr2_CLEAR_Ortho/thumbnail/h3843_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3843_0006_sr2_CLEAR_Ortho",
+            "layerId": "h3843_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3868_0004_sr2_CLEAR_Ortho",
+        "title": "h3868_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 64.5499426,
+          "bottombc": -76.2285755
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3868_0004_sr2_CLEAR_Ortho/thumbnail/h3868_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3868_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3868_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3876_0004_sr2_CLEAR_Ortho",
+        "title": "h3876_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 86.4812032,
+          "bottombc": -7.2590573
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3876_0004_sr2_CLEAR_Ortho/thumbnail/h3876_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3876_0004_sr2_CLEAR_Ortho",
+            "layerId": "h3876_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h3909_0005_sr2_CLEAR_Ortho",
+        "title": "h3909_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.881109,
+          "bottombc": -61.1344881
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3909_0005_sr2_CLEAR_Ortho/thumbnail/h3909_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h3909_0005_sr2_CLEAR_Ortho",
+            "layerId": "h3909_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4233_0004_sr2_CLEAR_Ortho",
+        "title": "h4233_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 11.3470207,
+          "bottombc": -89.9402836
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4233_0004_sr2_CLEAR_Ortho/thumbnail/h4233_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4233_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4233_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4274_0004_sr2_CLEAR_Ortho",
+        "title": "h4274_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 6.5647356,
+          "bottombc": -71.2221207
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4274_0004_sr2_CLEAR_Ortho/thumbnail/h4274_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4274_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4274_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4274_0005_sr2_CLEAR_Ortho",
+        "title": "h4274_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -20.7092342,
+          "bottombc": -89.9776452
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4274_0005_sr2_CLEAR_Ortho/thumbnail/h4274_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4274_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4274_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4307_0003_sr2_CLEAR_Ortho",
+        "title": "h4307_0003_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -144.2449465,
+          "rightbc": -107.2943216,
+          "topbc": 27.8982106,
+          "bottombc": -16.599458
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0003_sr2_CLEAR_Ortho/thumbnail/h4307_0003_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0003_sr2_CLEAR_Ortho",
+            "layerId": "h4307_0003_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4307_0004_sr2_CLEAR_Ortho",
+        "title": "h4307_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -154.4446639,
+          "rightbc": -113.5710708,
+          "topbc": -7.5579502,
+          "bottombc": -41.8932628
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0004_sr2_CLEAR_Ortho/thumbnail/h4307_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4307_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4307_0005_sr2_CLEAR_Ortho",
+        "title": "h4307_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -176.3012014,
+          "rightbc": -107.0327904,
+          "topbc": -32.6275854,
+          "bottombc": -68.9057014
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0005_sr2_CLEAR_Ortho/thumbnail/h4307_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4307_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4307_0007_sr2_CLEAR_Ortho",
+        "title": "h4307_0007_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": 13.8693551,
+          "rightbc": 137.5362592,
+          "topbc": -27.9573851,
+          "bottombc": -78.806526
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0007_sr2_CLEAR_Ortho/thumbnail/h4307_0007_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4307_0007_sr2_CLEAR_Ortho",
+            "layerId": "h4307_0007_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4332_0004_sr2_CLEAR_Ortho",
+        "title": "h4332_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -167.0728856,
+          "rightbc": -26.1822827,
+          "topbc": 34.9595534,
+          "bottombc": -74.2110489
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4332_0004_sr2_CLEAR_Ortho/thumbnail/h4332_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4332_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4332_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4340_0005_sr2_CLEAR_Ortho",
+        "title": "h4340_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -8.1366287,
+          "rightbc": 83.3245741,
+          "topbc": -19.3268549,
+          "bottombc": -75.705513
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4340_0005_sr2_CLEAR_Ortho/thumbnail/h4340_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4340_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4340_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4373_0003_sr2_CLEAR_Ortho",
+        "title": "h4373_0003_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -123.2477259,
+          "rightbc": -38.1753571,
+          "topbc": 53.9392475,
+          "bottombc": -24.8937337
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4373_0003_sr2_CLEAR_Ortho/thumbnail/h4373_0003_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4373_0003_sr2_CLEAR_Ortho",
+            "layerId": "h4373_0003_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4414_0004_sr2_CLEAR_Ortho",
+        "title": "h4414_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -81.6642623,
+          "rightbc": 78.0192265,
+          "topbc": 85.1735471,
+          "bottombc": -25.2673497
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4414_0004_sr2_CLEAR_Ortho/thumbnail/h4414_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4414_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4414_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4773_0004_sr2_CLEAR_Ortho",
+        "title": "h4773_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -87.6421187,
+          "rightbc": -21.0263816,
+          "topbc": 36.7529104,
+          "bottombc": -40.7350531
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4773_0004_sr2_CLEAR_Ortho/thumbnail/h4773_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4340_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4773_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4847_0004_sr2_CLEAR_Ortho",
+        "title": "h4847_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -133.2232737,
+          "rightbc": -65.1130725,
+          "topbc": 24.0499655,
+          "bottombc": -32.1792462
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4847_0004_sr2_CLEAR_Ortho/thumbnail/h4847_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4847_0004_sr2_CLEAR_Ortho",
+            "layerId": "h4847_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4847_0005_sr2_CLEAR_Ortho",
+        "title": "h4847_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -157.3215073,
+          "rightbc": -105.6877727,
+          "topbc": 48.2602839,
+          "bottombc": 0.8110488
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4847_0005_sr2_CLEAR_Ortho/thumbnail/h4847_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4847_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4847_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4880_0005_sr2_CLEAR_Ortho",
+        "title": "h4880_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.8437474,
+          "bottombc": -18.1312837
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4880_0005_sr2_CLEAR_Ortho/thumbnail/h4880_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4880_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4880_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4888_0005_sr2_CLEAR_Ortho",
+        "title": "h4888_0005_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": -16.1137571,
+          "bottombc": -89.9402836
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4888_0005_sr2_CLEAR_Ortho/thumbnail/h4888_0005_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4888_0005_sr2_CLEAR_Ortho",
+            "layerId": "h4888_0005_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h4888_0006_sr2_CLEAR_Ortho",
+        "title": "h4888_0006_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 13.9996945,
+          "bottombc": -63.488269
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4888_0006_sr2_CLEAR_Ortho/thumbnail/h4888_0006_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h4888_0006_sr2_CLEAR_Ortho",
+            "layerId": "h4888_0006_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h5343_0004_sr2_CLEAR_Ortho",
+        "title": "h5343_0004_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 89.9931938,
+          "bottombc": 8.9185165
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h5343_0004_sr2_CLEAR_Ortho/thumbnail/h5343_0004_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h5343_0004_sr2_CLEAR_Ortho",
+            "layerId": "h5343_0004_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "h5362_0002_sr2_CLEAR_Ortho",
+        "title": "h5362_0002_sr2_CLEAR_Ortho",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -150.8205885,
+          "rightbc": -77.5544861,
+          "topbc": 32.7552189,
+          "bottombc": -37.8582097
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.037362,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h5362_0002_sr2_CLEAR_Ortho/thumbnail/h5362_0002_sr2_CLEAR_Ortho-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/h5362_0002_sr2_CLEAR_Ortho",
+            "layerId": "h5362_0002_sr2_CLEAR_Ortho",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Albedo_mosaic_BL",
+        "title": "Albedo_mosaic_BL",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -179.9999976,
+          "rightbc": 179.9928176,
+          "topbc": 89.6392034,
+          "bottombc": -88.9973038
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.027198,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_BL/thumbnail/Albedo_mosaic_BL-120.png",
+        "services": [
+          {
+            "sid":"f076583f-f19d-4f76-9298-477ea25e50ca",
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_BL",
+            "layerId": "Albedo_mosaic_BL",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Albedo_mosaic_GR",
+        "title": "Albedo_mosaic_GR",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -179.9999976,
+          "rightbc": 179.9928176,
+          "topbc": 89.6392034,
+          "bottombc": -88.9973038
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.027198,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_GR/thumbnail/Albedo_mosaic_GR-120.png",
+        "services": [
+          {
+            "sid":"ea357b99-9ad6-46f6-9248-960bb6a5b83c",
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_GR",
+            "layerId": "Albedo_mosaic_GR",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Albedo_mosaic_IR",
+        "title": "Albedo_mosaic_IR",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -179.9999976,
+          "rightbc": 179.9928176,
+          "topbc": 89.6392034,
+          "bottombc": -88.9973038
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.027198,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_IR/thumbnail/Albedo_mosaic_IR-120.png",
+        "services": [
+          {
+            "sid":"37e2266f-e3a8-420f-ac4c-53b8d8488a16",
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_IR",
+            "layerId": "Albedo_mosaic_IR",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Albedo_mosaic_RE",
+        "title": "Albedo_mosaic_RE",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -179.9999976,
+          "rightbc": 179.9928176,
+          "topbc": 89.6392034,
+          "bottombc": -88.9973038
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.027198,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_RE/thumbnail/Albedo_mosaic_RE-120.png",
+        "services": [
+          {
+            "sid":"1120132a-4dcf-4bfe-9436-e19b53eb5109",
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Albedo_mosaic_RE",
+            "layerId": "Albedo_mosaic_RE",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Index_VNIR_mosaic",
+        "title": "Index_VNIR_mosaic",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -179.9999976,
+          "rightbc": 179.9928176,
+          "topbc": 89.6392034,
+          "bottombc": -88.9973038
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":0.027198,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Index_VNIR_mosaic/thumbnail/Index_VNIR_mosaic-120.png",
+        "services": [
+          {
+            "sid":"a0f3853b-4178-4cdd-b04d-5d89de465e7c",
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Index_VNIR_mosaic",
+            "layerId": "Index_VNIR_mosaic",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Contours_in_500",
+        "title": "Contours_in_500",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "featureLayer",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 90.0,
+          "bottombc": -90.0
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":10000,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Contours_in_500/thumbnail/contour.jpg",
+        "services": [
+          {
+            "serviceType": "Feature",
+            "protocol": "ArcGISFeature",
+            "mode": "rest",
+            "endPoint": "https://phobostrekbeta.jpl.nasa.gov/arcgis/rest/services/Phobos/Contours_in_500/MapServer/0",
+            "layerId": "",
+            "tileMatrixSet": "",
+            "format": ""
+          }
+        ]
+      },
+      {
+        "UUID": "",
+        "productLabel": "Gravity_potential_contours",
+        "title": "Gravity_potential_contours",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "featureLayer",
+        "legend": "",
+        "description": "Phobos Layer",
+        "information": "Phobos Layer",
+        "bbox": {
+          "leftbc": -180.0,
+          "rightbc": 180.0,
+          "topbc": 90.0,
+          "bottombc": -90.0
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104907",
+        "resolution":10000,
+        "thumbnailImage":"https://trektiles.jpl.nasa.gov/trektiles/Phobos/EQ/Gravity_potential_contours/thumbnail/gravity.jpg",
+        "services": [
+          {
+            "serviceType": "Feature",
+            "protocol": "ArcGISFeature",
+            "mode": "rest",
+            "endPoint": "https://phobostrekbeta.jpl.nasa.gov/arcgis/rest/services/Phobos/Gravity_potential_contours/MapServer/0",
+            "layerId": "",
+            "tileMatrixSet": "",
+            "format": ""
+          }
+        ]
+      }
+    ]
+  }
+}

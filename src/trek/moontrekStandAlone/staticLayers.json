@@ -1,0 +1,106 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "",
+        "productLabel": "LRO_LOLA_ClrSlope_NPole75N_120m",
+        "title": "LRO_LOLA_ClrSlope_NPole75N_120m",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Mars Orbiter Laser Altimeter",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bbox": {
+          "leftbc": -4302115.772,
+          "rightbc": 4302157.567,
+          "topbc": -1356306.316,
+          "bottombc": -7056218.292
+        },
+        "layerProjection":"urn:ogc:def:crs:IAU2000::30118",
+        "resolution":632.620641,
+        "thumbnailImage":"http://moontrek.jpl.nasa.gov/trektiles/Moon/NP/LRO_LOLA_ClrSlope_NPole75N_120m/thumbnail/LRO_LOLA_ClrSlope_NPole75N_120m-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/NP/LRO_LOLA_ClrSlope_NPole75N_120m",
+            "layerId": "LRO_LOLA_ClrSlope_NPole75N_120m",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+
+      {
+        "UUID": "",
+        "productLabel": "LRO_LOLA_ClrSlope_SPole75S_120m",
+        "title": "LRO_LOLA_ClrSlope_SPole75S_120m",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": "Mars Orbiter Laser Altimeter",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bbox": {
+          "leftbc": -457440.000,
+          "rightbc": 457440.000,
+          "topbc": 457440.000,
+          "bottombc": -457440.000
+        },
+        "layerProjection":"urn:ogc:def:crs:IAU2000::30120",
+        "resolution":120.000000,
+        "thumbnailImage":"http://moontrek.jpl.nasa.gov/trektiles/Moon/SP/LRO_LOLA_ClrSlope_SPole75S_120m/thumbnail/LRO_LOLA_ClrSlope_SPole75S_120m-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/SP/LRO_LOLA_ClrSlope_SPole75S_120m",
+            "layerId": "LRO_LOLA_ClrSlope_SPole75S_120m",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      },
+
+      {
+        "UUID": "",
+        "show": false,
+        "productLabel": "LRO_LOLA_ClrShade_Global_256ppd_v06",
+        "title": "LRO_LOLA_ClrShade_Global_256ppd_v06",
+        "subtitle": "",
+        "mission": "",
+        "instrument": "",
+        "productType": "Mosaic",
+        "legend": "",
+        "description": " ",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bbox": {
+          "leftbc": -180.0000000,
+          "rightbc": 180.0000000,
+          "topbc": 90.0000000,
+          "bottombc": -90.0000000
+        },
+        "layerProjection":"urn:ogc:def:crs:EPSG::104903",
+        "resolution":0.003906,
+        "thumbnailImage":"http://moontrek.jpl.nasa.gov/trektiles/Moon/EQ/LRO_LOLA_ClrShade_Global_256ppd_v06/thumbnail/LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
+        "services": [
+          {
+            "serviceType": "Mosaic",
+            "protocol": "WMTS",
+            "mode": "rest",
+            "endPoint": "http://moontrek.jpl.nasa.gov/trektiles/Moon/EQ/LRO_LOLA_ClrShade_Global_256ppd_v06",
+            "layerId": "LRO_LOLA_ClrShade_Global_256ppd_v06",
+            "tileMatrixSet": "default028mm",
+            "format": "image/png"
+          }
+        ]
+      }
+
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+<div id="stlInputContainer" data-dojo-attach-point="stlInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="stlInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="stlModalClose" data-dojo-attach-point="stlModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Generate 3D Print File</b></h4>
+            </div>
+            <div class="modal-body">
+
+               <table align="center" border="0">
+                  <tr>
+                    <td colspan="3" height="50" nowrap>
+                      Type:&nbsp&nbsp;
+                      <div id="radioOne"></div>&nbsp;<b>STL</b>&nbsp;&nbsp;&nbsp;
+                      <div id="radioTwo"></div>&nbsp;<b>OBJ</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">Bounding Box:</td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap align="right">
+                      Left:&nbsp;&nbsp;
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="stlLeft"></div>
+                    </td>
+                  </tr>
+
+                   <tr>
+                       <td height="50" nowrap align="right">
+                           Bottom:&nbsp;&nbsp;
+                       </td>
+                       <td height="50" nowrap>
+                           <div id="stlBottom"></div>
+                       </td>
+                   </tr>
+
+                  <tr>
+                    <td height="50" nowrap align="right">
+                      Right:&nbsp;&nbsp;
+                    </td>
+                    <td height="50" nowrap>
+                     <div id="stlRight"></div>
+                    </td>
+                  </tr>
+
+                   <tr>
+                       <td height="50" nowrap align="right">
+                           Top:&nbsp;&nbsp;
+                       </td>
+                       <td height="50" nowrap>
+                           <div id="stlTop" style="height:40px"></div>
+                       </td>
+                   </tr>
+
+                   <tr>
+                    <td height="50" nowrap align="right">
+                      Resolution:&nbsp&nbsp;
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="stlResolution"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <table>
+                        <tr>
+                          <td height="50" nowrap align="right">
+                            Texture:&nbsp&nbsp;
+                          </td>
+                          <td height="50" width="80%"nowrap>
+                            <div id="stlDem"></div>
+                          </td>
+                        </tr>
+                      </table> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" nowrap>
+                      &nbsp;<br>
+                    </td>
+                  </tr>
+                </table>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button id="stlSubmitButton" data-dojo-attach-point="stlSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+              <button id="stlEditButton" data-dojo-attach-point="stlEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="stlRemoveButton" data-dojo-attach-point="stlRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="menu push-menu-tree">
+    <div id="treescontainer" data-dojo-attach-point="treescontainer">
+        <div class="treeBarHeader">
+            <a class="viewerBackLink hidden">
+                <span class="fa fa-arrow-left treeSideBarBtn"></span>
+            </a>
+            <div class="treeLeafListViewerSidebarTopBtn">
+                <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton hidden"><span class="fa fa-arrow-left"></span></button>
+                <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+            </div>
+            <h2 data-dojo-attach-point="treeSidebarTitle">Show me</h2>
+        </div>
+
+        <div id="treeSidebarTreeBarResults" class="treeBarResults" data-dojo-attach-point="treeBarResults" >
+            <div>
+                <div class="resultsContainer">
+                    <div data-dojo-attach-point="results">
+                        <ul class="list-group" data-dojo-attach-point="resultsList">
+                        </ul>
+                        <div data-dojo-attach-point="resultsContainerLoadingNotice" class="resultsContainerLoadingNotice hidden">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="treeListContainer" class="treeMenuTreeList">
+            <div data-dojo-attach-point="treeListResults">
+
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="treeItemListContainer" class="treeMenuTreeList hidden">
+
+            <div style="margin-bottom: 20px;">
+                <span data-dojo-attach-point="treeItemListTitle"></span>
+            </div>
+
+            <div data-dojo-attach-point="treeItemListResults" style="top:10px;">
+            </div>
+        </div>
+
+    </div>
+
+</div>

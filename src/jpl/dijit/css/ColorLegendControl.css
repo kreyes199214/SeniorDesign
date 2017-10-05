@@ -1,0 +1,107 @@
+/* Put any styles specifically related to the color legend here, or style overrides from the global App.css */
+
+.color-legend-container {
+    position: relative;
+    top: 15px;
+	left: -10px;
+}
+
+.color-legend-box {
+    width: 256px;
+    border: none;
+    padding: 0;
+    margin: auto;
+    overflow: visible;
+}
+
+.color-legend-canvas {
+	width: 100%;
+
+	/*
+	height: 25px;
+	overflow: hidden;
+	border: 1px solid gray;
+	*/
+}
+
+.color-legend-swatch-box {
+	position: absolute;
+	z-index: 9999;
+	border: 1px solid gray;
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background-color: #c8c8c8;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.color-legend-swatch {
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+	font-size: 11px;
+    float:left;
+    border-radius: 2px;
+    border: 1px solid #555;
+    display: inline-block;
+}
+
+.color-legend-swatch-label {
+    margin: 0px;
+	line-height: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 13px;
+    color: #555;
+    white-space: nowrap;
+    display: inline-block;
+    float:left;
+}
+
+.color-legend-range {
+	width: 100%;
+	font-size: 10px;
+	color: white;
+	float: left;
+}
+
+.color-legend-slider-box {
+	width: 100%;
+	/* height: 15px; */
+	/* overflow: hidden; */
+	padding: 0;
+	/* margin-top: 5px; */
+	padding: 0;
+}
+
+.color-legend-slider {
+	width: 15px;
+	height: 15px;
+	border: 1px solid gray;
+/*	position: absolute;
+*/	display: inline-block;
+	z-index: 9999;
+	padding: 5px;
+}
+
+.dijitRangeSlider {
+	height: 15px;
+	overflow: hidden;
+}
+
+.dojoxRangeSlider  .dijitSliderImageHandleH {
+	width: 16px;
+	height: 16px;
+	border: solid 1px #666;
+	border-radius: 0;
+	background-color: #f9f9f9;
+	background-image: none;
+}
+.color-legend-interval {
+	margin-top: -1px;
+	margin-bottom: 5px;
+}

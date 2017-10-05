@@ -1,0 +1,44 @@
+<div>
+    <h3 data-dojo-attach-point="slideshowHeading" class="slideshow-heading"></h3>
+    <a id="slideshowGalleryBackBtn" class="search-result-back-btn" data-dojo-attach-point="slideshowGalleryBackBtn" style="cursor: pointer;position:absolute;top: 10px;left: 10px;font-size: 1.2em" class="hidden">
+        <span class="fa fa-arrow-circle-left" style="font-size: 1.75em;vertical-align:middle;display:inline-block;"></span>
+    </a>
+
+
+    <div id="slideshowCarousel">
+        <div id="slideshowSpinner">
+            <div class="slideshow-container one">
+                <div class="list-group">
+                    <ul>
+                      <p class="gallery-description" data-dojo-attach-point="slideShowGalleryDescription">
+                      </p>
+                    </ul>
+                    <ul class="slideshowList" data-dojo-attach-point="slideShowCategoriesList"></ul>
+                </div>
+            </div>
+
+            <div class="slideshow-container two">
+                <div class="list-group">
+                    <ul class="slideshowList" data-dojo-attach-point="slideShowSubCategoriesList"></ul>
+                </div>
+            </div>
+
+            <div class="slideshow-container three">
+                <div class="list-group">
+                    <ul class="slideshowList" data-dojo-attach-point="slideShowCollectionList"></ul>
+                </div>
+            </div>
+
+            <div class="slideshow-container four">
+                <div class="list-group">
+                    <ul class="slideshowList" data-dojo-attach-point="slideShowManifestList"></ul>
+                </div>
+            </div>
+
+            <div class="slideshow-container five slideshow ">
+                <div id="slholder" class="slholder" data-dojo-attach-point="slideShowContainer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+.controlHeader {
+    height: 23px;
+    margin: -1px -3px 3px 2px;
+    position: relative;
+}
+
+#btnMyLayerCollapse {
+    font-size: 21px;
+    cursor: pointer;
+    padding-right: 8px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 13px;
+}
+
+.myLayerHeaderButtonGroup {
+    width: 75px;
+    text-align: right;
+    float: right;
+    padding: 4px 4px 0 0;
+}
+
+.myLayerButtonLink, .myLayerButtonLink:active, .myLayerButtonLink:hover {
+    padding-top:15px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.myLayerButtonLink span {
+    font-size: 17px;
+    cursor: pointer;
+    padding: 1px 2px;
+}
+
+.myLayersControlButtonGroup {
+    margin: 20px 5px 5px 5px;
+}
+
+.tools-icon {
+    font-size:18px;
+    padding-right:10px;
+    color:#c8c8c8;
+}
+.myLayerControl {
+    margin: 5px;
+}
+
+.myLayerTitle {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.myLayerContainer {
+    border: solid 1px #222;
+    width: 94%;
+    padding: 3px;
+    text-align: left;
+    margin: 5px 10px;
+    background-color: #555;
+    border-radius: 3px;
+    cursor: move;
+}
+
+.myLayerControls {
+    height: 100px;
+    position: relative;
+    margin: 10px -10px -5px 15px;
+}
+
+.myLayerSubtitle {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: -4px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.myLayerThumbnail {
+    margin-top: -10px;
+    margin-right: 5px;
+    border: solid 1px #ccc;
+}
+
+.layerControlsButtonContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+}
+
+.nomenclatureControl {
+    margin: 5px 2px;
+    display: inline-block;
+}

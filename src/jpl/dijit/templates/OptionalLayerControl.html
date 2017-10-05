@@ -1,0 +1,33 @@
+<div class="list-group-item" style="cursor: default;" data-dojo-attach-point="myLayerContainer" >
+    <div class="controlHeader" style="height:25px;">
+        <div style="float:left;margin-top:3px;">
+            <img data-dojo-attach-point="myLayerThumbnail" width="20" height="20" style="margin-right:5px;border: solid 1px #ccc;">
+        </div>
+
+        <div style="float:right">
+            <div class="myLayerHeaderButtonGroup" style="padding:0;right:0px;">
+                <a rel="tooltip" data-dojo-attach-point="flyToLayerBtn" data-content="Add & Zoom to Layer" alt="Add & Zoom to Layer" data-placement="left" class="myLayerButtonLink">
+                    <span class="bookmark-control fa-stack fa-lg" style="top: -1.5px;width:20px;top: -3.2px;width: 24px;">
+                        <i class="fa fa-circle fa-stack-1x"></i>
+                        <i class="fa fa-crosshairs fa-stack-1x" style="color: #333;font-size: 0.70em;"></i>
+                    </span>
+                </a>
+
+                <a rel="tooltip" data-content="Toggle Layer" alt="Toggle Layer" data-placement="left" class="myLayerButtonLink">
+                    <span data-dojo-attach-point="myLayerToggleBox" class="fa fa-plus-circle"></span>
+                </a>
+
+                <a rel="tooltip" data-content="Layer Information" alt="Layer Information" data-placement="left" class="myLayerButtonLink">
+                    <span data-dojo-attach-point="btnLayerInfo" class="fa fa-info-circle"></span>
+                </a>
+
+                <span data-dojo-attach-point="btnRemoveLayer" class="fa fa-times-circle"></span>
+            </div>
+        </div>
+
+        <div style="float:center;word-wrap:break-word;margin:0 auto; margin-right:23%;margin-left:30px;">
+            <span class="myLayerTitle" data-dojo-attach-point="myLayerTitle">Unknown Layer</span>
+            <span class="myLayerSubtitle" data-dojo-attach-point="myLayerSubtitle"></span>
+        </div>
+    </div>
+</div>

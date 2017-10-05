@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>Mars Trek</title>
+		<meta name="description" content="Mars Trek is a NASA web-based portal for exploration of Mars. This portal showcases data collected by NASA at various landing sites and features an easy-to-use browsing tool that provides layering and viewing of high resolution data."> 
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<link rel="icon" type="image/png" href="http://mars-2035432769.us-west-1.elb.amazonaws.com/mars/jpl/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="http://mars-2035432769.us-west-1.elb.amazonaws.com/mars/jpl/favicon/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="http://mars-2035432769.us-west-1.elb.amazonaws.com/mars/jpl/favicon/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://mars-2035432769.us-west-1.elb.amazonaws.com/mars/jpl/favicon/favicon-16x16.png" sizes="16x16">
+		<style>html, body, .frame{width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; border: none;}</style>
+	</head>
+	<body class="claro" oncontextmenu="return false;">
+		<script>
+			var hash = window.location.hash;
+			var ifrm = document.createElement("IFRAME");
+			ifrm.className = "frame";
+			ifrm.setAttribute("src", "http://mars-2035432769.us-west-1.elb.amazonaws.com/mars/index.html" + hash);
+			ifrm.setAttribute("allowfullscreen", "true");
+			ifrm.setAttribute("mozallowfullscreen", "true");
+			ifrm.setAttribute("oallowfullscreen", "true");
+			ifrm.setAttribute("msallowfullscreen", "true");
+			ifrm.setAttribute("onmousewheel", "");
+			ifrm.innerHTML = "Mars Trek is a NASA web-based portal for exploration of Mars. This portal showcases data collected by NASA at various landing sites and features an easy-to-use browsing tool that provides layering and viewing of high resolution data. If your browser does not support iframes please visit the site directly (http://mars-2035432769.us-west-1.elb.amazonaws.com/mars)";
+			document.body.appendChild(ifrm);
+			window.location.hash=' ';
+		</script>
+		<script id="_fed_an_js_tag" type="text/javascript" src="federatedanalytics.all.min.js?agency=NASA&pua=UA-45212297-1&subagency=JPL"></script>
+	</body>
+</html>

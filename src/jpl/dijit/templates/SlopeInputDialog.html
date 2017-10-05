@@ -1,0 +1,94 @@
+<div id="slopeInputContainer" data-dojo-attach-point="slopeInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="slopeInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="slopeModalClose" data-dojo-attach-point="slopeModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Slope Tool</b></h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td colspan="2">Bounding Box:</td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Top:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="slopeTop" style="height:40px"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Left:
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="slopeLeft"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Right:
+                    </td>
+                    <td height="50" nowrap>
+                     <div id="slopeRight"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Bottom:
+                    </td>
+                    <td height="50" nowrap>
+                    <div id="slopeBottom"></div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" height="50" width="80%"nowrap>
+                      DEM:&nbsp;&nbsp;
+                      <div id="slopeDem"></div>
+                    </td>
+                  </tr>
+<!--              <tr>
+                    <td height="50" nowrap>
+                      Post Spacing:&nbsp&nbsp;
+                    </td>
+                    <td colspan="2" height="50" nowrap>
+                      <div id="postSpacing"></div>&nbsp;&nbsp;m
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Size Plane:&nbsp;&nbsp;
+                    </td>
+                    <td colspan="2" height="50" nowrap>
+                      <div id="sizePlane"></div>&nbsp;&nbsp;m
+                    </td>
+                  </tr>
+-->
+                  <tr>
+                    <td colspan="2" height="50" nowrap>
+                      <b>Email</b>:<font color="red">*</font>
+                      <div id="slopeEmail"><div>
+                    </td>
+                  </tr>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:center;"> 
+              <button id="slopeSubmitButton" data-dojo-attach-point="slopeSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Submit</button>
+<!--
+              <button id="slopeEditButton" data-dojo-attach-point="slopeEditButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move/Edit Marker</button>
+-->
+              <button id="slopeRemoveButton" data-dojo-attach-point="slopeRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

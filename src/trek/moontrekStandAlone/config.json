@@ -1,0 +1,81 @@
+{
+  "_comment": "Application Config",
+
+  "title": "Moon Trek",
+  "theme": "",
+  "controls": {
+    "help": true,
+    "layers": true,
+    "scalebars": true,
+    "projection": true,
+    "basemaps": false,
+    "mappermalink": true
+
+  },
+  "menu":{
+    "about": false,
+    "credits": false,
+    "relatedLinks": false,
+    "releaseNotes": false,
+    "systemRequirements": true
+  },
+
+  "useIndexerLayers": false,
+
+  "googleAnalyticsID": "UA-64017724-1",
+  "permalinkVersions": ["0.1"],
+  "layerOptions": {
+    "removable": false,
+    "downloadable": false,
+    "metadata": false
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": false,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 1737400,
+  "elevationPoints": 100,
+  "elevationMinValue": -9126,
+  "equatorialRadiusKm": 0.2725,
+  "projections": {
+    "northpole": "urn:ogc:def:crs:IAU2000::30118",
+    "southpole": "urn:ogc:def:crs:IAU2000::30120",
+    "equirect": "urn:ogc:def:crs:EPSG::104903"
+  },
+  "extents": {
+    "northpole": {
+      "xmin":-1095700.000,
+      "ymin":-1095600.000,
+      "xmax":1095600.000,
+      "ymax":1095700.000,
+      "wkid": "",
+      "wkt": "PROJCS[\"Moon_np\",GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin":-1095700.000,
+      "ymin":-1095600.000,
+      "xmax":1095600.000,
+      "ymax":1095700.000,
+      "wkid": "",
+      "wkt": "PROJCS[\"Moon2000_sp\",GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "104903",
+      "wkt": "GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433],AUTHORITY[\"ESRI\",104903]]"
+    }
+  },
+
+  "services": {
+    "layersService": "jpl/config/staticLayers.json",
+    "basemapService": "jpl/config/basemaps.json",
+    "terrainEndpoint": "http://marshub.s3.amazonaws.com/moon_v4.1/"
+  }
+
+}

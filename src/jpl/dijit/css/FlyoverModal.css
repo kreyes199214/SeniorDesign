@@ -1,0 +1,31 @@
+.flyoverInfo {
+    display: inherit;
+    visibility: hidden;
+    opacity: 0;
+    left: 75px;
+    top: auto;
+    bottom: 40px;
+    z-index: 20;
+    -webkit-transition: left 0.5s, width 0.5s;
+    transition: left 0.5s, width 0.5s;
+}
+
+body.sidebar-open .flyoverInfo {
+    left: 310px;
+}
+
+.flyoverInfoVisible {
+    visibility: visible;
+}
+
+/*
+.fade.in {
+    opacity: 0.9;
+}
+*/
+
+.flyoverInfo kbd {
+    background-color: #ffffff;
+    color: #333333;
+}
+

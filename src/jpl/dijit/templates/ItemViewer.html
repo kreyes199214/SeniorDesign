@@ -1,0 +1,50 @@
+<div>
+    <div id="itemViewer" data-dojo-attach-point="itemViewer">
+        <div class="itemViewerContent">
+
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="itemViewerSidebarTopBtn">
+                    <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton"><span id="itemViewerSidebarBtnback" class="fa fa-arrow-left itemViewerSideBarBtn"></span></button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="title" class="itemViewerSidebarTitle"></h2>
+            </div>
+
+            <div data-dojo-attach-point="slideshowAttachmentContentContainer" class="hidden">
+                <div id="slholder" data-dojo-attach-point="slideshowAttachmentContent"></div>
+            </div>
+
+            <div class="thumbnail">
+                <img class="layerImage hidden" data-dojo-attach-point="img" src="" alt="">
+
+                <div class="caption">
+                    <p data-dojo-attach-point="description"></p>
+                </div>
+
+                <div data-dojo-attach-point="itemContent" class="itemContentTable"></div>
+
+            </div>
+
+            <div data-dojo-attach-point="slideshowListContainer" class="hidden">
+                <ul class="list-group" data-dojo-attach-point="slideshowList">
+                    <li class="list-group-item slideshowListItem">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"></h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>

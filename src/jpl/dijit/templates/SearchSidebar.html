@@ -1,0 +1,73 @@
+<div class="menu push-menu-search">
+    <div id="searchscontainer" data-dojo-attach-point="searchscontainer">
+        <div class="searchBarHeader">
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="searchSidebarTopBtn">
+                    <button data-dojo-attach-point="bookmarkSearchBtn" type="button" class="btn btn-default searchResetTopRightButton noActive">Bookmarks</button>
+                    <button data-dojo-attach-point="clearSearchBtn" type="button" class="btn btn-default searchResetTopRightButton noActive">Clear</button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="searchSidebarTitle">Search</h2>
+            </div>
+            <div class="searchBarInputArea" data-dojo-attach-point="searchBarInputArea">
+                <div id="searchSidebarSearchInputDiv" class="input-group form-group-lg searchSidebarInputBar">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default btn-lg searchButton" type="button"><span class="fa fa-search"></span></button>
+                    </span>
+                    <input id="searchSidebarSearchInput" data-dojo-attach-point="searchInput" type="text" class="form-control" placeholder="Search for...">
+                </div>
+                <div id="searchSidebarFacetButtonsContainer" class="searchSidebarFacetButtonsContainer" data-dojo-attach-point="facetBtns"></div>
+            </div>
+            <div id="searchSidebarSubFacetsContainer" data-dojo-attach-point="subFacetsContainer" class="subFacets hidden">
+                <div class="panel panel-default facetsPanel">
+                    <div id="searchSidebarSubFacetList" data-dojo-attach-point="subFacetsList" class="panel-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="searchBarLoadingNotice" class="searchBarLoadingNotice hidden">
+            <i class="fa fa-spinner fa-spin"></i>
+        </div>
+
+
+
+        <div data-dojo-attach-point="resultsCounterDiv">
+            <div data-dojo-attach-point="resultsCounterMessage" class="searchSidebarResultsCounter">
+                Displaying <span data-dojo-attach-point="searchSidebarResultsCounterStart"></span> to <span data-dojo-attach-point="searchSidebarResultsCounterEnd"></span> of <span class="badge searchSidebarResultsCounterBadge" data-dojo-attach-point="searchSidebarResultsCounterTotal"></span> results.
+                <button data-dojo-attach-point="searchMenuSwitchButtonToList" class="btn btn-link searchMenuSwitchButton hidden">List</button>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="noResultsMessage" class="noResultsMessage bg-danger hidden">
+            No Results Found
+        </div>
+
+        <div id="searchSidebarSearchBarResults" class="searchBarResults" data-dojo-attach-point="searchBarResults" >
+            <div>
+                <div class="resultsContainer">
+                    <div data-dojo-attach-point="results">
+                        <ul class="list-group" data-dojo-attach-point="resultsList">
+                        </ul>
+                        <div data-dojo-attach-point="resultsContainerLoadingNotice" class="resultsContainerLoadingNotice hidden">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-dojo-attach-point="searchListContainer" class="searchMenuSearchList hidden">
+            <div data-dojo-attach-point="searchListResults">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div data-dojo-attach-point="resultViewerContainer" class="hidden">
+    </div>
+</div>

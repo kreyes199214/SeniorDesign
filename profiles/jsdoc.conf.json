@@ -1,0 +1,44 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "plugins": [ "plugins/markdown" ],
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true,
+    "tags": ["examples"]
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles" : true
+    },
+    "applicationName": "Mars Trek API",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "",
+      "description": "",
+      "keyword": ""
+    },
+    "linenums": false
+  },
+  "default": {
+    "outputSourceFiles": true
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs",
+    "recurse": true,
+    "name": "Mars Trek API"
+  },
+  "name": "Mars Trek API"
+}

@@ -1,0 +1,71 @@
+<div id="sunangleInputContainer" data-dojo-attach-point="sunangleInputContainer" class="modal fade" tabindex="-1" role="dialog" aria-visible="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div data-dojo-type="dijit/form/Form" data-dojo-attach-point="sunangleInputDialogForm"> 
+            <div class="modal-header text-center">
+                <button id="sunangleModalClose" data-dojo-attach-point="sunangleModalClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-visible="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Calculate SunAngle</h4>
+            </div>
+            <div class="modal-body">
+
+              <div>
+                <table align="center" border="0">
+                  <tr>
+                    <td height="50" nowrap>
+                      Start Date(UTC): 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saStart"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp; 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saStartHour"></div>&nbsp;:&nbsp;
+                      <div id="saStartMinute"></div>&nbsp;:&nbsp;
+                      <div id="saStartSecond"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      End Date(UTC): 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saEnd"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      &nbsp; 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saEndHour"></div>&nbsp;:&nbsp;
+                      <div id="saEndMinute"></div>&nbsp;:&nbsp;
+                      <div id="saEndSecond"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="50" nowrap>
+                      Interval: 
+                    </td>
+                    <td height="50" nowrap>
+                      <div id="saInterval"></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+            <div class="modal-footer" style="padding:5px;text-align:right;"> 
+              <button id="sunangleSubmitButton" data-dojo-attach-point="sunangleSubmitButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">OK</button>&nbsp;&nbsp;&nbsp;&nbsp;
+              <button id="sunangleMoveButton" data-dojo-attach-point="sunangleMoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Move Marker</button>&nbsp;&nbsp;&nbsp;&nbsp;
+              <button id="sunangleRemoveButton" data-dojo-attach-point="sunangleRemoveButton" type="button" class="btn btn-primary" style="cursor:pointer;" data-dismiss="modal">Remove Marker</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

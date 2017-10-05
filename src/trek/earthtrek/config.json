@@ -1,0 +1,126 @@
+{
+  "_comment": "Application Config",
+
+  "title": "Mars Trek",
+  "theme": "",
+  "controls": {
+    "search": true,
+    "login": false,
+    "help": true,
+    "layers": true,
+    "explore": false,
+    "tools": true,
+    "projection": true,
+    "basemaps": false,
+    "bookmarks": true,
+    "mappermalink": true
+  },
+  "tools": {
+    "pin": true,
+    "box": true,
+    "ellipse": false,
+    "line": true,
+    "polyline": true,
+    "freeline": true
+  },
+  "googleAnalyticsID": "UA-64017724-1",
+  "permalinkVersions": ["0.1"],
+  "startsWithGlobe": false,
+  "layerOptions": {
+    "removable": false,
+    "downloadable": true,
+    "metadata": true
+  },
+
+  "_comment": "3D Globe Config",
+  "skyAtmosphere": true,
+  "enableFog": false,
+
+  "_comment": "Spatial Information Config",
+
+  "ellipsoidRadius": 3381799,
+  "elevationPoints": 100,
+  "elevationMinValue": -8201,
+  "projections": {
+    "northpole": "IAU2000:49918",
+    "southpole": "IAU2000:49920",
+    "equirect": "IAU2000:49900"
+  },
+
+  "extents": {
+    "northpole": {
+      "xmin": "-1809300.00",
+      "ymin": "-1809300.00",
+      "xmax": "1809300.00",
+      "ymax": "1809300.00",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Npolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_unknown\",SPHEROID[\"Unknown\",3376200.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_North_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "southpole": {
+      "xmin": "-16301735.658568086",
+      "ymin": "-16301735.658568086",
+      "xmax": "16301735.658568086",
+      "ymax": "16301735.658568086",
+      "wkid": "",
+      "wkt": "PROJCS[\"Mars_Spolar_Sphere_Polar\",GEOGCS[\"GCS_Mars_2000_Sphere_Polar\",DATUM[\"D_Mars_2000_Sphere_Polar\",SPHEROID[\"Mars_2000_Sphere_Polar\",3376200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Stereographic_South_Pole\"],PARAMETER[\"false_easting\",0.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",0.0],PARAMETER[\"standard_parallel_1\",-90.0],UNIT[\"Meter\",1.0]]"
+    },
+    "equirect": {
+      "xmin": "-180",
+      "ymin": "-90",
+      "xmax": "180",
+      "ymax": "90",
+      "wkid": "104905",
+      "wkt": "GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190.0,169.8944472236118]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433],AUTHORITY[\"ESRI\",104905]]"
+    }
+  },
+
+  "_comment": "Service Information Config",
+
+  "services": {
+    "proxyEndpoint": "",
+    "terrainEndpoint": "http://dzw9r5p966egh.cloudfront.net/mars_v6/",
+    "terrainProxyEndpoint": "",
+    "elevationDEMEndpoints": {
+      "northpole": "http://vesta-1249282919.us-west-1.elb.amazonaws.com/arcgis/rest/services/vesta/Vesta_Dawn_HAMO_DTM_DLR_NPole_48ppd/ImageServer/identify",
+      "southpole": "http://vesta-1249282919.us-west-1.elb.amazonaws.com/arcgis/rest/services/vesta/Vesta_Dawn_HAMO_DTM_DLR_SPole_48ppd/ImageServer/identify",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/mola128_mola64_merge_90Nto90S_SimpleC_clon0/ImageServer"
+    },
+    "basemapService": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/catalog/basemaps/all/list.json",
+    "layersService": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/catalog/layers/all/list.json",
+    "slideshowService": "jpl/config/SS_categories.json",
+    "searchService": "",
+    "bookmarksService": "http://ec2-54-177-76-230.us-west-1.compute.amazonaws.com/catalog/bookmarks.json",
+    "search": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom_np/MapServer/0/query",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom_sp/MapServer/0/query",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/arcgis/rest/services/combinedNom/MapServer/0/query"
+    },
+    "exploreService": "",
+    "elevationService": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/calculate?endpoint=",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/calculate?endpoint=",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/calculate?endpoint="
+    },
+    "catalogRastersService": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/catalog/rasters/np/list.json",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/catalog/rasters/sp/list.json",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/catalog/rasters/eq/list.json"
+    },
+    "sunAngleService": "//beta.lmmp.nasa.gov/getAzElfromT1",
+    "stlService": "http://mars2-532959285.us-west-1.elb.amazonaws.com/DEM2STL/rest/stl/mars/lmmpSTL.stl",
+    "distanceService": {
+      "northpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfileNP/distance",
+      "southpole": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfileSP/distance",
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfile/rest/elevationProfile/distance"
+    },
+    "combinedDEMService": {
+      "equirect": "http://mars2-532959285.us-west-1.elb.amazonaws.com/ElevationProfileBeta/rest/elevationProfile/combined"
+    },
+    "subpoints": {
+      "mro": "http://beta.lmmp.nasa.gov/getSubPointfromT2/MRO/Mars/",
+      "odyssey": "http://beta.lmmp.nasa.gov/getSubPointfromT2/M01O/Mars/",
+      "mex": "http://beta.lmmp.nasa.gov/getSubPointfromT2/MEX/Mars/"
+    }
+  }
+
+}

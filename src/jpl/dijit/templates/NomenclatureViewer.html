@@ -1,0 +1,39 @@
+<div>
+    <div id="nomenclatureViewer" data-dojo-attach-point="nomenclatureViewer">
+        <div class="nomenclatureViewerContent">
+            <div>
+                <a class="viewerBackLink hidden">
+                    <span class="fa fa-arrow-left searchSideBarBtn"></span>
+                </a>
+                <div class="nomenclatureViewerSidebarTopBtn">
+                    <button data-dojo-attach-point="backButton" type="button" class="btn btn-default viewerTopRightButton"><span id="nomenclatureViewerSidebarBtnBack" class="fa fa-arrow-left nomenclatureViewerSideBarBtn"></span></button>
+                    <button data-dojo-attach-point="sideBarLinkClose" type="button" class="btn btn-danger viewerTopRightButton"><span class="fa fa-times"></span></button>
+                </div>
+                <h2 data-dojo-attach-point="nomenclatureTitle"></h2>
+            </div>
+
+            <div data-dojo-attach-point="nomenclatureContent" class="nomenclatureContentTable"></div>
+
+            <div data-dojo-attach-point="slideshowListContainer" class="hidden">
+                <ul class="list-group" data-dojo-attach-point="slideshowList">
+                    <li class="list-group-item slideshowListItem">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="http://mars.jpl.nasa.gov/imgs/2012/07/PIA05015-thm.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Spirit Landing Site</h4>
+                                This is Gusev Crater, a flat plain pocked with small craters and loose rocks and the site where the Spirit rover landed in 2004.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="slholder" data-dojo-attach-point="nomenclatureAttachmentContent" class="hidden"></div>
+        </div>
+    </div>
+</div>

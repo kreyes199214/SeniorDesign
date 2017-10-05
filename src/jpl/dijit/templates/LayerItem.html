@@ -1,0 +1,38 @@
+<div class="media list-group-item activeLayerListMediaItem dojoDndItem dojoDndHandle" data-dojo-attach-point="productLabelHiddenDiv" data-productlabel="">
+    <div class="media-left">
+        <img class="media-object mediaItemImg" src="" alt="layer icon" data-dojo-attach-point="img">
+    </div>
+    <div class="media-body layerItemMediaBody">
+        <h4 class="media-heading" data-dojo-attach-point="layerTitle"></h4>
+        <div class="iconDiv">
+            <div class="mediaItemIconList">
+                <span><span data-dojo-attach-point="toggleVisibilityBtn" class="fa fa-eye mediaItemIcon" aria-hidden="true" alt="Toggle Visibility"></span></span>
+                <span data-dojo-attach-point="informationBtn" class="fa fa-info-circle mediaItemIcon" aria-hidden="true" alt="Show Information"></span>
+                <span data-dojo-attach-point="flyToBtn" class="fa fa-crosshairs mediaItemIcon" aria-hidden="true" alt="Fly To Position"></span>
+                <span data-dojo-attach-point="legendBtn" class="fa fa-list-alt mediaItemIconSizeToFit" aria-hidden="true" alt="Toggle Legend"></span>
+                <span data-dojo-attach-point="metadataBtn" class="fa fa-file-text-o mediaItemIconSizeToFit" aria-hidden="true" alt="Open Metadata"></span>
+                <span data-dojo-attach-point="downloadBtn" class="fa fa-download mediaItemIconSizeToFit" aria-hidden="true" alt="Download Data"></span>
+                <span data-dojo-attach-point="removeBtn" class="fa fa-times-circle mediaItemIcon mediaItemIconDanger" aria-hidden="true" alt="Remove Layer"></span>
+            </div>
+        </div>
+
+        <div class="layerSliderHolder" data-dojo-attach-point="layerSliderHolder">
+            <div class="layer-slider-container" data-dojo-attach-point="sliderContainer"></div>
+        </div>
+
+        <div class="hidden">
+            <span data-dojo-attach-point="showMoreBtn" class="fa fa-caret-down mediaItemIcon" aria-hidden="true"></span>
+        </div>
+
+        <div data-dojo-attach-point="myLayerControlsContainer" class="myLayerControls" style="display:none;">
+
+            <div data-dojo-attach-point="legendContainer" class="hidden" style="margin-top:20px;">
+                <a href="" target="_blank" data-dojo-attach-point="legendImageLink"><img data-dojo-attach-point="legendImage" style="max-width:100%;"/></a>
+            </div>
+
+            <div data-dojo-attach-point="colorLegendControlContainer"></div>
+            <br>
+
+        </div>
+    </div>
+</div>
